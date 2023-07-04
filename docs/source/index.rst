@@ -1,8 +1,7 @@
 Welcome to the documentation for the Prospero HPC facility
 ==========================================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
+**Prospero** is ....
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
 
@@ -18,5 +17,5 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   Page1
+   Page2
