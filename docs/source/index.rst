@@ -15,7 +15,13 @@ Contents
    hpc
    help
    software
+   scheduler
+   storage
    
 .. note::
 
    This documentation is under active development.
+
+.. caution::
+
+   Cheese
