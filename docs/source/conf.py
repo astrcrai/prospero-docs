@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Prospero Docs'
+project = 'Prospero documentation'
 copyright = '2023, Liverpool John Moores University'
-author = 'LJMU'
+author = 'R.A. Crain & K.P. Andersson'
 
 release = '0.1'
 version = '0.1.0'
