@@ -1,15 +1,9 @@
 Documentation for the Prospero HPC facility
 ==========================================================
 
-**Prospero** is the centralised high performance computing (HPC) facility for research at Liverpool John Moores University <http://ljmu.ac.uk/>`_.
+**Prospero** is the centralised high performance computing (HPC) facility for research at `Liverpool John Moores University <https://ljmu.ac.uk/>`_.
 
-Prospero is hosted and administered by LJMU's IT services division.
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
+Prospero is hosted and administered by LJMU's `IT services division <https://www.ljmu.ac.uk/itservices>`_.
 
 Contents
 --------
@@ -22,3 +16,6 @@ Contents
    help
    software
    
+.. note::
+
+   This documentation is under active development.
