@@ -17,5 +17,8 @@ Contents
 
 .. toctree::
 
-   Page1
-   Page2
+   The Prospero facility
+   Basics of HPC
+   Help & support
+   Software
+   
