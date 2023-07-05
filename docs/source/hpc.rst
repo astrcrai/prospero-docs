@@ -1,9 +1,7 @@
-Basics of high performance computing
+High performance computing
 =====
 
-.. _installation:
-
-Installation
+Basics
 ------------
 
-To use Lumache, first install it using pip:
+zzz
