@@ -19,6 +19,7 @@ Contents
    software
    scheduler
    storage
+   policies
    
 .. note::
 
