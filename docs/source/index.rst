@@ -17,8 +17,9 @@ Contents
 
 .. toctree::
 
-   The Prospero facility
-   Basics of HPC
-   Help & support
-   Software
+   Home <self>
+   prospero
+   hpc
+   help
+   software
    
