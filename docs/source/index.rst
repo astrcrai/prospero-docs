@@ -1,10 +1,9 @@
-Welcome to the documentation for the Prospero HPC facility
+Documentation for the Prospero HPC facility
 ==========================================================
 
-**Prospero** is ....
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Prospero** is the centralised high performance computing (HPC) facility for research at Liverpool John Moores University <http://ljmu.ac.uk/>`_.
 
+Prospero is hosted and administered by LJMU's IT services division.
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
