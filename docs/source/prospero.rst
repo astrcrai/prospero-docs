@@ -1,8 +1,6 @@
 Prospero
 =====
 
-.. _installation:
-
 Specification
 ------------
 
