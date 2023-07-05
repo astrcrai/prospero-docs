@@ -1,3 +1,5 @@
+.. include:: ../README.rst
+
 Documentation for the Prospero HPC facility
 ==========================================================
 
