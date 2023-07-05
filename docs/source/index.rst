@@ -26,4 +26,4 @@ Contents
 
 .. caution::
 
-   Cheese
+   Example caution box
