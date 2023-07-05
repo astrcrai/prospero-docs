@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Prospero'
+project = 'Prospero Docs'
 copyright = '2023, Liverpool John Moores University'
 author = 'LJMU'
 
