@@ -1,9 +1,7 @@
 Software
 =====
 
-.. _installation:
-
-Installation
+Modules
 ------------
 
 To use Lumache, first install it using pip:
