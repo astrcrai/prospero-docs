@@ -4,22 +4,33 @@ Prospero specifications
 Hardware 
 ------------
 
-Prospero's is based primarily on `HPE Apollo (Gen 10) <https://www.hpe.com/us/en/compute/hpc/apollo-systems.html>`_ systems. The main computing partition is built from Apollo 2000 shared infrastructure chassis, each of which hosts *four compute nodes*. The accelerated partition comprises a single Apollo 6500 chassis, hosting four GPU engines. 
+Prospero's is based primarily on `HPE Apollo (Gen 10) <https://www.hpe.com/us/en/compute/hpc/apollo-systems.html>`_ systems. The main computing partition is built from Apollo 2000 shared infrastructure chassis, each of which hosts four compute nodes. The accelerated partition comprises a single Apollo 6500 chassis, hosting four GPU engines. Storage is provided by *yada yada yada* 
 
-Compute node specification:
+Standard compute node specification:
 
 * HPE ProLiant XL225n Gen10+ server
-* 2x AMD EPYC 7502 or 2x AMD EPYC 7513 32-core 2.6GHz processors
+* 2x AMD EPYC 7502 2.5GHz (36 nodes) or 2x AMD EPYC 7513 2.6GHz (8 nodes) 32-core processors
 * 512GB DDR4-3200 memory
+* 480GB SATA SSD local storage
+* HDR100 Infiniband network interface
+
+Memory-rich compute node specification:
+
+* HPE ProLiant XL365 Gen10+ server
+* 2x AMD EPYC 7502 2.6GHz 32-core processors
+* 1.5TB DDR4-3200 memory
 * 480GB SATA SSD local storage
 * HDR100 Infiniband network interface
 
 Accelerated node specification:
 
-Specification
-------------
+* xxx
+* 2x AMD EPYC 7513 32-core 2.6GHz processors
+* 1.5TB DDR4-3200 memory
+* zzz
+* HDR100 Infiniband network interface
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+As of July 2023, Prospero comprises 44 standard compute nodes, 1 memory-rich node and 1 accelerated node. This yields a total of 2944 compute cores and 24.5 TB of distributed memory. 
 
 A brief history
 ------------
