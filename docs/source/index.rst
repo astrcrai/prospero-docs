@@ -7,6 +7,10 @@ Documentation for the Prospero HPC facility
 
 Prospero is hosted and administered by LJMU's `IT services division <https://www.ljmu.ac.uk/itservices>`_.
 
+.. image:: images/hpe_apollo2000.png
+  :width: 800
+  :alt: Prospero
+
 Contents
 --------
 
