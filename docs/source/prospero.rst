@@ -1,5 +1,10 @@
-Prospero
+Prospero specifications
 =====
+
+Hardware 
+------------
+
+Prospero's is based primarily on `HPE Apollo (Gen 10) <https://www.hpe.com/us/en/compute/hpc/apollo-systems.html>` systems. The main computing partition is built from Apollo 2000 shared infrastructure chassis, each of which hosts four compute nodes. The accelerated partition comprises a single Apollo 6500 chassis, hosting four GPU engines. 
 
 Specification
 ------------
