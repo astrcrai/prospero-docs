@@ -32,10 +32,15 @@ Prospero's is based primarily on `HPE Apollo (Gen 10) <https://www.hpe.com/us/en
 
 As of July 2023, Prospero comprises 44 standard compute nodes, 1 memory-rich node and 1 accelerated node. This yields a total of 2944 compute cores and 24.5 TB of distributed memory. 
 
+**Networked storage:**
+
+* xxx
+* yyy
+
 A brief history
 ------------
 
-Prospero is a unified response to the growth of a number of independent HPC facilities within LJMU, particularly with the Astrophysics Research Institute, the School of Engingeering, and the School of Biological Sciences, each of which outgrew local infrastructure capabilities. 
+Prospero is a collective response to the growth of a number of independent HPC facilities for research within LJMU (particularly those of the Astrophysics Research Institute, the School of Engineering, and the School of Biological Sciences), each of which outgrew the capabilities of the local infrastructure for power and cooling. By migrating to a consolidated, centralised...
 
 **Initial system:**
 
