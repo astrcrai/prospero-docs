@@ -25,6 +25,7 @@ Contents
   help
   history
   policies
+  highlights
    
    
 .. note::
