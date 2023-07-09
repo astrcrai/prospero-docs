@@ -16,15 +16,15 @@ Contents
 
 .. toctree::
 
-   Home <self>
-   specifications
-   policies
-   hpc
-   help
-   software
-   scheduler
-   storage
-   history
+  Home <self>
+  specifications
+  access
+  scheduler
+  software
+  storage
+  help
+  history
+  policies
    
    
 .. note::
