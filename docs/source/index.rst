@@ -17,7 +17,7 @@ Contents
 .. toctree::
 
    Home <self>
-   specificiations
+   specifications
    policies
    hpc
    help
