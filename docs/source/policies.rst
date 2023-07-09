@@ -1,4 +1,4 @@
-Policies and 
+Policies 
 =====
 
 .. _installation:
