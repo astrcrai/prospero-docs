@@ -5,15 +5,19 @@ Prospero is a collective response to the growth of a number of independent HPC f
 
 **Initial system:**
 
-* Development of a new system was catalysed by the award of two major research grants to the ARI in 2018/19, from the European Research Council and the Royal Society, and enabling an ambitious facility to be planned. 
+* Development of a new system was catalysed by the award of two major research grants to the ARI in 2018/19, from the European Research Council (PI: Prof. Ian McCarthy) and the Royal Society (PI: Prof. Rob Crain), and enabling an ambitious facility to be planned. 
 * HPE, in collaboration with UK vendors DTP, were approached to provide a design proposal meeting the broad requirements of the university's research base.
-* An initial system comprising 20 standard compute nodes, a memory-rich compute node, and 80TB of NFS storage saw `first light' in August 2020. 
+* An initial system comprising 20 standard compute nodes and a memory-rich compute node (for a total of 1344 compute cores and 11.5TB memory) saw `first light' in August 2020. 
+* The system was integrated with the ARI's existing Lenovo 1.5PB parallel data store.
 
 **Major updates:**
-* WCL compure nodes
-* RCIF storage
-* RCIF accelerated
-* ARI QR
+
+* In April 2021, funding from UKRI's World Class Laboratories program enabled a first major system upgrade, adding 7 more standard compute nodes, 250TB of NFS storage and a second gateway/login node for high availability. This brought Prospero to a total of 1792 compute cores and 15TB of memory.
+* In May 2021, a second Lenovo 1.5PB parallel data store was added for use by the BAHAMAS simulations team (PI: Prof. Ian McCarthy).
+* In April 2022, a new grant award to the ARI from the Royal Society (PI: Prof. Rob Crain) was matched by LJMU central funds, enabling a futher 9 nodes to be added, bringing the system to 2368 compute cores and 19.5TB of memory. 
+* In May 2023, Prospero become a heterogeneous platform, incorporating its first accelerated node equipped with 4 nVidia A100 GPUs. This node was funded by the Faculty of Engineering & Technology's RCIF allocation, following submission of a business case led by Dr. Ian Jarman and Dr. Ivan Olier-Caparroso. 
+* In June 2023, a further 8 standard compute nodes were added, funded by the ARI, bringing the system to a total of 2888 compute cores and 24.5TB of memory.
+* In July 2023, a further 8 standard compute nodes were added, funded by LJMU, bringing Prospero to its present complement of 52 standard compute nodes, 1 memory-rich compute node and 1 accelerated node, for a total of 3400 compute cores, 4 GPU engines and 28.5TB of memory.
 
 
 
