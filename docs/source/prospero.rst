@@ -51,9 +51,14 @@ Prospero is a collective response to the growth of a number of independent HPC f
 
 **Initial system:**
 
-* Development of a new system was catalysed by the award of two major research grants to the ARI in 2018/19, from the European Research Council and the Royal Society, and enabling an ambitious facility to be planned.
-* The grants were part-matched by LJMU, and DTP/HPE were approached to provide a design proposal meeting the broad requirements of the university's HPC users.
-* An initial system comprising 20 standard compute nodes, a memory-rich compute node, and XX TB of NFS storage saw `first light' in August 2020. 
+* Development of a new system was catalysed by the award of two major research grants to the ARI in 2018/19, from the European Research Council and the Royal Society, and enabling an ambitious facility to be planned. 
+* HPE, in collaboration with UK vendors DTP, were approached to provide a design proposal meeting the broad requirements of the university's research base.
+* An initial system comprising 20 standard compute nodes, a memory-rich compute node, and 80TB of NFS storage saw `first light' in August 2020. 
+
+**Major updates:**
+* WCL compure nodes
+* 
+
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
