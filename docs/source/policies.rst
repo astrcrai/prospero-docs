@@ -1,9 +1,6 @@
 Policies 
 =====
 
-.. _installation:
 
-Installation
+blah
 ------------
-
-To use Lumache, first install it using pip:
