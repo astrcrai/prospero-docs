@@ -34,20 +34,26 @@ As of July 2023, Prospero comprises 44 standard compute nodes, 1 memory-rich nod
 
 **Networked storage:**
 
-* xxx
-* yyy
+* General purpose:
+
+  * HPE Apollo 4200 Gen10+ storage server with 250TB in RAID6 configuration
+  * HPE Apollo 4200 Gen9+ storage server with 80TB? in RAID6 configuration 
+
+* ARI use:
+
+  * HPE Apollo 4200 Gen10+ storage server with 250TB in RAID6 configuration
+  * Lenovo parallel datastore (3PB)
 
 A brief history
 ------------
 
-Prospero is a collective response to the growth of a number of independent HPC facilities for research within LJMU (particularly those of the Astrophysics Research Institute, the School of Engineering, and the School of Biological Sciences), each of which outgrew the capabilities of the local infrastructure for power and cooling. By migrating to a consolidated, centralised...
+Prospero is a collective response to the growth of a number of independent HPC facilities for research within LJMU (particularly those of the Astrophysics Research Institute, the School of Engineering, and the School of Biological Sciences), each of which outgrew the capabilities of the local infrastructure for power and cooling. Migration to a consolidated, centralised solution hosted in the university's primary data centre has enabled the development of a facility with capacity and capability significantly beyond those of department-specific facilities.
 
 **Initial system:**
 
 * Development of a new system was catalysed by the award of two major research grants to the ARI in 2018/19, from the European Research Council and the Royal Society, and enabling an ambitious facility to be planned.
 * The grants were part-matched by LJMU, and DTP/HPE were approached to provide a design proposal meeting the broad requirements of the university's HPC users.
 * An initial system comprising 20 standard compute nodes, a memory-rich compute node, and XX TB of NFS storage saw `first light' in August 2020. 
-
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
