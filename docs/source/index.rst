@@ -17,13 +17,14 @@ Contents
 .. toctree::
 
    Home <self>
-   prospero
+   specificiations
+   policies
    hpc
    help
    software
    scheduler
    storage
-   policies
+   history
    
    
 .. note::
