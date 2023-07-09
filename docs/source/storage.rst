@@ -1,9 +1,6 @@
-Storage
+Storage and data management
 =====
 
-.. _installation:
-
-Installation
+blah
 ------------
 
-To use Lumache, first install it using pip:
