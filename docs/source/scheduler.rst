@@ -37,13 +37,21 @@ As an example, let's look at this simple batch job script:
 .. code-block:: bash
 
     #!/bin/bash
+
     #SBATCH --job-name=exampleJob
+
     #SBATCH --account=myAmazingProject
+
     #SBATCH --time=02:00:00
+
     #SBATCH --nodes=1
+
     #SBATCH --ntasks=1
+
     #SBATCH --cpus-per-task=1
+
     #SBATCH --mem=2G
+
     #SBATCH --partition=compute
 
     flight env activae gridware
@@ -68,9 +76,11 @@ Now that we have introduced this syntax, we can go through the directives one by
 which sets the name of the job. It can be used to identify a job in the queue and other listings. The second directive sets the billing project for the job
 
 The remaining lines specify the resources needed for the job. The first one is the maximum time your job can run. If your job exceeds the time limit, it is terminated regardless of whether it has finished or not.
+
 .. code-block:: bash
 
     #SBATCH --time=02:00:00
+
 The time format is hh:mm:ss (or d-hh:mm:ss where d is the number of days). Therefore, in our example, the time limit is 2 hours.
 The next four lines of the script describe the computing resources that the job will need to run
 
