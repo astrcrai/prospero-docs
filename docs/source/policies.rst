@@ -2,11 +2,12 @@ Policies
 =====
 
 
-blah
-------------
 
 
 Acknowledging Prospero 
 ------------
 
-blah blah
+Please include the standard wording below, as appropriate, in the acknowledgements of all papers that make use of Prospero. This is critical as it enables research outputs enabled by the facility to be tracked, and thus demonstrates the productivity of the facility. 
+
+  This study made use of Prospero high-performance computing facility at Liverpool John Moores University.
+
