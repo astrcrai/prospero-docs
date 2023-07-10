@@ -34,31 +34,23 @@ A batch script is summarized by the following steps:
 *	run the application(s)
 
 As an example, let's look at this simple batch job script:
+
 .. code-block:: bash
 
     #!/bin/bash
-
     #SBATCH --job-name=exampleJob
-
     #SBATCH --account=myAmazingProject
-
     #SBATCH --time=02:00:00
-
     #SBATCH --nodes=1
-
     #SBATCH --ntasks=1
-
     #SBATCH --cpus-per-task=1
-
     #SBATCH --mem=2G
-
     #SBATCH --partition=compute
 
     flight env activae gridware
     module load MyApp/1.2.3
 
     srun myapp -i input -o output
-
 
 In the previous example, the first line #!/bin/bash specifies that the script should be interpreted as a bash script.
 The lines starting with #SBATCH are directives for the workload manager. These have the general syntax
@@ -103,6 +95,7 @@ Now that the needed resources for the job have been defined, the next step is to
 .. code-block:: bash
 
     module load MyApp/1.2.3
+
 In our example, we load a module so that the MyApp application is available to the batch job. Finally, with everything set up, we can launch our program using the srun command.
 
 .. code-block:: bash
@@ -112,6 +105,7 @@ In our example, we load a module so that the MyApp application is available to t
 More details may be found on the dedicated batch jobs page.
 
 Submit a batch job
+=======================
 
 To submit the job script we just created we use the sbatch command. The general syntax can be condensed as
 $ sbatch [options] job_script [job_script_arguments ...]
