@@ -114,6 +114,7 @@ To submit the job script we just created we use the sbatch command. The general 
 
 The available options are the same as the one you use in the batch script: sbatch --nodes=2 in the command line and #SBATCH --nodes=2 in a batch script are equivalent. The command line value takes precedence if the same option is present both on the command line and as a directive in a script.
 For the moment let's limit ourselves to the most common way to use the sbatch: passing the name of the batch script which contains the submission options.
+
 .. code-block:: bash
     
     $ sbatch myjob.sh
