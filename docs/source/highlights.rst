@@ -3,6 +3,7 @@ Research highlights
 
 Prospero: 
 
+* **July 2023:** Prospero helps characterise complex organic molecules in the most distant galaxies seen with JWST (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2023/>`_)
 * **Dec 2022:** Prospero characterises the most distant galaxies discovered with the James Webb Space Telescope (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2022/12/9/james-webb-renske-smit>`_)
 * **Mar 2022:** Physicists to simulate the evolution of the Universe (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2022/3/30/physicists-to-simulate-the-evolution-of-the-universe>`_)
 * **Jan 2022:** Royal Astronomical Society award for ARI’s ‘virtual universes’  (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2022/1/17/royal-astronomical-society-award-for-aris-virtual-universes>`_)
