@@ -189,4 +189,4 @@ ari    	    6 hours         Standard     ARI research node
 ari-teach   6 hours         Standard     ARI teaching node  
 =========   ===========     ========     ==========
 
-``compute`` is the main partition. Jobs requiring a longer execution time may use ``long`` but this partition has a lower priority factor to encourage more frequent job cycling. Unless otherwise arranged with ITS, users of the ``gpu`` partition can use a maximum of 2 GPUs at once. The ``ari`` and ``ari-teach`` partitions are ringfenced to members of the Astrophysics Research Institute.
+The ``compute``, ``long`` and ``test`` partitions share the same resources. Users should consider ``compute`` as the standard partition. Jobs requiring a longer execution time may use ``long`` but this partition has a lower priority factor to encourage more frequent job cycling. Unless otherwise arranged with ITS, users of the ``gpu`` partition can use a maximum of 2 GPUs at once. The ``ari`` and ``ari-teach`` partitions are ringfenced to members of the Astrophysics Research Institute.
