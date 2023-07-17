@@ -185,8 +185,8 @@ long	    72 hours	    Low          All standard compute nodes
 test	    1 hour          High         All standard compute nodes
 himem	    24 hours        Standard     Memory-rich node
 gpu         24 hours        Standard     GPU-accelerated node
-ari    	    6 hours         Standard     ARI research node
-ari-teach   6 hours         Standard     ARI teaching node  
+ari    	    12 hours        Standard     ARI research node
+ari-teach   12 hours        Standard     ARI teaching node  
 =========   ===========     ========     ==========
 
 The ``compute``, ``long`` and ``test`` partitions share the same resources. Users should consider ``compute`` as the standard partition. Jobs requiring a longer execution time may use ``long`` but this partition has a lower priority factor to encourage more frequent job cycling. Unless otherwise arranged with ITS, users of the ``gpu`` partition can use a maximum of 2 GPUs at once. The ``ari`` and ``ari-teach`` partitions are ringfenced to members of the Astrophysics Research Institute.
