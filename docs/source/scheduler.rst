@@ -172,3 +172,21 @@ Sometimes things just don't go as planned. If your job doesn't run as expected, 
 
 The job ID can be obtained from the output of the sbatch command when submitting your job or by using squeue. The scancel command applies to either a pending job waiting in the queue or to an already running job. In the first case, the job will simply be removed from the queue while in the latter, the execution will be stopped.
 
+Slurm partitions
+=======================
+
+Prospero offers the following Slurm partitions:
+
+======     ======           ======          ======                      ======        ======    
+Name	    Time limit      Priority        Resources                   Available to  Notes
+======     ======           ======          ======                      ======        ======
+compute	    24 hours        Standard        All standard compute nodes  All           Main compute partition
+long	    72 hours        Low             All standard compute nodes  All           For jobs requiring a longer runtime 
+test	    1 hour          High            All standard compute nodes  All
+himem	    24 hours        Standard        Memory-rich node            All
+gpu         24 hours        Standard        GPU-accelerated node        All*
+ari    	    6 hours         Standard        ARI research node           ARI members
+ari-teach   6 hours         Standard        ARI teaching node           ARI members
+======      ======          ======          ======                      ======        ======
+
+
