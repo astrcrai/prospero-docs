@@ -1,8 +1,11 @@
 Policies 
 =====
 
+Who can use Prospero? 
+------------
 
-
+Conditions of use
+------------
 
 Acknowledging Prospero 
 ------------
