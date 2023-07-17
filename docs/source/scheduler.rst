@@ -177,16 +177,16 @@ Slurm partitions
 
 Prospero offers the following Slurm partitions:
 
-======     ======           ======          ======                      ======        ======    
-Name	    Time limit      Priority        Resources                   Available to  Notes
-======     ======           ======          ======                      ======        ======
-compute	    24 hours        Standard        All standard compute nodes  All           Main compute partition
-long	    72 hours        Low             All standard compute nodes  All           For jobs requiring a longer runtime 
-test	    1 hour          High            All standard compute nodes  All
-himem	    24 hours        Standard        Memory-rich node            All
-gpu         24 hours        Standard        GPU-accelerated node        All*
-ari    	    6 hours         Standard        ARI research node           ARI members
-ari-teach   6 hours         Standard        ARI teaching node           ARI members
-======      ======          ======          ======                      ======        ======
+=========   ===========     ========     ==========           
+Name	    Time limit	    Priority     Resources             
+=========   ===========     ========     ==========           
+compute	    24 hours	    Standard     All standard compute nodes                   
+long	    72 hours	    Low          All standard compute nodes
+test	    1 hour          High         All standard compute nodes
+himem	    24 hours        Standard     Memory-rich node
+gpu         24 hours        Standard     GPU-accelerated node
+ari    	    6 hours         Standard     ARI research node
+ari-teach   6 hours         Standard     ARI teaching node  
+=========   ===========     ========     ==========
 
-
+``compute`` is the main partition. Jobs requiring a longer execution time may use ``long`` but this partition has a lower priority factor to encourage more frequent job cycling. Unless otherwise arranged with ITS, users of the ``gpu`` partition can use a maximum of 2 GPUs at once. The ``ari`` and ``ari-teach`` partitions are ringfenced to members of the Astrophysics Research Institute.
