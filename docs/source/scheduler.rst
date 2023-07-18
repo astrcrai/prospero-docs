@@ -39,7 +39,6 @@ As an example, let's look at this simple batch job script:
 
     #!/bin/bash
     #SBATCH --job-name=exampleJob
-    #SBATCH --account=myAmazingProject
     #SBATCH --time=02:00:00
     #SBATCH --nodes=1
     #SBATCH --ntasks=1
@@ -47,13 +46,13 @@ As an example, let's look at this simple batch job script:
     #SBATCH --mem=2G
     #SBATCH --partition=compute
 
-    flight env activae gridware
+    flight env activate gridware
     module load MyApp/1.2.3
 
     srun myapp -i input -o output
 
-In the previous example, the first line #!/bin/bash specifies that the script should be interpreted as a bash script.
-The lines starting with #SBATCH are directives for the workload manager. These have the general syntax
+In the previous example, the first line ``#!/bin/bash`` specifies that the script should be interpreted as a bash script.
+The lines starting with ``#SBATCH`` are directives for the workload manager. These have the general syntax
 
 .. code-block:: bash
 
@@ -65,7 +64,7 @@ Now that we have introduced this syntax, we can go through the directives one by
 
     #SBATCH --job-name=exampleJob
 
-which sets the name of the job. It can be used to identify a job in the queue and other listings. The second directive sets the billing project for the job
+which sets the name of the job. It can be used to identify a job in the queue and other listings.  
 
 The remaining lines specify the resources needed for the job. The first one is the maximum time your job can run. If your job exceeds the time limit, it is terminated regardless of whether it has finished or not.
 
@@ -84,7 +83,7 @@ The next four lines of the script describe the computing resources that the job 
     #SBATCH --mem=2G
 
 In this instance we request one task (process) to be run on one node. A task corresponds to a process (or an MPI rank). One CPU thread (used, for example, with OpenMP) is requested for the one task as well as 2 GiB of memory should be allocated to the whole job.
-The next line defines the Slurm partition to which the job will be submitted. Slurm partitions are (possibly overlapping) groups of nodes with similar resources or associated limits. In our example, the job doesn't use a lot of resources and will fit perfectly onto the small partition.
+The next line defines the Slurm partition to which the job will be submitted. Slurm partitions are (possibly overlapping) groups of nodes with similar resources or associated limits. In our example, the job doesn't use a lot of resources and will fit perfectly onto the standard ``compute`` partition. A complete list of Slurm partitions available on Prospero is given :ref:`below<Slurm partitions>`.
 
 .. code-block:: bash
 
