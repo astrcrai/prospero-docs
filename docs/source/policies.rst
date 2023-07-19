@@ -4,6 +4,14 @@ Policies
 Who can use Prospero? 
 ------------
 
+Prospero is available for use by all academic staff and postgraduate research students at LJMU. 
+
+Cost of use
+------------
+
+Prospero is `free at the point of use` to researchers. Users are grouped into three accounting 
+
+
 Conditions of use
 ------------
 
