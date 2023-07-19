@@ -9,7 +9,7 @@ Prospero is available for use by all academic staff and postgraduate research st
 Cost of use
 ------------
 
-Prospero is `free at the point of use` to researchers. Users are grouped into three accounting 
+Prospero is `free at the point of use` to researchers. Users are grouped into three accounting ... blah blah blah ...
 
 
 Conditions of use
