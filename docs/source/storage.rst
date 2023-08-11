@@ -12,19 +12,22 @@ Prospero has the following datastores:
 +========================+===============+============+=============+
 | Homespace              | /users/       | 3.1TB      | All         |
 +------------------------+---------------+------------+-------------+
-| Data storage           | /mnt/data1    | 250TB      | All         |
+| Data storage           | /mnt/data1    | 220TB      | All         |
 +                        +---------------+------------+-------------+
-|                        | /mnt/backup1  | 80 TB      | All  (?)    |
+|                        | /mnt/backup1  | 66 TB      | All  (?)    |
 +                        +---------------+------------+-------------+
-|                        | /mnt/aridata1 | 250 TB     | ARI members |
+|                        | /mnt/aridata1 | 233 TB     | ARI members |
 +                        +---------------+------------+-------------+
 |                        | /mnt/lustre1  | 1.5PB      | ARI members |
 +                        +---------------+------------+-------------+
-|                        | /mnt/lustre2  | 1.0 PB     | ARI members |
+|                        | /mnt/lustre2  | 1.3 PB     | ARI members |
 +------------------------+---------------+------------+-------------+
 
 Quotas
 ------------
 
+Currently users homespace are limited qith a quota with a soft limit and a hard limit. The softlimit is 150GB and the hardlimit is 175GB. Due to this recommend that if you have any large simulations then this should be should be stored within data1. A larger general purpose storage area is being looked at currently.
+
 Backups
 ------------
+At this time users are recommended to keep their own backups.
