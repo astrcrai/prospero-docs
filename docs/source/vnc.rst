@@ -8,6 +8,7 @@ Here is a quick guide on how to access to the login02 via VNC
 2.	Run the command 
 
 .. code-block:: console 
+
     flight desktop start
 
 3.	This will generate a session and display session information such as port, password and display number.
