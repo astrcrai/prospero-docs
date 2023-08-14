@@ -26,6 +26,7 @@ Contents
   history
   policies
   highlights
+  vnc
    
    
 .. note::
