@@ -25,4 +25,9 @@ Here is a quick guide on how to access to the login02 via VNC
 
 5.	Once logged in again with your details you can open up your choice of VNC viewer. In my example, I use TigerVNC as it has a portable executable and doesn’t require admin rights.
 6.	Put in localhost:<Display>
+
+.. image:: images/vnc3.png
+
 7.	It will prompt you for a password this will be the password that is shown the image above.
+
+.. image:: images/vnc4.png
