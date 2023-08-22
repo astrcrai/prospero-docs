@@ -10,15 +10,15 @@ Prospero has the following datastores:
 | Type                   | Mount point   | Capacity   | For use by  |
 |                        |               |            |             |
 +========================+===============+============+=============+
-| Homespace              | /users/       | 3.1TB      | All         |
+| Homespace              | /users/       | 3.1 TB     | All         |
 +------------------------+---------------+------------+-------------+
-| Data storage           | /mnt/data1    | 220TB      | All         |
+| Data storage           | /mnt/data1    | 220 TB     | All         |
 +                        +---------------+------------+-------------+
 |                        | /mnt/backup1  | 66 TB      | All  (?)    |
 +                        +---------------+------------+-------------+
 |                        | /mnt/aridata1 | 233 TB     | ARI members |
 +                        +---------------+------------+-------------+
-|                        | /mnt/lustre1  | 1.5PB      | ARI members |
+|                        | /mnt/lustre1  | 1.5 PB     | ARI members |
 +                        +---------------+------------+-------------+
 |                        | /mnt/lustre2  | 1.3 PB     | ARI members |
 +------------------------+---------------+------------+-------------+
