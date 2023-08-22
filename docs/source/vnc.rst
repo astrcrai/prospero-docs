@@ -4,7 +4,7 @@ Linux desktop access via VNC
 
 Here is a quick guide on how to access to the login02 via VNC
 
-1.	Log in to Prospero-login02
+1.	Log in to Prospero
 2.	Run the command 
 
 .. code-block:: console 
@@ -19,7 +19,7 @@ Here is a quick guide on how to access to the login02 via VNC
 
 .. code-block:: console 
     
-    ssh -L <Port>:150.204.235.160:<Port> <Username>@prospero-login02.astro.ljmu.ac.uk -p 10022
+    ssh -L <Port>:prospero.ljmu.ac.uk:<Port> <Username>@prospero.ljmu.ac.uk -p 10022
 
 .. image:: images/vnc2.png
 
