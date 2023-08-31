@@ -26,7 +26,7 @@ Prospero has the following datastores:
 Quotas
 ------------
 
-Currently users homespace are limited qith a quota with a soft limit and a hard limit. The softlimit is 150GB and the hardlimit is 175GB. Due to this recommend that if you have any large simulations then this should be should be stored within data1. A larger general purpose storage area is being looked at currently.
+Currently users homespace are limited with a quota with a soft limit and a hard limit. The softlimit is 150GB and the hardlimit is 175GB. Due to this recommend that if you have any large simulations then this should be should be stored within data1. A larger general purpose storage area is being looked at currently.
 
 Backups
 ------------
