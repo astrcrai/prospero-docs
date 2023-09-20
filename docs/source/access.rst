@@ -10,6 +10,24 @@ Logging on
 
 Access to the terminal on the gateway node(s) is via SSH. The gateway's address is
 
+.. code-block:: gateway-address
+
+    prospero.ljmu.ac.uk
+
+As a security measure, Prospero uses a non-standard SSH port (10022), therefore this port must be specified via ``-p`` argument, e.g.
+
+.. code-block:: ssh
+
+    ssh ITSusername@prospero.ljmu.ac.uk -p 10022
+
+Alternatively, we suggest adding a code snippet to your ``.ssh/config`` file like the following:
+
+.. code-block:: ssh-config
+
+Host prospero.ljmu.ac.uk
+     User ITSusername
+     HostName prospero.ljmu.ac.uk
+     Port 10022
 
 
 
