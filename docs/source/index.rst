@@ -9,7 +9,11 @@ Documentation for the Prospero HPC facility
   :width: 800
   :alt: Prospero
 
-Prospero is available for use by all research staff and postgraduate research students at LJMU, subject to usage :ref:`policies<Policies>`.
+Prospero is available for use by all research staff and postgraduate research students at LJMU, subject to usage :ref:`policies<Policies>`. 
+
+.. note::
+
+   Prospero uses the Linux operating system and does not run software designed for Windows PCs
 
 Contents
 --------
