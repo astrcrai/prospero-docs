@@ -13,7 +13,7 @@ Prospero is available for use by all research staff and postgraduate research st
 
 .. note::
 
-   Prospero uses the Linux operating system and does not run software designed for Windows PCs
+   Prospero uses the Linux operating system and does not run software designed for Windows
 
 Contents
 --------
