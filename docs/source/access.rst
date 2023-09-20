@@ -24,10 +24,10 @@ Alternatively, we suggest adding a code snippet to your ``.ssh/config`` file lik
 
 .. code-block:: ssh-config
 
-Host prospero.ljmu.ac.uk
-     User ITSusername
-     HostName prospero.ljmu.ac.uk
-     Port 10022
+    Host prospero.ljmu.ac.uk
+        User ITSusername
+        HostName prospero.ljmu.ac.uk
+        Port 10022
 
 
 
