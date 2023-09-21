@@ -14,7 +14,7 @@ Access to the terminal on the gateway node(s) is via SSH. The gateway's address 
 
     prospero.ljmu.ac.uk
 
-As a security measure, Prospero uses a non-standard SSH port (10022), therefore this port must be specified via ``-p`` argument, e.g.
+As a security measure, Prospero uses a non-standard SSH port (10022), therefore this port must be specified via the ``-p`` argument, e.g.
 
 .. code-block:: ssh
 
