@@ -6,7 +6,7 @@ Prospero's is based primarily on `HPE Apollo (Gen 10) <https://www.hpe.com/us/en
 **Standard compute node specification:**
 
 * HPE ProLiant XL225n Gen10+ server
-* 2x AMD EPYC 7502 2.5GHz (36 nodes) or 2x AMD EPYC 7513 2.6GHz (8 nodes) 32-core processors
+* 2x AMD EPYC 32-core processors (7502 2.5GHz in 36 nodes, 7513 2.6GHz in 8 nodes) 
 * 512GB DDR4-3200 memory
 * 480GB SATA SSD local storage
 * HDR100 Infiniband network interface
