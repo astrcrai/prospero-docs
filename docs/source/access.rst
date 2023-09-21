@@ -20,7 +20,7 @@ As a security measure, Prospero uses a non-standard SSH port (10022), therefore 
 
     ssh ITSusername@prospero.ljmu.ac.uk -p 10022
 
-Alternatively, we suggest adding a code snippet to your ``.ssh/config`` file like the following:
+A more elegant solution is to add a code snippet to your ``.ssh/config`` in which you can specify that this port should always be used when connecting to Prospero:
 
 .. code-block:: ssh-config
 
@@ -29,5 +29,5 @@ Alternatively, we suggest adding a code snippet to your ``.ssh/config`` file lik
         HostName prospero.ljmu.ac.uk
         Port 10022
 
-
+SSH config files can be used to specify many useful settings, which are explained in the manual ``man 5 ssh_config``.
 
