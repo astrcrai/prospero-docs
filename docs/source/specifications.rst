@@ -48,5 +48,5 @@ As of August 2023, Prospero comprises 52 standard compute nodes, 1 memory-rich n
 
 * ARI use:
 
-  * HPE Apollo 4200 Gen10+ storage server with 250TB in RAID6 configuration (/mnt/backup1)
+  * HPE Apollo 4200 Gen10+ storage server with 250TB in RAID6 configuration (/mnt/aridata1)
   * Lenovo parallel datastore (3PB)
