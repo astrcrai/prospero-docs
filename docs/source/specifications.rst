@@ -34,6 +34,7 @@ High mem node2 (coming soon)
 * HPE ProLiant XL675 Gen10+ server
 * 2x AMD EPYC 7262 8-core 3.2GHz processors
 * 1.0TB DDR4-3200 memory
+* 4x NVIDIA A100 80GB accelerator 
 * 1.9TB SATA SSD local storage
 * HDR100 Infiniband network interface
 
