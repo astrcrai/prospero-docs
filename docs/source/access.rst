@@ -29,5 +29,5 @@ A more elegant solution is to add a code snippet to your ``.ssh/config`` in whic
         HostName prospero.ljmu.ac.uk
         Port 10022
 
-SSH config files can be used to specify many useful settings, which are explained in the manual ``man 5 ssh_config``.
+SSH config files can be used to specify many useful settings, as explained in the manual ``man 5 ssh_config``.
 
