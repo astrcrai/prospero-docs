@@ -44,7 +44,7 @@ As of August 2023, Prospero comprises 52 standard compute nodes, 1 memory-rich n
 * General purpose:
 
   * HPE Apollo 4200 Gen10+ storage server with 250TB in RAID6 configuration (/mnt/data1)
-  * HPE Apollo 4200 Gen9+ storage server with 80TB? in RAID6 configuration (/mnt/backup1)
+  * HPE Apollo 4200 Gen9+ storage server with 66TB in RAID6 configuration (/mnt/backup1)
 
 * ARI use:
 
