@@ -19,7 +19,7 @@ Prospero is a collective response to the growth of a number of independent HPC f
 * May 2023: Prospero become a heterogeneous platform, incorporating its first accelerated node equipped with 4 Nvidia A100 GPUs. This node was funded by the Faculty of Engineering & Technology's RCIF allocation, following the submission of a business case led by Dr. Ian Jarman and Dr. Ivan Olier-Caparroso. 
 * June 2023: 8 standard compute nodes were added, funded by the ARI, bringing the system to a total of 2888 compute cores and 24.5TB of memory.
 * August 2023: 8 standard compute nodes were added, funded by LJMU, bringing Prospero to its present complement of 52 standard compute nodes, 1 memory-rich compute node and 1 accelerated node, for a total of 3400 compute cores, 4 GPU engines and 28.5TB of memory.
-
+* September 2023: a second memory-rich node has been ordered, enabled by a Royal Society grant awarded to the ARI (PI: Prof Rob Crain) and matched funding from the Faculty of Engineering & Technology's RCIF allocation.
 
 
 
