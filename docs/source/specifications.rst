@@ -14,6 +14,7 @@ Prospero's is based primarily on `HPE Apollo (Gen 10) <https://www.hpe.com/us/en
 **Memory-rich compute nodes specification:**
 
 High mem node1
+
 * HPE ProLiant XL385 Gen10+ server
 * 2x AMD EPYC 7502 2.6GHz 32-core processors
 * 1.5TB DDR4-3200 memory
@@ -21,6 +22,7 @@ High mem node1
 * HDR100 Infiniband network interface
 
 High mem node2 (coming soon)
+
 * HPE ProLiant XL385 Gen10+ server
 * 2x AMD EPYC 7763 2.45GHz 64-core processors
 * 2.0TB DDR4-3200 memory
