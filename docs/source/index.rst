@@ -32,11 +32,3 @@ Contents
   highlights
   vnc
    
-   
-.. note::
-
-   This documentation is under active development.
-
-.. caution::
-
-   Example caution box
