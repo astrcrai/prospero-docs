@@ -122,6 +122,15 @@ Publications using Prospero:
 * | The [α/Fe]-[Fe/H] relation in the E-MOSAICS simulations: its connection to the birth place of globular clusters and the fraction of globular cluster field stars in the bulge
   | Hughes, M.E. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 491, Issue 3, p.4012-4022
 
+* | Feedback from supermassive black holes transforms centrals into passive galaxies by ejecting circumgalactic gas
+  | Oppenheimer, B.D. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 491, Issue 2, p.2939-2952
+
+* | The lensing properties of subhaloes in massive elliptical galaxies in sterile neutrino cosmologies
+  | Despali, G. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 491, Issue 1, p.1295-1310
+
+* | A galaxy's accretion history unveiled from its integrated spectrum
+  | Boecker, A. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 491, Issue 1, p.823-837
+
 * |
   | 
 
