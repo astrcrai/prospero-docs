@@ -17,6 +17,21 @@ Publications using Prospero:
 
 **2023**
 
+* | JADES NIRSpec Initial Data Release for the Hubble Ultra Deep Field: Redshifts and Line Fluxes of Distant Galaxies from the Deepest JWST Cycle 1 NIRSpec Multi-Object Spectroscopy
+  | Bunker, A. et al., 2023, Astronomy & Astrophysics (submitted)
+
+* | Inside the bubble: exploring the environments of reionisation-era Lyman-{\alpha} emitting galaxies with JADES and FRESCO
+  | Witstok, J. et al., 2023,  Astronomy & Astrophysics (submitted)
+
+* | Discovery of a quiescent galaxy at z=7.3
+  | Looser, T. et al., 2023, Astronomy & Astrophysics (submitted)
+
+* | JADES: Differing assembly histories of galaxies -- Observational evidence for bursty SFHs and (mini-)quenching in the first billion years of the Universe
+  | Looser, T. et al., 2023, Astronomy & Astrophysics (submitted)
+
+* | JADES: The emergence and evolution of Ly-alpha emission & constraints on the IGM neutral fraction
+  | Jones, G.C. et al., 2023, Astronomy & Astrophysics (submitted)
+
 * | Constraining the shape of dark matter haloes with globular clusters
   | Reina-Campos, M. et al., 2023, Monthly Notices of the Royal Astronomical Society (submitted)
 
@@ -26,8 +41,26 @@ Publications using Prospero:
 * | Mapping the imprints of stellar and AGN feedback in the circumgalactic medium with X-ray microcalorimeters
   | Schellenberger, G. et al., 2023, Astrophysical Journal (submitted)
 
+* | JADES: Discovery of extremely high equivalent width Lyman-alpha emission from a faint galaxy within an ionized bubble at z=7.3
+  | Saxena, A. et al., 2023, Astrophysical Journal (in press)
+
+* | Carbonaceous dust grains seen in the first billion years of cosmic time
+  | Witstok, J., et al., 2023, Nature (in press)
+
 * | In-situ or accreted? Using deep learning to infer the origin of extragalactic globular clusters from observables
   | Trujillo-Gomez, S. et al., 2023, Monthly Notices of the Royal Astronomical Society (in press)
+
+* | The chemical enrichment in the early Universe as probed by JWST via direct metallicity measurements at z ∼ 8
+  | Curti, M. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 518, Issue 1, pp.425-438
+
+* | JADES: Probing interstellar medium conditions at z ∼ 5.5-9.5 with ultra-deep JWST/NIRSpec spectroscopy
+  | Cameron, A.J. et al., 2023, Astronomy & Astrophysics, Volume 677, id.A115, 19 pp.
+
+* | Spectroscopic confirmation of four metal-poor galaxies at z = 10.3-13.2
+  | Curtis-Lake, E. et al., 2023, Nature Astronomy, Volume 7, p. 622-632
+
+* | An empirical study of dust properties at the earliest epochs
+  | Witstok, J. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 523, Issue 2, pp.3119-3132
 
 * | Hydrodynamical Simulations of the Galaxy Population: Enduring Successes and Outstanding Challenges
   | Crain, R.A. and van de Voort, F., 2023, Annual Review of Astronomy and Astrophysics, Volume 61, pp.473-515
