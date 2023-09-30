@@ -95,8 +95,45 @@ Publications using Prospero:
 * | The globular cluster system mass-halo mass relation in the E-MOSAICS simulations
   | Bastian, N. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 498, Issue 1, pp.1050-1061
 
-* | 
-  |
+* | Galaxy cold gas contents in modern cosmological hydrodynamic simulations
+  | Dave, R. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 497, Issue 1, pp.146-166
+
+* | An EAGLE's view of ex situ galaxy growth
+  | Davison, T. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 497, Issue 1, pp.81-93
+
+* | Where did the globular clusters of the Milky Way form? Insights from the E-MOSAICS simulations
+  | Keller, B.W. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 495, Issue 4, pp.4248-4267 
+
+* | Galactic outflow rates in the EAGLE simulations
+  | Mitchell, P.D. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 494, Issue 3, pp.3971-3997
+
+* | The mass fraction of halo stars contributed by the disruption of globular clusters in the E-MOSAICS simulations
+  | Reina-Campos, M. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 493, Issue 3, p.3422-3428
+
+* | EAGLE and Illustris-TNG Predictions for Resolved eROSITA X-Ray Observations of the Circumgalactic Medium around Normal Galaxies
+  | Oppenheimer, B.D. et al., 2020, The Astrophysical Journal Letters, Volume 893, Issue 1, pp.8
+
+* | The BAHAMAS project: effects of a running scalar spectral index on large-scale structure
+  | Stafford, S.G. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 493, Issue 1, p.676-697
+
+* | The quenching and morphological evolution of central galaxies is facilitated by the feedback-driven expulsion of circumgalactic gas
+  | Davies, J.J. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 491, Issue 3, p.4462-4480
+
+* | The [α/Fe]-[Fe/H] relation in the E-MOSAICS simulations: its connection to the birth place of globular clusters and the fraction of globular cluster field stars in the bulge
+  | Hughes, M.E. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 491, Issue 3, p.4012-4022
+
+* |
+  | 
+
+* |
+  | 
+
+* |
+  | 
+
+* |
+  | 
+
 
 
 
