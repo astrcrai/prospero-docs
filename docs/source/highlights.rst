@@ -13,9 +13,9 @@ Selected research highlights:
 * **Mar 2015:** ARI creates simulation of the Universe with realistic galaxies (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2015/3/12/ari-creates-simulation-of-the-universe-with-realistic-galaxies>`_)
 
 Publications using Prospero:
+---------
 
-2023 
-------
+**2023**
 
 * | Constraining the shape of dark matter haloes with globular clusters
   | Reina-Campos, M. et al., 2023, Monthly Notices of the Royal Astronomical Society (submitted)
@@ -38,8 +38,7 @@ Publications using Prospero:
 * | Globular cluster metallicity distributions in the E-MOSAICS simulations
   | Pfeffer, J. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 519, Issue 4, pp.5384-5401
 
-2022
-----
+**2022**
 
 * | Predictions for the X-ray circumgalactic medium of edge-on discs and spheroids
   | Nica, A. et al., 2022, Monthly Notices of the Royal Astronomical Society, Volume 517, Issue 2, pp.1958-1969
@@ -59,18 +58,45 @@ Publications using Prospero:
 * | The physics governing the upper truncation mass of the globular cluster mass function
   | Hughes, M.E. et al., 2022, Monthly Notices of the Royal Astronomical Society, Volume 510, Issue 4, pp.6190-6200
 
-2021
-----
-
+**2021**
 
 * | The survival of globular clusters in a cuspy Fornax
-  | Shao, S., et al., 2022,  Monthly Notices of the Royal Astronomical Society, Volume 507, Issue 2, pp.2339-2353
+  | Shao, S., et al., 2021,  Monthly Notices of the Royal Astronomical Society, Volume 507, Issue 2, pp.2339-2353
+
+* | The morphology of star-forming gas and its alignment with galaxies and dark matter haloes in the EAGLE simulations
+  | Hill, A.D. et al., 2021, Monthly Notices of the Royal Astronomical Society, Volume 505, Issue 1, pp.65-87
+
+* | The kinematics of globular cluster populations in the E-MOSAICS simulations and their implications for the assembly history of the Milky Way
+  | Trujillo-Gomez, S. et al., 2021, Monthly Notices of the Royal Astronomical Society, Volume 503, Issue 1, pp.31-58
+
+* | What to expect when using globular clusters as tracers of the total mass distribution in Milky Way-mass galaxies
+  | Hughes, M.E. et al., 2021, Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 2, pp.2828-2844
+
+* | Quenching and morphological evolution due to circumgalactic gas expulsion in a simulated galaxy with a controlled assembly history
+  | Davies, J.J., Crain, R.A. and Pontzen A., 2021, Monthly Notices of the Royal Astronomical Society, Volume 501, Issue 1, pp.236-253
+
+* | Linking globular cluster formation at low and high redshift through the age-metallicity relation in E-MOSAICS
+  | Horta, D. et al., 2021, Monthly Notices of the Royal Astronomical Society, Volume 500, Issue 4, pp.4768-4778
+
+* | The changing circumgalactic medium over the last 10 Gyr - I. Physical and dynamical properties
+  | Huscher, E. et al., 2021, Monthly Notices of the Royal Astronomical Society, Volume 500, Issue 1, pp.1476-1490
+
+* | Predicting accreted satellite galaxy masses and accretion redshifts based on globular cluster orbits in the E-MOSAICS simulations
+  | Pfeffer, J. et al., 2021, Monthly Notices of the Royal Astronomical Society, Volume 499, Issue 4, pp.4863-4875
+
+* | Kraken reveals itself - the merger history of the Milky Way reconstructed with the E-MOSAICS simulations
+  | Kruijssen, J.M.D., 2021, Monthly Notices of the Royal Astronomical Society, Volume 498, Issue 2, pp.2472-2491
+
+**2020**
+
+* | The ARTEMIS simulations: stellar haloes of Milky Way-mass galaxies
+  | Font, A.S. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 498, Issue 2, pp.1765-1785
+
+* | The globular cluster system mass-halo mass relation in the E-MOSAICS simulations
+  | Bastian, N. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 498, Issue 1, pp.1050-1061
 
 * | 
-  | 
-
-* | 
-  | 
+  |
 
 
 
