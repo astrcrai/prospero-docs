@@ -17,6 +17,9 @@ Publications using Prospero:
 2023 
 ------
 
+* | Constraining the shape of dark matter haloes with globular clusters
+  | Reina-Campos, M. et al., 2023, Monthly Notices of the Royal Astronomical Society (submitted)
+
 * | Are the fates of supermassive black holes and galaxies determined by individual mergers, or by the properties of their host haloes?
   | Davies, J.J., Pontzen, A., and Crain, R.A., 2023, Monthly Notices of the Royal Astronomical Society (submitted)
 
@@ -35,11 +38,44 @@ Publications using Prospero:
 * | Globular cluster metallicity distributions in the E-MOSAICS simulations
   | Pfeffer, J. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 519, Issue 4, pp.5384-5401
 
-
-
-
 2022
 ----
+
+* | Predictions for the X-ray circumgalactic medium of edge-on discs and spheroids
+  | Nica, A. et al., 2022, Monthly Notices of the Royal Astronomical Society, Volume 517, Issue 2, pp.1958-1969
+
+* | Line Emission Mapper (LEM): Probing the physics of cosmic ecosystems
+  | Kraft, R. et al., 2022, White paper submitted to 2023 NASA Astrophysics Probes opportunity.
+
+* | Galaxy mergers can initiate quenching by unlocking an AGN-driven transformation of the baryon cycle
+  | Davies, J.J., Pontzen, A., and Crain, R.A., 2022, Monthly Notices of the Royal Astronomical Society, Volume 515, Issue 1, pp.1430-1443
+
+* | Radial distributions of globular clusters trace their host dark matter halo: insights from the E-MOSAICS simulations
+  | Reina-Campos, M. et al., 2022, Monthly Notices of the Royal Astronomical Society, Volume 513, Issue 3, pp.3925-3945
+
+* | Intrinsic alignments of the extended radio continuum emission of galaxies in the EAGLE simulations
+  | Hill, A.D. et al., 2022, Monthly Notices of the Royal Astronomical Society, Volume 511, Issue 3, pp.3844-3862
+
+* | The physics governing the upper truncation mass of the globular cluster mass function
+  | Hughes, M.E. et al., 2022, Monthly Notices of the Royal Astronomical Society, Volume 510, Issue 4, pp.6190-6200
+
+2021
+----
+
+
+* | The survival of globular clusters in a cuspy Fornax
+  | Shao, S., et al., 2022,  Monthly Notices of the Royal Astronomical Society, Volume 507, Issue 2, pp.2339-2353
+
+* | 
+  | 
+
+* | 
+  | 
+
+
+
+
+
 * Item 1.
 * Item 2.
 * Item 3.
