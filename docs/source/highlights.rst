@@ -130,36 +130,3 @@ Publications using Prospero:
 
 * | A galaxy's accretion history unveiled from its integrated spectrum
   | Boecker, A. et al., 2020, Monthly Notices of the Royal Astronomical Society, Volume 491, Issue 1, p.823-837
-
-* |
-  | 
-
-* |
-  | 
-
-* |
-  | 
-
-* |
-  | 
-
-
-
-
-
-
-* Item 1.
-* Item 2.
-* Item 3.
-
-2021
-* Item 1.
-* Item 2.
-* Item 3.
-
-2020
-* Item 1.
-* Item 2.
-* Item 3.
-
-2
