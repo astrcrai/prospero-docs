@@ -9,7 +9,7 @@ Prospero is available for use by all academic staff and postgraduate research st
 Cost of use
 ------------
 
-Prospero is `free at the point of use` to researchers. Users are currently grouped into three accounting groups to reflect the current usage of the facility, these are ``ARI`` (members of the Astrophysics Research Institute), ``FET`` (for all other members of the Faculty of Engineering and Technology) and ``LJMU`` (for members of other faculties). The batch queue scheduler system on Prospero allocates jobs with a priority that is balanced against the use of these groups. 
+Prospero is `free at the point of use` to researchers. Users are currently grouped into three accounting groups to reflect the current usage of the facility, these are ``ARI`` (members of the Astrophysics Research Institute), ``FET`` (for all other members of the Faculty of Engineering and Technology) and ``LJMU`` (for members of other faculties). The batch queue scheduler system on Prospero allocates jobs with a priority that is balanced against the prior usage of these groups. 
 
 Conditions of use
 ------------
