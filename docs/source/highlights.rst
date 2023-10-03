@@ -5,6 +5,7 @@ Selected research highlights:
 
 * **July 2023:** Prospero helps characterise complex organic molecules in the most distant galaxies seen with JWST (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2023/7/19/dust-and-jw-telescope/>`_)
 * **Dec 2022:** Prospero characterises the most distant galaxies discovered with the James Webb Space Telescope (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2022/12/9/james-webb-renske-smit>`_)
+* **Dec 2022** Dr. Juan Ahuir-Torres wins best presentation and young researcher award at the ISAAT2022 symposium for his molecular dynamics simulations.
 * **Mar 2022:** Physicists to simulate the evolution of the Universe (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2022/3/30/physicists-to-simulate-the-evolution-of-the-universe>`_)
 * **Jan 2022:** Royal Astronomical Society award for ARI’s ‘virtual universes’  (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2022/1/17/royal-astronomical-society-award-for-aris-virtual-universes>`_)
 * **Jan 2016:** Galaxies are "wasteful" and retain fewer materials needed to build stars and planets, says new study (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2016/6/10/wasteful-galaxies>`_)
@@ -12,7 +13,7 @@ Selected research highlights:
 * **Jan 2016:** Simulated evolution of the Universe (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2016/1/27/simulated-evolution-of-the-universe>`_)
 * **Mar 2015:** ARI creates simulation of the Universe with realistic galaxies (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2015/3/12/ari-creates-simulation-of-the-universe-with-realistic-galaxies>`_)
 
-Publications using Prospero:
+Publications, proceedings and white papers using Prospero:
 ---------
 
 **2023**
@@ -90,6 +91,9 @@ Publications using Prospero:
 
 * | The physics governing the upper truncation mass of the globular cluster mass function
   | Hughes, M.E. et al., 2022, Monthly Notices of the Royal Astronomical Society, Volume 510, Issue 4, pp.6190-6200
+
+* | Study of the Normal Force and Velocity Influence on the Fused Silica Scratching Mechanisms with α-Alumina Grit at Atomic Scale via Reaxff Reactive Molecular Dynamic Simulations
+  | Ahuir-Torres, J. et al., 2022, Proceedings of the 24th International Symposium on Advances in Abrasive Technology
 
 **2021**
 
