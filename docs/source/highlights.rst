@@ -18,6 +18,9 @@ Publications, proceedings and white papers using Prospero:
 
 **2023**
 
+* | A Technical Review of a Novel Framework for Fully Coupled Modeling of Floating Vertical Axis Wind Turbine: Analysis of Aero-Hydro-Elastic-Mooring Behavior Using CFD-FEM
+  | Liu, Q. et al., 2023, Renewable and Sustainable Energy Reviews (submitted)
+
 * | JADES NIRSpec Initial Data Release for the Hubble Ultra Deep Field: Redshifts and Line Fluxes of Distant Galaxies from the Deepest JWST Cycle 1 NIRSpec Multi-Object Spectroscopy
   | Bunker, A. et al., 2023, Astronomy & Astrophysics (submitted)
 
