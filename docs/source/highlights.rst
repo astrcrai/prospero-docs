@@ -20,7 +20,7 @@ Major research grants (>£50k) linked to Prospero and its predecessors
   | PI: Dr Yannick Bahe
 * | Royal Society University Research Fellowship, 2023-2031, £xxx,xxx
   | PI: Dr Jonathan Henshaw
-* | Royal Society Dorothy Hodgkin Fellowship, 2023-2031, £xxx,xxx
+* | Royal Society Dorothy Hodgkin Fellowship, 2023-2031, £864,000
   | PI: Dr Gavin Lamb
 * | Science & Technology Research Council Ernest Rutherford Fellowship, 2023-2028, £526,000
   | PI: Dr Robert Grand
@@ -30,7 +30,7 @@ Major research grants (>£50k) linked to Prospero and its predecessors
   | PI: Professor Phil James, multiple co-Is from the Astrophysics Research Institute
 * | Science & Technology Research Council Ernest Rutherford Fellowship, 2019-2024, £484,000
   | PI: Dr Renske Smit
-* | UK Research & Innovatation Future Leaders Fellowship, 2019-2026, £xxx,xxx
+* | UK Research & Innovatation Future Leaders Fellowship, 2019-2026, £965,000
   | PI: Dr Sebastian Kamann
 * | Royal Society University Research Fellowship (renewal), 2019-2022, £434,000
   | PI: Professor Robert Crain  
