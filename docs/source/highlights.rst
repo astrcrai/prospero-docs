@@ -13,10 +13,44 @@ Selected research highlights:
 * **Jan 2016:** Simulated evolution of the Universe (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2016/1/27/simulated-evolution-of-the-universe>`_)
 * **Mar 2015:** ARI creates simulation of the Universe with realistic galaxies (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2015/3/12/ari-creates-simulation-of-the-universe-with-realistic-galaxies>`_)
 
+Major research grants (>£50k) linked to Prospero and its predecessors
+---------
+
+* | UK Research & Innovatation Future Leaders Fellowship, 2024-2031, £900,000
+  | PI: Dr Yannick Bahe
+* | Royal Society University Research Fellowship, 2023-2031, £xxx,xxx
+  | PI: Dr Jonathan Henshaw
+* | Royal Society Dorothy Hodgkin Fellowship, 2023-2031, £xxx,xxx
+  | PI: Dr Gavin Lamb
+* | Science & Technology Research Council Ernest Rutherford Fellowship, 2023-2028, £526,000
+  | PI: Dr Robert Grand
+* | Science & Technology Research Council DiRAC facility, 2022-2025, 470 million core-hours (in-kind £8.4 million)
+  | Co-Is: Professor Robert Crain, Dr. Andreea Font, Professor Ian McCarthy
+* | Science & Technology Research Council Consolidated Grant, 2019-2022, £1.5 million
+  | PI: Professor Phil James, multiple co-Is from the Astrophysics Research Institute
+* | Science & Technology Research Council Ernest Rutherford Fellowship, 2019-2024, £484,000
+  | PI: Dr Renske Smit
+* | UK Research & Innovatation Future Leaders Fellowship, 2019-2026, £xxx,xxx
+  | PI: Dr Sebastian Kamann
+* | Royal Society University Research Fellowship (renewal), 2019-2022, £434,00
+  | PI: Professor Robert Crain  
+* | Science & Technology Research Council Centres for Doctoral Training, 2017-2021, £226,000
+  | Co-PI: Dr Andreea Font; Co-Is: Professor Robert Crain, Professor Ian McCarthy
+* | European Research Council Consolidator Grant, 2016-2021, EUR1.7 million
+  | PI: Professor Ian McCarthy
+* | Royal Society Research Grants, 2014-2019, £75,000
+  | PI: Professor Robert Crain
+* | Royal Society University Research Fellowship, 2014-2019, £429,000
+  | PI: Professor Robert Crain
+
+
 Publications, proceedings and white papers using Prospero:
 ---------
 
 **2023**
+
+* | Realistic simulated galaxies form [alpha/Fe]-[Fe/H] knees due to a sustained decline in their star formation rates
+  | Mason, A.C. et al., 2023, Monthly Notices of the Royal Astronomical Society (submitted)
 
 * | A Technical Review of a Novel Framework for Fully Coupled Modeling of Floating Vertical Axis Wind Turbine: Analysis of Aero-Hydro-Elastic-Mooring Behavior Using CFD-FEM
   | Liu, Q. et al., 2023, Renewable and Sustainable Energy Reviews (submitted)
@@ -39,11 +73,11 @@ Publications, proceedings and white papers using Prospero:
 * | Constraining the shape of dark matter haloes with globular clusters
   | Reina-Campos, M. et al., 2023, Monthly Notices of the Royal Astronomical Society (submitted)
 
-* | Are the fates of supermassive black holes and galaxies determined by individual mergers, or by the properties of their host haloes?
-  | Davies, J.J., Pontzen, A., and Crain, R.A., 2023, Monthly Notices of the Royal Astronomical Society (submitted)
-
 * | Mapping the imprints of stellar and AGN feedback in the circumgalactic medium with X-ray microcalorimeters
   | Schellenberger, G. et al., 2023, Astrophysical Journal (submitted)
+
+* | Are the fates of supermassive black holes and galaxies determined by individual mergers, or by the properties of their host haloes?
+  | Davies, J.J., Pontzen, A., and Crain, R.A., 2023, Monthly Notices of the Royal Astronomical Society (in press)
 
 * | JADES: Discovery of extremely high equivalent width Lyman-alpha emission from a faint galaxy within an ionized bubble at z=7.3
   | Saxena, A. et al., 2023, Astrophysical Journal (in press)
