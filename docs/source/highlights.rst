@@ -32,7 +32,7 @@ Major research grants (>£50k) linked to Prospero and its predecessors
   | PI: Dr Renske Smit
 * | UK Research & Innovatation Future Leaders Fellowship, 2019-2026, £xxx,xxx
   | PI: Dr Sebastian Kamann
-* | Royal Society University Research Fellowship (renewal), 2019-2022, £434,00
+* | Royal Society University Research Fellowship (renewal), 2019-2022, £434,000
   | PI: Professor Robert Crain  
 * | Science & Technology Research Council Centres for Doctoral Training, 2017-2021, £226,000
   | Co-PI: Dr Andreea Font; Co-Is: Professor Robert Crain, Professor Ian McCarthy
