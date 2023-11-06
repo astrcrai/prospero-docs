@@ -18,7 +18,7 @@ Major research grants (>£50k) linked to Prospero and its predecessors
 
 * | UK Research & Innovatation Future Leaders Fellowship, 2024-2031, £900,000
   | PI: Dr Yannick Bahe
-* | Royal Society University Research Fellowship, 2023-2031, £xxx,xxx
+* | Royal Society University Research Fellowship, 2023-2031, £1,300,000
   | PI: Dr Jonathan Henshaw
 * | Royal Society Dorothy Hodgkin Fellowship, 2023-2031, £864,000
   | PI: Dr Gavin Lamb
