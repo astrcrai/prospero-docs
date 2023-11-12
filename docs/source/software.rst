@@ -1,6 +1,17 @@
 Software
 =====
 
+Centralised software on Prospero is installed by Alces Flight within their ``gridware`` environment. We recommend starting the gridware within your startup script (e.g. ``.bash_profile``) with
+
+.. code-block:: flight-start
+
+    flight start
+    flight activate env gridware
+
+.. note::
+
+   It is possible to create customised environments within ``flight``, e.g. for research groups needing a common set of packages. If you require this, please submit a support ticket. 
+
 Gridware etc
 ------------
 
