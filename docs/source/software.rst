@@ -29,7 +29,21 @@ For more information on modules, see `this link <https://modules.readthedocs.io/
 Recommended modules
 -------
 
+**Intel OneAPI compiler suite** 
+
+Lorem ipsum 
+
+**Gadget4** 
+
+Lorem ipsum 
+
+**StarCCM+** 
+
+Lorem ipsum 
+
 **SWIFT** 
+
+Code and documentation available `here <http://swift.dur.ac.uk/>`_.
 Note that the recommended module for SWIFT are slightly more complicated, as we have found that it helps to use ``openmpi`` compiled against a specific version of the low-level ``ucx`` communication library.
 
 .. code-block:: swift
@@ -46,9 +60,11 @@ Note that the recommended module for SWIFT are slightly more complicated, as we 
     module load apps/hdf5_mpi/1.12.0/intel-2021.2.0+openmpi-4.0.5
     module load libs/sundials_sp/5.8.0/intel-2021.2.0
 
-Relatedly with SWIFT, it is recommended to export the following environment variables in ``slurm`` job submission scripts
+Note that the ``sundials`` differential equation solver is only needed if you are using versions of ``SWIFT`` that use the ``CHIMES`` chemistry network (e.g. the ``COLIBRE`` branch). 
 
-.. code-block: swift-slurm
+Relatedly with SWIFT, it is recommended to export the following environment variables in ``slurm`` job submission scripts:
+
+.. code-block:: swift-slurm
 
     export UCX_IB_RCACHE_MAX_REGIONS=32768
     export UCX_IB_GID_INDEX=0
