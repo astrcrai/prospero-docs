@@ -24,7 +24,7 @@ To then load, for example, the latest available version of ``python3``, one can 
     
     module load apps/python3
 
-For more information on modules, see `this link <https://modules.readthedocs.io/en/latest/>`_. Below we provide recommended module list for use with popular software packages on Prospero. 
+For more information on modules, see `this link <https://modules.readthedocs.io/en/latest/>`_. Below we provide recommended module lists for use with popular software packages on Prospero. 
 
 Recommended modules
 -------
@@ -44,7 +44,7 @@ Lorem ipsum
 **SWIFT** 
 
 Code and documentation available `here <http://swift.dur.ac.uk/>`_.
-Note that the recommended module for SWIFT are slightly more complicated, as we have found that it helps to use ``openmpi`` compiled against a specific version of the low-level ``ucx`` communication library.
+Note that the recommended modules for SWIFT are slightly more complicated, as we have found that it helps to use ``openmpi`` compiled against a specific version of the low-level ``ucx`` communication library.
 
 .. code-block:: swift
 
