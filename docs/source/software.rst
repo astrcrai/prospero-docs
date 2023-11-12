@@ -29,11 +29,16 @@ For more information on modules, see `this link <https://modules.readthedocs.io/
 Recommended modules
 -------
 
-**Intel OneAPI compiler suite** 
+**Intel OneAPI compiler suite with OpenMpi** 
 
-Lorem ipsum 
+.. code-block:: intel_oneapi_mpi
 
-**Gadget4** 
+    module load apps/oneapi/2021.2.0
+    module load compiler-rt
+    module load tbb
+    module load mpi/openmpi
+
+**Maya** 
 
 Lorem ipsum 
 
