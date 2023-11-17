@@ -16,9 +16,9 @@ Selected research highlights:
 Major research grants (>£50k) linked to Prospero and its predecessors
 ---------
 
-* | Science & Technology Research Council Astronomy Small Award, 2025-2028, £500,000
+* | Science & Technology Research Council Astronomy Small Award, 2024-2028, £500,000
   | PI: Professor Robert Crain
-* | Science & Technology Research Council Astronomy Small Award, 2025-2028, £500,000
+* | Science & Technology Research Council Astronomy Small Award, 2024-2028, £500,000
   | PI: Professor Ian McCarthy
 * | UK Research & Innovatation Future Leaders Fellowship, 2024-2031, £900,000
   | PI: Dr Yannick Bahe
