@@ -182,7 +182,7 @@ Name	    Time limit	    Priority     Resources
 compute	    24 hours	    Standard     All standard compute nodes                   
 long	    72 hours	    Low          All standard compute nodes
 test	    1 hour          High         All standard compute nodes
-himem	    24 hours        Standard     Memory-rich node
+himem	    24 hours        Standard     Both memory-rich nodes
 gpu         24 hours        Standard     GPU-accelerated node
 ari    	    12 hours        Standard     ARI research node
 ari-teach   12 hours        Standard     ARI teaching node  
