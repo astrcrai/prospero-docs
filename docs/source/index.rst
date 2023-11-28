@@ -31,4 +31,5 @@ Contents
   policies
   highlights
   vnc
+  usage
    
