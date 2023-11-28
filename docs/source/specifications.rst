@@ -21,7 +21,7 @@ High mem node1
 * 480GB SATA SSD local storage
 * HDR100 Infiniband network interface
 
-High mem node2 (coming soon)
+High mem node2
 
 * HPE ProLiant XL385 Gen10+ server
 * 2x AMD EPYC 7763 2.45GHz 64-core processors
