@@ -189,3 +189,8 @@ ari-teach   12 hours        Standard     ARI teaching node
 =========   ===========     ========     ==========
 
 The ``compute``, ``long`` and ``test`` partitions share the same resources. Users should consider ``compute`` as the standard partition. Jobs requiring a longer execution time may use ``long`` but this partition has a lower priority factor to encourage more frequent job cycling. Unless otherwise arranged with ITS, users of the ``gpu`` partition can use a maximum of 2 GPUs at once. The ``ari`` and ``ari-teach`` partitions are ringfenced to members of the Astrophysics Research Institute.
+
+Slurm priorities
+=======================
+
+Prospero uses Slurm's `multifactor priority algorithm <https://slurm.schedmd.com/priority_multifactor.html>`_. The scheduler prioritises larger jobs and primarily balances the usage of accounts (`ARI',`FET',`LJMU') rather than individual users. Users with a fixed consumption level will therefore have a lower FairShare if other users within their account have consumed more resource recently.
