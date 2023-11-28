@@ -193,4 +193,4 @@ The ``compute``, ``long`` and ``test`` partitions share the same resources. User
 Slurm priorities
 =======================
 
-Prospero uses Slurm's `multifactor priority algorithm <https://slurm.schedmd.com/priority_multifactor.html>`_. The scheduler prioritises larger jobs and primarily balances the usage of accounts (`ARI',`FET',`LJMU') rather than individual users. Users with a fixed consumption level will therefore have a lower FairShare if other users within their account have consumed more resource recently.
+Prospero uses Slurm's `multifactor priority algorithm <https://slurm.schedmd.com/priority_multifactor.html>`_. The scheduler prioritises larger jobs and primarily balances the usage of accounts (``ARI``,``FET``,``LJMU``) rather than individual users. Users with a fixed consumption level will therefore have a lower FairShare if other users within their account have consumed more resource recently.
