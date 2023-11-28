@@ -1,34 +1,11 @@
-Usage
+Monthly usage figures
 =====
 
-.. _installation:
+.. toctree::
 
-Installation
-------------
+  `November 2023 <https://ljmu-my.sharepoint.com/:b:/g/personal/astrcrai_ljmu_ac_uk/EXABmUGpwSdIjlSX9EnoevQBl4DSjZkUFqommID0B_S2iA?e=4MFayn>`_.
+  `October 2023 <https://ljmu-my.sharepoint.com/:b:/g/personal/astrcrai_ljmu_ac_uk/EVhVY7cRx3JIoEc66N5FdogBv9lU7hMmD7kNoQ4DoeYL2w?e=KHiH5x>`_.
 
-To use Lumache, first install it using pip:
 
-.. code-block:: console
 
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
