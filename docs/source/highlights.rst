@@ -36,10 +36,10 @@ Major research grants (>£50k) linked to Prospero and its predecessors
   | PI: Dr Sebastian Kamann
 * | Royal Society University Research Fellowship (renewal), 2019-2022, £434,000
   | PI: Professor Robert Crain  
+* | European Research Council Consolidator Grant, 2018-2023, EUR1.7 million
+  | PI: Professor Ian McCarthy
 * | Science & Technology Research Council Centres for Doctoral Training, 2017-2021, £226,000
   | Co-PI: Dr Andreea Font; Co-Is: Professor Robert Crain, Professor Ian McCarthy
-* | European Research Council Consolidator Grant, 2016-2021, EUR1.7 million
-  | PI: Professor Ian McCarthy
 * | Royal Society University Research Fellowship, 2014-2019, £504,000
   | PI: Professor Robert Crain
 
