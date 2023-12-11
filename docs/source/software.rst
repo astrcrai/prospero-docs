@@ -44,7 +44,31 @@ Lorem ipsum
 
 **StarCCM+** 
 
-Lorem ipsum 
+There is currently 2 versions of StarCCM installed. version 16 and version 18
+
+.. code-block:: slurm
+
+    flight env activate gridware
+    module load apps/starccm/16.02.008-R8
+
+    # Simulation Case File:
+    INPUT="input.sim"
+
+    # Machinefile:
+    MACHINEFILE=hosts.star
+
+    # Write Node List to Machinefile:
+    scontrol show hostname ${SLURM_JOB_NODELIST} > ${MACHINEFILE}
+
+    # Simcenter Licence Server Address:
+    export CDLMD_LICENSE_FILE=1999@flex.cd-adapco.com
+
+    # POD Licence Key:
+    export LM_PROJECT=XXXXXXXXXXXXXXXXXXXXX
+
+    # Start Parallel STAR-CCM+ Job:
+    starccm+ -power -np ${SLURM_NTASKS} -machinefile ${MACHINEFILE} -batch ${INPUT} -collab -rr -rrthreads N -rgraphics mesa -graphics mesa
+
 
 **SWIFT** 
 
