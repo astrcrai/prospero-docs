@@ -38,7 +38,7 @@ High mem node2
 * 1.9TB SATA SSD local storage
 * HDR100 Infiniband network interface
 
-As of August 2023, Prospero comprises 52 standard compute nodes, 1 memory-rich node and 1 GPU-accelerated node, yielding 3408 compute cores and 28.5 TB of distributed memory. 
+As of December 2023, Prospero comprises 52 standard compute nodes, 2 memory-rich node and 1 GPU-accelerated node, yielding 3536 compute cores and 32.2 TB of distributed memory. 
 
 **Networked storage:**
 
