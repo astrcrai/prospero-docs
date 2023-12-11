@@ -67,7 +67,11 @@ There is currently 2 versions of StarCCM installed. version 16 and version 18
     export LM_PROJECT=XXXXXXXXXXXXXXXXXXXXX
 
     # Start Parallel STAR-CCM+ Job:
-    starccm+ -power -np ${SLURM_NTASKS} -machinefile ${MACHINEFILE} -batch ${INPUT} -collab -rr -rrthreads N -rgraphics mesa -graphics mesa
+    starccm+ -power -np ${SLURM_NTASKS} -machinefile ${MACHINEFILE} -batch ${INPUT} -collab -rr -rrthreads 63 -rgraphics mesa -graphics mesa
+
+.. note::
+
+    Take note that ``-rr -rrthreads 63 -rgraphics mesa -graphics mesa`` is required to be included. This is due to there is a known issue with StarCCM and AMD EPYC CPU's
 
 
 **SWIFT** 
