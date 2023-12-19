@@ -13,7 +13,7 @@ Prospero's is based primarily on `HPE Apollo (Gen 10) <https://www.hpe.com/us/en
 
 Single node performance of 1.9 Tflops for the EPYC2 nodes.
 
-Single node performance of 1.75 Tflops for the EPYC3 nodes/.
+Single node performance of 1.75 Tflops for the EPYC3 nodes.
 
 Whole cluster performance of 52 nodes was 84.7 Tflops.
 
