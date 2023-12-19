@@ -12,7 +12,7 @@ Prospero's is based primarily on `HPE Apollo (Gen 10) <https://www.hpe.com/us/en
 * HDR100 Infiniband network interface
 
 
-* Whole cluster performance of 52 nodes was 84.7 Tflops.
+ Whole cluster performance of 52 nodes was 84.7 Tflops.
 
   * Single node performance of 1.9 Tflops for the EPYC2 nodes.
   * Single node performance of 1.75 Tflops for the EPYC3 nodes.
