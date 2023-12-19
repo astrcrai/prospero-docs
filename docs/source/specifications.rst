@@ -11,9 +11,11 @@ Prospero's is based primarily on `HPE Apollo (Gen 10) <https://www.hpe.com/us/en
 * 480GB SATA SSD local storage
 * HDR100 Infiniband network interface
 
-Single node performance of 1.9 Tflops for the EPYC2 nodes
-Single node performance of 1.75 Tflops for the EPYC3 nodes
-Whole cluster performance of 52 nodes was 84.7 Tflops
+Single node performance of 1.9 Tflops for the EPYC2 nodes.
+
+Single node performance of 1.75 Tflops for the EPYC3 nodes/.
+
+Whole cluster performance of 52 nodes was 84.7 Tflops.
 
 **Memory-rich compute nodes specification:**
 
