@@ -6,7 +6,7 @@ Centralised software on Prospero is installed by Alces Flight within their ``gri
 .. code-block:: flight-start
 
     flight start
-    flight activate env gridware
+    flight env activate gridware
 
 .. note::
 
