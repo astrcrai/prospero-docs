@@ -108,7 +108,8 @@ Relatedly with SWIFT, it is recommended to export the following environment vari
 In the event of code lock-ups, we advise reducing the value of ``UCX_IB_RCACHE_MAX_REGIONS`` by factors of 2 until the issue resolves. We have seen some cases where values as low as 4096 are needed for stability, at the expense of performance.
 
 
-** Anaconda **
+**Anaconda**
+
 The ``gridware`` environment includes an installation of Anaconda that can be enabled via
 
 .. code-block:: anaconda-activate
@@ -142,7 +143,7 @@ Once activated, Python modules can be added to the new environment via, e.g.,
 
     conda install numpy
 	
-*** Using a Python environment in your Slurm scripts ***
+*Using a Python environment in your Slurm scripts*
 
 In order to use your Python environment in a job submitted to the queue, you will need to load it first. To that aim, add the following lines to your batch script before running any Python code
 
