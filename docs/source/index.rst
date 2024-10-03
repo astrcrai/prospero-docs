@@ -59,7 +59,7 @@ Contents
   :caption: GETTING HELP
   
   help
-  contact
+
 
 .. toctree::
   :maxdepth: 5
