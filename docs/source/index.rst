@@ -65,6 +65,5 @@ Contents
 
   highlights
   history
-  policies
   vnc
   usage
