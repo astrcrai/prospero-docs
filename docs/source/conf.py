@@ -4,7 +4,7 @@
 
 project = 'Prospero documentation'
 copyright = '2023, Liverpool John Moores University'
-author = 'R.A. Crain & K.P. Andersson'
+author = 'R.A. Crain, K.P. Andersson & T.W. Crossman'
 
 release = '0.1'
 version = '0.1.0'
@@ -32,6 +32,8 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 html_logo = 'images/logo.png'
+html_theme_options = {
+    'logo_only': True
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
