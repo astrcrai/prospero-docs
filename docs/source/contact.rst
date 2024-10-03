@@ -4,4 +4,7 @@ Contact Us
 Support queries
 ----
 
-For any queries relating to PROSPERO please raise them via [Helpdesk](https://helpme.ljmu.ac.uk)
+Your technical support contacts at LJMU for PROSPERO are:
+
+- [Kenny Andersson](k.andersson@ljmu.ac.uk), Senior Systems Engineer subject matter expert
+- [Tom Crossman](t.w.crossman@ljmu.ac.uk). Datacenter Engineer
