@@ -57,7 +57,9 @@ Contents
 .. toctree::
   :maxdepth: 4
   :caption: GETTING HELP
+  
   help
+  contact
 
 .. toctree::
   :maxdepth: 5
