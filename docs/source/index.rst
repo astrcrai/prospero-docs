@@ -1,7 +1,7 @@
 .. include:: ../README.rst
 
 Documentation for the PROSPERO HPC facility
-==========================================================
+===========================================================
 
 **PROSPERO** is the centralised high performance computing (HPC) facility for research at `Liverpool John Moores University <https://ljmu.ac.uk/>`_. The facility was commissioned in August 2020, is hosted and administered by LJMU's `IT services division <https://www.ljmu.ac.uk/itservices>`_.
 
