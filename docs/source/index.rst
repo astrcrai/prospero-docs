@@ -9,7 +9,7 @@ Documentation for the PROSPERO HPC facility
   :width: 800
   :alt: Prospero
 
-**PROSPERO** is available for use by all research staff and postgraduate research students at LJMU, subject to usage :ref:`policies<Policies>`. If you want to start using PROSPERO please see :doc:`Getting Access </access.rst>`
+**PROSPERO** is available for use by all research staff and postgraduate research students at LJMU, subject to usage :ref:`policies<Policies>`. If you want to start using **PROSPERO** please see :doc:`</access.rst>`
 
 .. IMPORTANT::
 
