@@ -33,7 +33,7 @@ Contents
   Home <self>
   specifications
   storage
-  policies
+
     
 .. toctree::
   :maxdepth: 1
@@ -59,7 +59,7 @@ Contents
   :caption: GETTING HELP
   
   help
-
+  policies
 
 .. toctree::
   :maxdepth: 5
