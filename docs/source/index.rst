@@ -11,15 +11,19 @@ Documentation for the PROSPERO HPC facility
 
 PROSPERO is available for use by all research staff and postgraduate research students at LJMU, subject to usage :ref:`policies<Policies>`. If you would like to start using **PROSPERO** please see :ref:`Getting Access<Access>`.
 
-.. note::
+.. NOTE::
+
+   PROSPERO is expanding! We have raised an order that will add a further 1664 cores & 9.98Tb of RAM. This takes our totals to 5200 cores + 42Tb RAM. 
+
+.. IMPORTANT::
 
    PROSPERO uses the Linux operating system and does not run software designed for Windows
 
-.. note::
+.. IMPORTANT::
 
    PROSPERO is operating normally
 
-.. note::
+.. TIP::
 
    There is currently no planned maintenance for **PROSPERO**
 
