@@ -10,6 +10,7 @@ Documentation for the PROSPERO HPC facility
   :alt: Prospero
 
 **PROSPERO** is available for use by all research staff and postgraduate research students at LJMU, to request access please see :ref:`access<Access>`.
+
 .. IMPORTANT::
 
    **PROSPERO** is expanding! We have raised an order that will add a further 1664 cores & 9.98Tb of RAM. This takes our totals to 5200 cores + 42Tb RAM. 
