@@ -11,6 +11,10 @@ Documentation for the PROSPERO HPC facility
 
 **PROSPERO** is available for use by all research staff and postgraduate research students at LJMU, subject to usage `policies <https://prospero-docs.readthedocs.io/en/latest/policies.html>`_. To start using **PROSPERO** please see `Getting Access <https://prospero-docs.readthedocs.io/en/latest/access.html>`_.
 
+.. WARNING::
+
+   We are currently making security changes to the HPC. This should not effect **PROSPERO** performance. If you are having any issues whilst these changes are being made please contact us at `LJMU Helpdesk <https://helpme.ljmu.ac.uk/#dashboard>`_. 
+
 .. IMPORTANT::
 
    **PROSPERO** is expanding! We have raised an order that will add a further 1664 cores & 9.98Tb of RAM. This takes our totals to 5200 cores + 42Tb RAM. 
