@@ -23,9 +23,9 @@ Documentation for the PROSPERO HPC facility
 
    **PROSPERO** uses the Linux operating system and does not run software designed for Windows
 
-.. TIP::
+.. WARNING::
 
-   There is currently no planned maintenance for **PROSPERO**
+   Our plans to expand **PROSPERO** will begin 24th October. This should not affect performance.
 
 Contents
 --------
