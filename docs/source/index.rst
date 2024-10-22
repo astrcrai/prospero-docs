@@ -25,7 +25,7 @@ Documentation for the PROSPERO HPC facility
 
 .. WARNING::
 
-   **PROSPERO** will be undergoing maintenance on the 24th - 25th October & then further maintenance from 29th October - 4th November. This should not affect performance however, these windows should be treated as an "at-risk" period.
+   **PROSPERO** will be undergoing maintenance on the 24th - 25th October & then further maintenance from 29th October - 4th November. This should not affect performance, however, these should be treated as an "at-risk" period.
 
 Contents
 --------
