@@ -25,7 +25,7 @@ Documentation for the PROSPERO HPC facility
 
 .. WARNING::
 
-   Our plans to expand **PROSPERO** will begin 24th October. This should not affect performance.
+   **PROSPERO** will be undergoing maintenance from 29th October - 4th November. This should not affect performance however, this should be treated as an "at-risk" period.
 
 Contents
 --------
