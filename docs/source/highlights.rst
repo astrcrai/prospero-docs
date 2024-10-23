@@ -4,7 +4,7 @@ Research outcomes and highlights
 Selected research highlights from Prospero and its progenitor HPC systems at LJMU: 
 
 * **October 2024:** New Scientist Live 'huge success' for astrophysicists (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/10/16/new-scientist-event/>`_)
-* **October 2024:** Space Oddity: Most distant disc galaxy discovered (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/10/7/rebels25/>`_; CNN write-up <https://edition.cnn.com/2024/10/16/science/rebels-25-disc-galaxy-paper-scli-intl/index.html>`_)
+* **October 2024:** Space Oddity: Most distant disc galaxy discovered (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/10/7/rebels25/>`_; `CNN write-up <https://edition.cnn.com/2024/10/16/science/rebels-25-disc-galaxy-paper-scli-intl/index.html>`_)
 * **September 2024:** The universe is smoother than the standard model of cosmology suggests – so is the theory broken?
  (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/9/27/conversation-cosmos>`_)
 * **May 2024:** James Webb telescope sees most distant galaxy (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/5/31/most-distant-galaxy>`_)
