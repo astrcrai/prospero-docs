@@ -28,6 +28,8 @@ Major research grants (>£50k) linked to Prospero and its predecessors
   | PI: Professor Robert Crain
 * | Science & Technology Research Council Astronomy Small Award, 2024-2028, £500,000
   | PI: Professor Ian McCarthy
+* | Science & Technology Research Council DiRAC facility, 2024-2027, 500 million core-hours (in-kind £9 million)
+  | Co-Is: Professor Robert Crain, Dr. Andreea Font, Dr. Robert Grand, Professor Ian McCarthy
 * | Royal Society University Research Fellowship, 2023-2031, £1,300,000
   | PI: Dr Jonathan Henshaw
 * | Royal Society Dorothy Hodgkin Fellowship, 2023-2031, £864,000
