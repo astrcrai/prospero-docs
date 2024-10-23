@@ -4,9 +4,20 @@ Research outcomes and highlights
 Selected research highlights from Prospero and its progenitor HPC systems at LJMU: 
 
 * **October 2024:** New Scientist Live 'huge success' for astrophysicists (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/10/16/new-scientist-event/>`_)
-* **October 2024:** Space Oddity: Most distant disc galaxy discovered (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/10/7/rebels25/>`_; also on CNN <https://www.ljmu.ac.uk/about-us/news/articles/2024/10/7/rebels25/>`_)
-
-* **July 2023:** Prospero helps characterise complex organic molecules in the most distant galaxies seen with JWST (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2023/7/19/dust-and-jw-telescope/>`_)
+* **October 2024:** Space Oddity: Most distant disc galaxy discovered (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/10/7/rebels25/>`_; CNN write-up <https://edition.cnn.com/2024/10/16/science/rebels-25-disc-galaxy-paper-scli-intl/index.html>`_)
+* **September 2024:** The universe is smoother than the standard model of cosmology suggests – so is the theory broken?
+ (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/9/27/conversation-cosmos>`_)
+* **May 2024:** James Webb telescope sees most distant galaxy (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/5/31/most-distant-galaxy>`_)
+* **May 2024:** Scientists to simulate 14 billion years of cosmic evolution
+ (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/5/21/galaxy-models>`_)
+* **October 2023:** Biggest ever supercomputer simulation to investigate the Universe
+ (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2023/10/26/flamingo>`_)
+* **August 2023:** Magnetic fields "central to creation of Milky Way"
+ (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2023/8/21/magnetic-fields>`_)
+* **August 2023:** Scientists from the Astrophysics Research Institute showcase their latest simulations of the universe at event
+ (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2023/8/2/scientists-from-the-astrophysics-research-institute-take-part-in-the-scitech-daresbury-open-week>`_)
+* **July 2023:** Discovery of new type of space dust excites astrophysicists
+ (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2023/7/19/dust-and-jw-telescope/>`_)
 * **Dec 2022:** Prospero characterises the most distant galaxies discovered with the James Webb Space Telescope (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2022/12/9/james-webb-renske-smit>`_)
 * **Dec 2022** Dr. Juan Ahuir-Torres wins best presentation and young researcher award at the ISAAT2022 symposium for his molecular dynamics simulations.
 * **Mar 2022:** Physicists to simulate the evolution of the Universe (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2022/3/30/physicists-to-simulate-the-evolution-of-the-universe>`_)
