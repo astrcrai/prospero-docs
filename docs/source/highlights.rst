@@ -3,6 +3,9 @@ Research outcomes and highlights
 
 Selected research highlights from Prospero and its progenitor HPC systems at LJMU: 
 
+* **October 2024:** New Scientist Live 'huge success' for astrophysicists (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/10/16/new-scientist-event/>`_)
+* **October 2024:** Space Oddity: Most distant disc galaxy discovered (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/10/7/rebels25/>`_; also on CNN <https://www.ljmu.ac.uk/about-us/news/articles/2024/10/7/rebels25/>`_)
+
 * **July 2023:** Prospero helps characterise complex organic molecules in the most distant galaxies seen with JWST (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2023/7/19/dust-and-jw-telescope/>`_)
 * **Dec 2022:** Prospero characterises the most distant galaxies discovered with the James Webb Space Telescope (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2022/12/9/james-webb-renske-smit>`_)
 * **Dec 2022** Dr. Juan Ahuir-Torres wins best presentation and young researcher award at the ISAAT2022 symposium for his molecular dynamics simulations.
