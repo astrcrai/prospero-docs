@@ -96,6 +96,49 @@ Publications, proceedings and white papers using Prospero:
 * | In-situ or accreted? Using deep learning to infer the origin of extragalactic globular clusters from observables
   | Trujillo-Gomez, S. et al., 2023, Monthly Notices of the Royal Astronomical Society (in press)
 
+* | An empirical study of dust properties at the earliest epochs
+  | Witstok, J. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 523, Issue 2, pp.3119-3132
+
+
+* | An empirical study of dust properties at the earliest epochs
+  | Witstok, J. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 523, Issue 2, pp.3119-3132
+
+* | SP(k) - a hydrodynamical simulation-based model for the impact of baryon physics on the non-linear matter power spectrum
+  | Salcido, J. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 523, Issue 2, pp.2247-2262
+
+* | Testing the Collisionless Nature of Dark Matter with the Radial Acceleration Relation in Galaxy Clusters
+  | Tam, S. et al., 2023, The Astrophysical Journal, Volume 953, Issue 2, id.169, pp.15
+
+* | Hydrodynamical Simulations of the Galaxy Population: Enduring Successes and Outstanding Challenges
+  | Crain, R. & van de Voort, F., 2023, Annual Review of Astronomy and Astrophysics, Volume 61, Issue , pp. 473-515
+
+* | Constraining the shape of dark matter haloes with globular clusters and diffuse stellar light in the E-MOSAICS simulations
+  | Reina-Campos, M. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 521, Issue 4, pp.6368-6382
+
+* | Spectroscopic confirmation of four metal-poor galaxies at z = 10.3-13.2
+  | Curtis-Lake, E. et al., 2023, Nature Astronomy, Volume 7, p. 622-632
+
+* | The halo bispectrum as a sensitive probe of massive neutrinos and baryon physics
+  | Yankelevich, V. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 521, Issue 1, pp.1448-1461
+
+* | Unravelling the mass spectrum of destroyed dwarf galaxies with the metallicity distribution function
+  | Deason, A. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 519, Issue 4, pp.6091-6103
+
+* | Globular cluster metallicity distributions in the E-MOSAICS simulations
+  | Pfeffer, J. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 519, Issue 4, pp.5384-5401
+
+* | Colour and infall time distributions of satellite galaxies in simulated Milky-Way analogues
+  | Pan, Y. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 519, Issue 3, pp.4499-4513
+
+* | A probabilistic deep learning model to distinguish cusps and cores in dwarf galaxies
+  | Expósito-Márquez, J. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 519, Issue 3, pp.4384-4396
+
+* | A correlation between accreted stellar kinematics and dark-matter halo spin in the ARTEMIS simulations
+  | Dillamore, E. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 519, Issue 1, pp.L87-L91
+
+* | GOGREEN: A critical assessment of environmental trends in cosmological hydrodynamical simulations at z ≈ 1
+  | Kukstas, E. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 518, Issue 3, pp.4782-4800
+
 * | The chemical enrichment in the early Universe as probed by JWST via direct metallicity measurements at z ∼ 8
   | Curti, M. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 518, Issue 1, pp.425-438
 
