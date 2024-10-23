@@ -55,50 +55,90 @@ Major research grants (>£50k) linked to Prospero and its predecessors
 Publications, proceedings and white papers using Prospero:
 ---------
 
-**2023**
+**2024**
 
-* | Realistic simulated galaxies form [alpha/Fe]-[Fe/H] knees due to a sustained decline in their star formation rates
-  | Mason, A.C. et al., 2023, Monthly Notices of the Royal Astronomical Society (submitted)
+* | The role of active galactic nucleus feedback on the evolution of dwarf galaxies from cosmological simulations: Supermassive black holes suppress star formation in low-mass galaxies
+  | Arjona-Galvez, E. et al., 2024, Astronomy & Astrophysics, Volume 690, id.A286, 14 pp.
 
-* | A Technical Review of a Novel Framework for Fully Coupled Modeling of Floating Vertical Axis Wind Turbine: Analysis of Aero-Hydro-Elastic-Mooring Behavior Using CFD-FEM
-  | Liu, Q. et al., 2023, Renewable and Sustainable Energy Reviews (submitted)
+* | Revisiting the effects of baryon physics on small-scale redshift space distortions
+  | Kwan, J. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 533, Issue 3, pp.3570-3584
 
-* | JADES NIRSpec Initial Data Release for the Hubble Ultra Deep Field: Redshifts and Line Fluxes of Distant Galaxies from the Deepest JWST Cycle 1 NIRSpec Multi-Object Spectroscopy
-  | Bunker, A. et al., 2023, Astronomy & Astrophysics (submitted)
+* | Realistic simulated galaxies form [α/Fe]-[Fe/H] knees due to a sustained decline in their star formation rates
+  | Mason, A. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 533, Issue 1, pp.184-200
 
-* | Inside the bubble: exploring the environments of reionisation-era Lyman-{\alpha} emitting galaxies with JADES and FRESCO
-  | Witstok, J. et al., 2023,  Astronomy & Astrophysics (submitted)
+* | A warm dark matter cosmogony may yield more low-mass galaxy detections in 21-cm surveys than a cold dark matter one
+  | Oman, K. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 533, Issue 1, pp.67-78
 
-* | Discovery of a quiescent galaxy at z=7.3
-  | Looser, T. et al., 2023, Astronomy & Astrophysics (submitted)
+* | Overview and public data release of the augmented Auriga Project: cosmological simulations of dwarf and Milky Way-mass galaxies
+  | Grand, R. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 532, Issue 2, pp.1814-1831
 
-* | JADES: Differing assembly histories of galaxies -- Observational evidence for bursty SFHs and (mini-)quenching in the first billion years of the Universe
-  | Looser, T. et al., 2023, Astronomy & Astrophysics (submitted)
+* | The impact of free-streaming on dwarf galaxy counts in low-density regions
+  | Meshveliani, T. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 532, Issue 2, pp.1296-1306
 
-* | JADES: The emergence and evolution of Ly-alpha emission & constraints on the IGM neutral fraction
-  | Jones, G.C. et al., 2023, Astronomy & Astrophysics (submitted)
+* | ARTEMIS emulator: exploring the effect of cosmology and galaxy formation physics on Milky Way-mass haloes and their satellites
+  | Brown, S. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 532, Issue 2, pp.1223-1240
 
-* | Constraining the shape of dark matter haloes with globular clusters
-  | Reina-Campos, M. et al., 2023, Monthly Notices of the Royal Astronomical Society (submitted)
+* | The COS-Holes Survey: Connecting Galaxy Black Hole Mass with the State of the CGM
+  | Garza, S. et al., 2024, The Astrophysical Journal, Volume 970, Issue 2, id.115, 21 pp.
 
-* | Mapping the imprints of stellar and AGN feedback in the circumgalactic medium with X-ray microcalorimeters
-  | Schellenberger, G. et al., 2023, Astrophysical Journal (submitted)
+* | Applying machine learning to Galactic Archaeology: how well can we recover the origin of stars in Milky Way-like galaxies?
+  | Sante, A. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 531, Issue 4, pp.4363-4382
+
+* | Did the Gaia Enceladus/Sausage merger form the Milky Way's bar?
+  | Merrow, A. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 531, Issue 1, pp.1520-1533
+
+* | Differences in the properties of disrupted and surviving satellites of Milky-Way-mass galaxies in relation to their host accretion histories.
+  | Grimozzi, S. et al., 2024, Monthly Notices of the Royal Astronomical Society, Vol. 530, No. 1, p. 95-116
+
+* | Origin of the correlation between stellar kinematics and globular cluster system richness in ultradiffuse galaxies
+  | Pfeffer, J. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 529, Issue 4, pp.4914-4928
+
+* | Non-linear CMB lensing with neutrinos and baryons: FLAMINGO simulations versus fast approximations
+  | Upadhye, A. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 529, Issue 2, pp.1862-1876
+
+* | Cosmological evolution of metallicity correlation functions from the Auriga simulations
+  | Li, Z. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 528, Issue 4, pp.7103-7114
+
+* | Stellar populations and the origin of thick disks in AURIGA simulations
+  | Pinna, F. et al., 2024, Astronomy & Astrophysics, Volume 683, id.A236, 51 pp.
+
+* | Cosmological gas accretion history on to the stellar discs of Milky Way-like galaxies in the Auriga simulations - II. The inside-out growth of discs
+  | Iza, F. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 528, Issue 2, pp.1737-1755
+
+* | Inside the bubble: exploring the environments of reionisation-era Lyman-α emitting galaxies with JADES and FRESCO
+  | Witstok, J. et al., 2024, Astronomy & Astrophysics, Volume 682, id.A40, 15 pp.
+
+* | Quasar Sightline and Galaxy Evolution (QSAGE) - III. The mass-metallicity and fundamental metallicity relation of z ≈ 2.2 galaxies
+  | Stephenson, H. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 527, Issue 3, pp.7891-7904
+
+* | Taking the Milky Way for a spin: disc formation in the ARTEMIS simulations
+  | Dillamore, A. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 527, Issue 3, pp.7070-7078
 
 * | Are the fates of supermassive black holes and galaxies determined by individual mergers, or by the properties of their host haloes?
-  | Davies, J.J., Pontzen, A., and Crain, R.A., 2023, Monthly Notices of the Royal Astronomical Society (in press)
+  | Davies, J. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 527, Issue 3, pp.4705-4716
 
-* | JADES: Discovery of extremely high equivalent width Lyman-alpha emission from a faint galaxy within an ionized bubble at z=7.3
-  | Saxena, A. et al., 2023, Astrophysical Journal (in press)
+**2023**
+
+* | FLAMINGO: calibrating large cosmological hydrodynamical simulations with machine learning
+  | Kugel, R. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 526, Issue 4, pp.6103-6127
+
+* | In situ or accreted? Using deep learning to infer the origin of extragalactic globular clusters from observables
+  | Trujillo-Gomez, S. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 526, Issue 4, pp.5735-5755
+
+* | The FLAMINGO project: revisiting the S8 tension and the role of baryonic physics
+  | McCarthy, I. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 526, Issue 4, pp.5494-5519
+
+* | The FLAMINGO project: cosmological hydrodynamical simulations for large-scale structure and galaxy cluster surveys
+  | Schaye, J. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 526, Issue 4, pp.4978-5020
 
 * | Carbonaceous dust grains seen in the first billion years of cosmic time
-  | Witstok, J., et al., 2023, Nature (in press)
+  | Witstok, J. et al., 2023, Nature, Volume 621, Issue 7978, p.267-270
 
-* | In-situ or accreted? Using deep learning to infer the origin of extragalactic globular clusters from observables
-  | Trujillo-Gomez, S. et al., 2023, Monthly Notices of the Royal Astronomical Society (in press)
+* | An ever-present Gaia snail shell triggered by a dark matter wake
+  | Grand, R. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 524, Issue 1, pp.801-816
 
-* | An empirical study of dust properties at the earliest epochs
-  | Witstok, J. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 523, Issue 2, pp.3119-3132
-
+* | ALMA as a Redshift Machine: Using [C II] to Efficiently Confirm Galaxies in the Epoch of Reionization
+  | Schows, S. et al., 2023, The Astrophysical Journal, Volume 954, Issue 1, id.103, 13 pp.
 
 * | An empirical study of dust properties at the earliest epochs
   | Witstok, J. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 523, Issue 2, pp.3119-3132
