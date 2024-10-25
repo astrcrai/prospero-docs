@@ -11,9 +11,13 @@ Documentation for the PROSPERO HPC facility
 
 **PROSPERO** is available for use by all research staff and postgraduate research students at LJMU, subject to usage `policies <https://prospero-docs.readthedocs.io/en/latest/policies.html>`_. To start using **PROSPERO** please see `Getting Access <https://prospero-docs.readthedocs.io/en/latest/access.html>`_.
 
-.. IMPORTANT::
+.. WARNING::
 
-   **PROSPERO** is expanding! We have raised an order that will add a further 1664 cores & 9.98Tb of RAM. This takes our totals to 5200 cores + 42Tb RAM. 
+   Urgent maintenance work is being undertaken on the backup power infrastructure that supports the Datacentre on **Sunday 27th October**. Please note, this will not directly impact the running system but will leave it at risk if there was electrical mains failure. Please ensure you save/checkpoint your work periodically.
+
+.. WARNING::
+
+   **PROSPERO** planned maintenance from 29th October - 4th November. This should not affect performance, however, these should be treated as an "at-risk" period.
 
 .. IMPORTANT::
 
@@ -23,9 +27,6 @@ Documentation for the PROSPERO HPC facility
 
    **PROSPERO** uses the Linux operating system and does not run software designed for Windows
 
-.. WARNING::
-
-   **PROSPERO** will be undergoing maintenance on the 24th - 25th October & then further maintenance from 29th October - 4th November. This should not affect performance, however, these should be treated as an "at-risk" period.
 
 Contents
 --------
