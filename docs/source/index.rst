@@ -13,11 +13,7 @@ Documentation for the PROSPERO HPC facility
 
 .. WARNING::
 
-   Urgent maintenance work is being undertaken on the backup power infrastructure that supports the Datacentre on **Sunday 27th October**. Please note, this will not directly impact the running system but will leave it at risk if there was electrical mains failure. Please ensure you save/checkpoint your work periodically.
-
-.. WARNING::
-
-   **PROSPERO** planned maintenance from 29th October - 4th November. This should not affect performance, however, these should be treated as an "at-risk" period.
+   **PROSPERO** is currently undergoing planned maintenance (29th October - 4th November.) This should not affect performance, however, this should be treated as an **at-risk** period. Please ensure your saving any work regularly.
 
 .. IMPORTANT::
 
