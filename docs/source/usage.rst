@@ -3,6 +3,7 @@ Monthly usage figures
 
 2024
 ----
+* `October  <https://ljmu-my.sharepoint.com/:b:/g/personal/itstcros_ljmu_ac_uk/EZy0e3ppqA5GvVsGudwy9L4BF6U94-vxkHMaJFPuLz-5nQ?e=zpzjQt>`_
 * `September  <https://ljmu-my.sharepoint.com/:b:/g/personal/itstcros_ljmu_ac_uk/EQl_INhPdx5OsVrWKHwDYwYB0u78Zyju1L7Jp1dDCpbUbg?e=qX8pte>`_
 * `August  <https://ljmu-my.sharepoint.com/:b:/g/personal/itstcros_ljmu_ac_uk/Eb2Rg6DAAS5JvPl3G9TEIuQBEN2oue4gl8JH5fgrPQDzXg?e=OBI1ex>`_
 * `July  <https://ljmu-my.sharepoint.com/:b:/g/personal/itstcros_ljmu_ac_uk/Eaq9q6He0BtLu4MzMGEKNhABl26ox3kTRSBtPk3l6ZTrXQ?e=J2vlFc>`_
