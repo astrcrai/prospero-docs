@@ -11,10 +11,6 @@ Documentation for the PROSPERO HPC facility
 
 **PROSPERO** is available for use by all research staff and postgraduate research students at LJMU, subject to usage `policies <https://prospero-docs.readthedocs.io/en/latest/policies.html>`_. To start using **PROSPERO** please see `Getting Access <https://prospero-docs.readthedocs.io/en/latest/access.html>`_.
 
-.. WARNING::
-
-   **PROSPERO** is currently undergoing planned maintenance (29th October - 4th November.) This should not affect performance, however, this should be treated as an **at-risk** period. Please ensure your saving any work regularly.
-
 .. IMPORTANT::
 
    **PROSPERO** is operating normally
