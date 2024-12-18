@@ -59,6 +59,12 @@ Publications, proceedings and white papers using Prospero:
 
 **2024**
 
+* | Recovering chemical bimodalities in observed edge-on stellar disks: Insights from AURIGA simulations
+  | Pinna, F. et al., 2024, A&A, Volume 691, 61, 12pp.
+
+* | Comparing E-MOSAICS predictions of high-redshift proto-globular clusters with JWST observations in lensed galaxies
+  | Pfeffer, J. et al., 2024, MNRAS, in press
+
 * | The role of active galactic nucleus feedback on the evolution of dwarf galaxies from cosmological simulations: Supermassive black holes suppress star formation in low-mass galaxies
   | Arjona-Galvez, E. et al., 2024, Astronomy & Astrophysics, Volume 690, id.A286, 14 pp.
 
