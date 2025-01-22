@@ -36,6 +36,8 @@ Major research grants (>£50k) linked to Prospero and its predecessors
   | PI: Dr Gavin Lamb
 * | Science & Technology Research Council Ernest Rutherford Fellowship, 2023-2028, £526,000
   | PI: Dr Robert Grand
+* | UKRI Frontier Research Grant (Selected by the ERC for a Consolidator award), 2023-2028, £2.2 million
+  | PI: Prof Peter Falkingham
 * | Science & Technology Research Council DiRAC facility, 2022-2025, 470 million core-hours (in-kind £8.4 million)
   | Co-Is: Professor Robert Crain, Dr. Andreea Font, Professor Ian McCarthy
 * | Science & Technology Research Council Consolidated Grant, 2019-2022, £1.5 million
@@ -58,6 +60,9 @@ Publications, proceedings and white papers using Prospero:
 ---------
 
 **2024**
+
+* | A volumetric method for measuring the longitudinal arch of human tracks and feet
+  | Hatala et al, 2024, American Journal of Biological Anthropology, Volume 183, 4, e24897
 
 * | Recovering chemical bimodalities in observed edge-on stellar disks: Insights from AURIGA simulations
   | Pinna, F. et al., 2024, A&A, Volume 691, 61, 12pp.
@@ -126,6 +131,9 @@ Publications, proceedings and white papers using Prospero:
   | Davies, J. et al., 2024, Monthly Notices of the Royal Astronomical Society, Volume 527, Issue 3, pp.4705-4716
 
 **2023**
+
+* | Arched footprints preserve the motions of fossil hominin feet
+  | Hatala et al., 2023, Nature Ecology and Evolution, Volume 7, 1, 32-41
 
 * | FLAMINGO: calibrating large cosmological hydrodynamical simulations with machine learning
   | Kugel, R. et al., 2023, Monthly Notices of the Royal Astronomical Society, Volume 526, Issue 4, pp.6103-6127
