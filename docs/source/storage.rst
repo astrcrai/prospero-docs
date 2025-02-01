@@ -20,8 +20,8 @@ Prospero has the following datastores:
 +                        +---------------------+------------+-----------------------------------+
 |                        | /mnt/aridata1       | 233 TB     | ARI members                       |
 +                        +---------------------+------------+-----------------------------------+
-|                        | /mnt/archive        | 3.0 PB     | ARI members                       |
-|                        |                     |            | Will be decomissioned Q2/2025     |
+|                        | /mnt/archive        | 3.0 PB     | ARI members,                      |
+|                        |                     |            | will be decomissioned Q2/2025     |
 +------------------------+---------------------+------------+-----------------------------------+
 
 Quotas
