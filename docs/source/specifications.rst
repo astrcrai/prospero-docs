@@ -64,7 +64,11 @@ High mem node2
 
 As of December 2023, Prospero comprises 52 standard compute nodes, 2 memory-rich node and 1 GPU-accelerated node, yielding 3536 compute cores and 32.2 TB of distributed memory. 
 
-**Networked storage:**
+=====
+Networked storage
+=====
+
+
 
 * General purpose:
 
