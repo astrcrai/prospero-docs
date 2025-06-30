@@ -1,7 +1,25 @@
 Prospero specifications
 =====
 
-Prospero's is based primarily on `HPE Apollo (Gen 10) <https://www.hpe.com/us/en/compute/hpc/apollo-systems.html>`_ systems. The main computing partition is built from Apollo 2000 shared infrastructure chassis, each of which hosts four compute nodes. The GPU accelerated partition comprises a single Apollo 6500 chassis, hosting a single server with four GPU engines. 
+The Prospero facility is comprised of two "islands", Prospero-I and Prospero-II. Prospero-I, commissioned in 2020, is based primarily on HPE Apollo 2000 shared infrastructure chassis, each of which hosts up to four HPE XL225 compute nodes. Prospero-I includes a GPU-accelerated partition comprised of a single Apollo 6500 chassis, hosting a single server with four GPU engines. Prospero-II, commissioned in 2025, is based on HPE Cray XD2000 shared infrastructure chassis, each of which hosts four HPE Cray XD225 compute nodes. 
+
+=====
+Prospero-II
+=====
+
+**Standard compute node specification:**
+
+* HPE Cray XD225v server
+* 2x AMD EPYC 64-core processors (9534 2.45GHz) 
+* 768GB DDR4-3200 memory
+* 15TB NVMe SSD local storage
+* HDR200 Infiniband network interface
+
+Currently Prospero-II comprises 4 such chassis with 13 compute nodes.
+
+=====
+Prospero-I
+=====
 
 **Standard compute node specification:**
 
@@ -12,11 +30,10 @@ Prospero's is based primarily on `HPE Apollo (Gen 10) <https://www.hpe.com/us/en
 * HDR100 Infiniband network interface
 
 
- Whole cluster performance of 52 nodes was 84.7 Tflops.
+ Combined performance of all 52 Prospero-I nodes is 84.7 Tflops.
 
   * Single node performance of 1.9 Tflops for the EPYC2 nodes.
   * Single node performance of 1.75 Tflops for the EPYC3 nodes.
-
 
 **Memory-rich compute nodes specification:**
 
