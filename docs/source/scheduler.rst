@@ -208,7 +208,7 @@ To illustrate why: consider the following example:
     #SBATCH --ntasks-per-node=64
     #SBATCH --ncpus-per-task=1
 
-Slurm is free to allocate this job to a Prospero-I (64 cores) or Prospero-II node (128 cores). If allocated to the Prospero-I partition, the job will make efficient use of resources, as all compute cores on the nodes will be used. But if allocated to the Prospero-II partition, only half of the cores will be utilised on each node. The job could actually be executed on a single Prospero-II node. Therefore, for this simple example it is recommended to instead specify:
+If allocated to the Prospero-I partition, the job will make efficient use of resources, as all compute cores on the nodes will be used, but if allocated to the Prospero-II partition only half of the cores will be utilised on each node. The job could actually be executed on a single Prospero-II node. Therefore, for this simple example it is recommended to instead specify:
 
 .. code-block:: bash
 
@@ -217,6 +217,6 @@ Slurm is free to allocate this job to a Prospero-I (64 cores) or Prospero-II nod
     #SBATCH --ntasks=128
     #SBATCH --ncpus-per-task=1
 
-which will allow Slurm to allocate the job to either two Prospero-I nodes, or a single Prospero-II node.
+which will enable Slurm to allocate the job the 128 cores it requests by allocating either two Prospero-I nodes, or a single Prospero-II node.
 
 
