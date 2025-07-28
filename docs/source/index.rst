@@ -15,7 +15,7 @@ Prospero is available for use by all research staff and postgraduate research st
 
 .. IMPORTANT::
 
-   28/07/2025 - Phase-2 of Prospero is underway. The first 13 nodes with the `Prospero-2 specification <https://prospero-docs.readthedocs.io/en/latest/specifications.html>`_ have been installed and are available in the compute and long SLURM partitions. There are important implications for how job submission scripts should be written.
+   28/07/2025 - Phase-2 of Prospero is underway. The first 13 nodes with the `Prospero-2 specification <https://prospero-docs.readthedocs.io/en/latest/specifications.html>`_ have been installed and are available in the compute and long SLURM partitions. The dissimilar specifications of Prospero-I and Prospero-II nodes has **important implications** for how job submission scripts should be written, please see `here <https://prospero-docs.readthedocs.io/en/latest/scheduler.html>`_.
 
 .. NOTE::
 
