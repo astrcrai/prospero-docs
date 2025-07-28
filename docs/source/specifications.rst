@@ -1,7 +1,9 @@
 Prospero specifications
 =====
 
-The Prospero facility is comprised of two "islands", Prospero-I and Prospero-II. Prospero-I, commissioned in 2020, is based primarily on HPE Apollo 2000 shared infrastructure chassis, each of which hosts up to four HPE XL225 compute nodes. Prospero-I includes a GPU-accelerated partition comprised of a single Apollo 6500 chassis, hosting a single server with four GPU engines. Prospero-II, commissioned in 2025, is based on HPE Cray XD2000 shared infrastructure chassis, each of which hosts four HPE Cray XD225 compute nodes. 
+The Prospero facility is comprised of two "islands", Prospero-I and Prospero-II. Prospero-I, commissioned in 2020, is based primarily on HPE Apollo 2000 shared infrastructure chassis, each of which hosts up to four HPE XL225 compute nodes. Prospero-I includes a GPU-accelerated partition comprised of a single Apollo 6500 chassis, hosting a single server with four GPU engines. 
+
+Prospero-II, commissioned in 2025, is based on HPE Cray XD2000 shared infrastructure chassis, each of which hosts four HPE Cray XD225 compute nodes. 
 
 =====
 Prospero-II
