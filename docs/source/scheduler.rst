@@ -192,3 +192,31 @@ Slurm priorities
 =======================
 
 Prospero uses Slurm's `multifactor priority algorithm <https://slurm.schedmd.com/priority_multifactor.html>`_. The scheduler prioritises larger jobs and primarily balances the usage of accounts (``ARI``, ``FET``, ``LJMU``) rather than individual users. Therefore, for example, two users with the same individual consumption level will have differing FairShare scores if their accounting groups have seen markedly different resource consumption in recent days. At present, the scheduler aims to apportion 5% of the resources to the ``LJMU`` group (which currently contains only a small number of users) and divides the remainder equally between ``ARI`` and ``FET``. 
+
+Slurm scripts in the Prospero-II era
+=======================
+
+As of July 2025, Prospero comprises two `islands' of nodes (Prospero-I and Prospero-II) that have significantly different `specifications <https://prospero-docs.readthedocs.io/en/latest/specifications.html>_`, most notably they have different numbers of cores and different memory footprints. To maximise the effective use of Prospero's resources, all nodes from both islands can be accessed from the ``compute`` and ``long`` partitions. This has implications for how Slurm scripts should be written. Specifically, the scripts should not assume a particular node specification (e.g. a particular number of cores, or memory footprint, per node), since (unless otherwise instructed) the scheduler can to allocate jobs to nodes from either (or both) island. Users are therefore discouraged from using the ``#SBATCH --nodes=`` option unless there is a specific reason to do so. 
+
+To illustrate why: consider the following example:
+
+.. code-block:: bash
+
+    #!/bin/bash
+    #SBATCH --partition=compute
+    #SBATCH --nodes=2
+    #SBATCH --ntasks-per-node=64
+    #SBATCH --ncpus-per-task=1
+
+Slurm is free to allocate this job to a Prospero-I (64 cores) or Prospero-II node (128 cores). If allocated to the Prospero-I partition, the job will make efficient use of resources, as all compute cores on the nodes will be used. But if allocated to the Prospero-II partition, only half of the cores will be utilised on each node. The job could actually be executed on a single Prospero-II node. Therefore, for this simple example it is recommended to instead specify:
+
+.. code-block:: bash
+
+    #!/bin/bash
+    #SBATCH --partition=compute
+    #SBATCH --ntasks=128
+    #SBATCH --ncpus-per-task=1
+
+which will allow Slurm to allocate the job to either two Prospero-I nodes, or a single Prospero-II node.
+
+
