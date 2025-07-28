@@ -40,7 +40,6 @@ As an example, let's look at this simple batch job script:
     #!/bin/bash
     #SBATCH --job-name=exampleJob
     #SBATCH --time=02:00:00
-    #SBATCH --nodes=1
     #SBATCH --ntasks=1
     #SBATCH --cpus-per-task=1
     #SBATCH --mem=2G
@@ -77,12 +76,11 @@ The next four lines of the script describe the computing resources that the job 
 
 .. code-block:: bash
 
-    #SBATCH --nodes=1
     #SBATCH --ntasks=1
     #SBATCH --cpus-per-task=1
     #SBATCH --mem=2G
 
-In this instance we request one task (process) to be run on one node. A task corresponds to a process (or an MPI rank). One CPU thread (used, for example, with OpenMP) is requested for the one task as well as 2 GiB of memory should be allocated to the whole job.
+In this instance we request one task (process) to be run on one compute core. A task corresponds to a process (or an MPI rank). One CPU thread (used, for example, with OpenMP) is requested for the one task as well as 2 GiB of memory, allocated to the whole job.
 The next line defines the Slurm partition to which the job will be submitted. Slurm partitions are (possibly overlapping) groups of nodes with similar resources or associated limits. In our example, the job doesn't use a lot of resources and will fit perfectly onto the standard ``compute`` partition. A complete list of Slurm partitions available on Prospero is given :ref:`below<Slurm partitions>`.
 
 .. code-block:: bash
@@ -111,7 +109,7 @@ To submit the job script we just created we use the sbatch command. The general 
 
     $ sbatch [options] job_script [job_script_arguments ...]
 
-The available options are the same as the one you use in the batch script: sbatch --nodes=2 in the command line and #SBATCH --nodes=2 in a batch script are equivalent. The command line value takes precedence if the same option is present both on the command line and as a directive in a script.
+The available options are the same as the one you use in the batch script: sbatch --ntasks=1 in the command line and #SBATCH --ntasks=1 in a batch script are equivalent. The command line value takes precedence if the same option is present both on the command line and as a directive in a script.
 For the moment let's limit ourselves to the most common way to use the sbatch: passing the name of the batch script which contains the submission options.
 
 .. code-block:: bash
@@ -179,16 +177,16 @@ Prospero offers the following Slurm partitions:
 =========   ===========     ========     ==========           
 Name	    Time limit	    Priority     Resources             
 =========   ===========     ========     ==========           
-compute	    24 hours	    Standard     All standard compute nodes                   
-long	    72 hours	    Low          All standard compute nodes
-test	    1 hour          High         All standard compute nodes
+compute	    24 hours	    Standard     All standard compute nodes (Prospero-I and Prospero-II)                   
+long	    72 hours	    Low          All standard compute nodes (Prospero-I and Prospero-II)
+test	    1 hour          High         All standard compute nodes (Prospero-I)
 himem	    24 hours        Standard     Both memory-rich nodes
 gpu         24 hours        Standard     GPU-accelerated node
-ari    	    12 hours        Standard     ARI research node
-ari-teach   12 hours        Standard     ARI teaching node  
+ari    	    12 hours        Standard     A single node ringfenced to ARI users
+transients  12 hours        Standard     A single node (no Infiniband) ringfenced to daily analysis of Liverpool Telescope data 
 =========   ===========     ========     ==========
 
-The ``compute``, ``long`` and ``test`` partitions share the same resources. Users should consider ``compute`` as the standard partition. Jobs requiring a longer execution time may use ``long`` but this partition has a lower priority factor to encourage more frequent job cycling. Unless otherwise arranged with ITS, users of the ``gpu`` partition can use a maximum of 2 GPUs at once. The ``ari`` and ``ari-teach`` partitions are ringfenced to members of the Astrophysics Research Institute.
+The ``compute`` and ``long`` partitions share the same resources. Users should consider ``compute`` as the standard partition. Jobs requiring a longer execution time may use ``long`` but this partition has a **lower priority factor** to encourage more frequent job cycling. Unless otherwise arranged with ITS, users of the ``gpu`` partition can use a maximum of 2 GPUs at once. The ``ari`` and ``transients`` partitions are ringfenced to members of the Astrophysics Research Institute.
 
 Slurm priorities
 =======================
