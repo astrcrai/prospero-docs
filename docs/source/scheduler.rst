@@ -219,4 +219,6 @@ If allocated to the Prospero-I partition, the job will make efficient use of res
 
 which will enable Slurm to allocate the job the 128 cores it requests by allocating either two Prospero-I nodes, or a single Prospero-II node.
 
+It is possible to submit jobs to the ``compute`` and ``long`` partitions, but restrict them to running on only one type of node, i.e. only Prospero-I nodes or only Prospero-II nodes. To do this, one includes the SLURM option ``--constraint=epyc7k`` to restrict to Prospero-I nodes and ``--constraint=epyc9k`` to restrict to Prospero-II nodes.  
+
 
