@@ -222,3 +222,18 @@ which will enable Slurm to allocate the job the 128 cores it requests by allocat
 It is possible to submit jobs to the ``compute`` and ``long`` partitions, but restrict them to running on only one type of node, i.e. only Prospero-I nodes or only Prospero-II nodes. To do this, one includes the SLURM option ``--constraint=epyc7k`` to restrict to Prospero-I nodes and ``--constraint=epyc9k`` to restrict to Prospero-II nodes.  
 
 
+Example scripts
+=======================
+
+The Alces Flight environment includes a number of helpful example SLURM scripts for users to adapt. The types of script can be viewed using
+
+.. code-block:: bash
+
+    flight job list-templates
+
+and then copied to your working directory using the copy-template command, i.e to copy the "simple serial" example, use:
+
+.. code-block:: bash
+
+    flight job copy-template 3
+
