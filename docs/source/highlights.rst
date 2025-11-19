@@ -3,6 +3,10 @@ Research outcomes and highlights
 
 Selected research highlights from Prospero and its progenitor HPC systems at LJMU: 
 
+* **November 2025:** Prospero users named amongst the world's `most influential scientists <https://www.ljmu.ac.uk/about-us/news/articles/2025/11/18/trio-named-among-most-influential-researchers>`_.
+* **September 2025:** High-profile outcomes from Prospero are summarised in a `review article <https://www.ljmu.ac.uk/research/facilities-and-support/high-performance-computing/powering-discovery-across-ljmu>`_ written by Cristin Merritt of our HPC partners Alces Flight.
+* **September 2025:** Prospero's fifth birthday is celebrated with a `multi-disciplinary symposium <https://www.ljmu.ac.uk/about-us/news/articles/2025/8/4/prospero-5-anniversary>`_ .
+* **March 2025:** Prospero helps astronomers `discover oxygen in the most distant galaxies <https://www.ljmu.ac.uk/about-us/news/articles/2025/3/21/oxygen-discovery-in-most-distant-early-galaxy>`_ .
 * **October 2024:** New Scientist Live 'huge success' for astrophysicists (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/10/16/new-scientist-event/>`_)
 * **October 2024:** Space Oddity: Most distant disc galaxy discovered (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/10/7/rebels25/>`_; `CNN write-up <https://edition.cnn.com/2024/10/16/science/rebels-25-disc-galaxy-paper-scli-intl/index.html>`_)
 * **September 2024:** The universe is smoother than the standard model of cosmology suggests – so is the theory broken? (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/9/27/conversation-cosmos>`_)
