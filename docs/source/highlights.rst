@@ -4,6 +4,7 @@ Research outcomes and highlights
 Selected research highlights from Prospero and its progenitor HPC systems at LJMU: 
 
 * **November 2025:** Prospero users named amongst the world's `most influential scientists <https://www.ljmu.ac.uk/about-us/news/articles/2025/11/18/trio-named-among-most-influential-researchers>`_.
+* **November 2025:** Prospero modelling of Additive Manufacturing in a paper by Andrew Burgess features at the `9th International Conference on Engineering Technologies <https://icente.selcuk.edu.tr/>`_, in Konya, Turkey.
 * **October 2025:** Prospero is `igniting discoveries in dinosaur locomotion <https://www.nextplatform.com/2025/10/17/how-hpc-is-igniting-discoveries-in-dinosaur-locomotion-and-beyond/>`_.
 * **September 2025:** High-profile outcomes from Prospero are summarised in a `review article <https://www.ljmu.ac.uk/research/facilities-and-support/high-performance-computing/powering-discovery-across-ljmu>`_ written by Cristin Merritt of our HPC partners Alces Flight.
 * **September 2025:** Prospero's fifth birthday is celebrated with a `multi-disciplinary symposium <https://www.ljmu.ac.uk/about-us/news/articles/2025/8/4/prospero-5-anniversary>`_ .
