@@ -28,9 +28,11 @@ Selected research highlights from Prospero and its progenitor HPC systems at LJM
 * **Jan 2016:** Simulated evolution of the Universe (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2016/1/27/simulated-evolution-of-the-universe>`_)
 * **Mar 2015:** ARI creates simulation of the Universe with realistic galaxies (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2015/3/12/ari-creates-simulation-of-the-universe-with-realistic-galaxies>`_)
 
-Major research grants (>£50k) linked to Prospero and its predecessors
+Major research grants (>£25k) linked to Prospero and its predecessors
 ---------
 
+* | Royal Society Research Grant, 2025, £25,000
+  | PI: Professor Rui Leite Portela Martiniano
 * | Science & Technology Research Council Astronomy Small Award (x2), 2024-2028, £500,000
   | PI: Professor Robert Crain
 * | Science & Technology Research Council Astronomy Small Award, 2024-2028, £500,000
