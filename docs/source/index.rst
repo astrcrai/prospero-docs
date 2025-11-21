@@ -11,6 +11,9 @@ Prospero is the centralised high performance computing (HPC) facility for resear
 
 Prospero is available for use by all research staff and postgraduate research students at LJMU, subject to usage `policies <https://prospero-docs.readthedocs.io/en/latest/policies.html>`_. To start using Prospero please see `Getting Access <https://prospero-docs.readthedocs.io/en/latest/access.html>`_.
 
+.. IMPORTANT::
+
+   21/11/2025 - The HPE ClusterStor parallel file system (/mnt/scratch) has now been expanded to 3.6PB capacity. 
 
 
 .. IMPORTANT::
