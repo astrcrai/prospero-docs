@@ -5,6 +5,9 @@ The Prospero facility is comprised of two "islands", Prospero-I and Prospero-II.
 
 Prospero-II, commissioned in 2025, is based on HPE Cray XD2000 shared infrastructure chassis, each of which hosts four HPE Cray XD225 compute nodes. 
 
+As of Q3/2025, Prospero comprises over 5000 compute cores and provides approximately 45 million core hours per year to the LJMU research community.
+
+
 =====
 Prospero-II
 =====
@@ -63,8 +66,6 @@ High mem node2
 * 4x NVIDIA A100 80GB accelerator 
 * 1.9TB SATA SSD local storage
 * HDR100 Infiniband network interface
-
-As of December 2023, Prospero comprises 52 standard compute nodes, 2 memory-rich node and 1 GPU-accelerated node, yielding 3536 compute cores and 32.2 TB of distributed memory. 
 
 =====
 Networked storage
