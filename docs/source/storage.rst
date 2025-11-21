@@ -17,9 +17,6 @@ Prospero has the following datastores:
 |                        | /mnt/data1          | 220 TB     | All                               |
 +                        +---------------------+------------+-----------------------------------+
 |                        | /mnt/aridata1       | 233 TB     | ARI members                       |
-+                        +---------------------+------------+-----------------------------------+
-|                        | /mnt/archive        | 3.0 PB     | ARI members,                      |
-|                        |                     |            | will be decomissioned Q2/2025     |
 +------------------------+---------------------+------------+-----------------------------------+
 
 Quotas
@@ -28,8 +25,8 @@ Each user's homespace is limited to a quota of 150GB with a hard limit of 175GB.
 
 Backups
 ------------
-At present no volumes are backed up, so users are advised to keep their source code on a version control system and maintain their own backups.
+At present no volumes are backed up, so users are advised to keep their source code on a version control system and maintain their own backups. We hope to install a system to provide daily backups of the homespace during 2026. 
 
-Future storage
+Best practice
 ------------
-We are currently commissioning a new HPE ClusterStor parallel filesystem, which we hope will be available Q2/2025.
+Please keep important code on the homespace and keep this backed up yourself. For most users, it is advised to keep data specific to personal projects in /mnt/scratch/users/[USERNAME]. Data for projects involving multiple users should be kept in /mnt/scratch/projects/[PROJECTNAME]. The volume /mnt/data1 is in principle available to all users but is a legacy system that predates the high-performance ClusterStor facility that hosts /mnt/archive. 
