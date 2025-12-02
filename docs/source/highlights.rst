@@ -15,7 +15,7 @@ Selected research highlights from Prospero and its progenitor HPC systems at LJM
 * **June 2024:** The story of Prospero's genesis features in Professor Robert Crain's `inaugural professorial lecture <https://www.youtube.com/watch?v=1vbFNhgunsw>`_ .
 * **May 2024:** James Webb telescope sees most distant galaxy (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/5/31/most-distant-galaxy>`_)
 * **May 2024:** Scientists to simulate 14 billion years of cosmic evolution (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/5/21/galaxy-models>`_)
-* **February 2024:** TARGET project secures £10m funding to predict heart disease and stroke with AI  (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/2/6/digitaltwinslaunch>`_)
+* **February 2024:** TARGET project secures €10m funding to predict heart disease and stroke with AI  (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2024/2/6/digitaltwinslaunch>`_)
 * **October 2023:** Biggest ever supercomputer simulation to investigate the Universe (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2023/10/26/flamingo>`_)
 * **August 2023:** Magnetic fields "central to creation of Milky Way" (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2023/8/21/magnetic-fields>`_)
 * **August 2023:** Scientists from the Astrophysics Research Institute showcase their latest simulations of the universe at event (`LJMU news story <https://www.ljmu.ac.uk/about-us/news/articles/2023/8/2/scientists-from-the-astrophysics-research-institute-take-part-in-the-scitech-daresbury-open-week>`_)
@@ -34,6 +34,8 @@ Major research grants (>£25k) linked to Prospero and its predecessors
 
 * | Royal Society Research Grant, 2025, £25,000
   | PI: Professor Rui Leite Portela Martiniano
+* | EU Horizon Research & Innovation Programme, 2024-2028, €10,000,000
+  | PI: Professor Sandra Ortega-Martorell
 * | Science & Technology Research Council Astronomy Small Award (x2), 2024-2028, £500,000
   | PI: Professor Robert Crain
 * | Science & Technology Research Council Astronomy Small Award, 2024-2028, £500,000
