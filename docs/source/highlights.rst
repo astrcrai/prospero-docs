@@ -35,7 +35,7 @@ Major research grants (>£25k) linked to Prospero and its predecessors
 * | Royal Society Research Grant, 2025, £25,000
   | PI: Professor Rui Leite Portela Martiniano
 * | EU Horizon Research & Innovation Programme, 2024-2028, €10,000,000
-  | PI: Professor Sandra Ortega-Martorell
+  | PIs: Professor Sandra Ortega-Martorell & Prof Ivan Olier-Caparroso
 * | Science & Technology Research Council Astronomy Small Award (x2), 2024-2028, £500,000
   | PI: Professor Robert Crain
 * | Science & Technology Research Council Astronomy Small Award, 2024-2028, £500,000
