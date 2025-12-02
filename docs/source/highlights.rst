@@ -82,6 +82,18 @@ Publications, proceedings and white papers using Prospero:
 * | Conditional Diffusion-Flow models for generating 3D cosmic density fields: applications to f(R) cosmologies. 
   | Riveros et al., Machine Learning: Science and Technology, 6(3), p.035031.
 
+* | COLIBRE: calibrating subgrid feedback in cosmological simulations that include a cold gas phase
+  | Chaikin, E. et al., 2025, MNRAS, in press
+
+* | The COLIBRE project: cosmological hydrodynamical simulations of galaxy formation and evolution
+  | Schaye, J. et al., 2025, MNRAS, in press
+
+* | The formation and disruption of globular cluster populations in simulations of present-day L* galaxies with controlled assembly histories
+  | Newton, O. et al., 2025, MNRAS, Volume 542, Issue 2, pp. 591-607, 17 pp.
+
+* | Comparing E-MOSAICS predictions of high-redshift proto-globular clusters with JWST observations in lensed galaxies
+  | Pfeffer, J. et al., 2025, MNRAS, Volume 536, Issue 2, pp.1878-1893
+
 **2024**
 
 * | A volumetric method for measuring the longitudinal arch of human tracks and feet
@@ -89,9 +101,6 @@ Publications, proceedings and white papers using Prospero:
 
 * | Recovering chemical bimodalities in observed edge-on stellar disks: Insights from AURIGA simulations
   | Pinna, F. et al., 2024, A&A, Volume 691, 61, 12pp.
-
-* | Comparing E-MOSAICS predictions of high-redshift proto-globular clusters with JWST observations in lensed galaxies
-  | Pfeffer, J. et al., 2024, MNRAS, in press
 
 * | The role of active galactic nucleus feedback on the evolution of dwarf galaxies from cosmological simulations: Supermassive black holes suppress star formation in low-mass galaxies
   | Arjona-Galvez, E. et al., 2024, Astronomy & Astrophysics, Volume 690, id.A286, 14 pp.
