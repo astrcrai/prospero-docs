@@ -71,6 +71,17 @@ Major research grants (>£25k) linked to Prospero and its predecessors
 Publications, proceedings and white papers using Prospero:
 ---------
 
+**2025**
+
+* | The integrated multiple event representation framework (IMERF): a case study on critically-ill patients
+  | Olier et al., Computers in Biology and Medicine. Vol 198, Part A, Nov 2025, 111196.
+
+* | Graph neural networks for the enhanced prediction of new atrial fibrillation episodes after stroke. 
+  | Rivera-Juzga et al. Computers in Biology and Medicine. Vol 197, Part B, Oct 2025, 111095
+
+* | Conditional Diffusion-Flow models for generating 3D cosmic density fields: applications to f(R) cosmologies. 
+  | Riveros et al., Machine Learning: Science and Technology, 6(3), p.035031.
+
 **2024**
 
 * | A volumetric method for measuring the longitudinal arch of human tracks and feet
