@@ -32,6 +32,8 @@ Selected research highlights from Prospero and its progenitor HPC systems at LJM
 Major research grants (>£25k) linked to Prospero and its predecessors
 ---------
 
+* | Engineering and Physical Sciences Research Council (EPSRC) Grant and Project Partner Matched Funding, 2025, total £100,000
+  | PI: Dr Eddie Blanco-Davis LRF: Dr David Hitchmough
 * | Royal Society Research Grant, 2025, £25,000
   | PI: Professor Rui Leite Portela Martiniano
 * | EU Horizon Research & Innovation Programme, 2024-2028, €10,000,000
