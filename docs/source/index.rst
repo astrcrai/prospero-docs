@@ -13,6 +13,10 @@ Prospero is available for use by all research staff and postgraduate research st
 
 .. IMPORTANT::
 
+   07/01/2026 - An order has been placed for a new GPU-accelerated node, equipped with 4x nvidia H200 accelerators. It is anticipated this system will be installed in February 2026. 
+
+.. IMPORTANT::
+
    21/11/2025 - The HPE ClusterStor parallel file system (/mnt/scratch) has now been expanded to 3.6PB capacity. 
 
 
