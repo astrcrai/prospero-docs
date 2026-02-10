@@ -21,7 +21,7 @@ Prospero has the following datastores:
 
 Quotas
 ------------
-Each user's homespace is limited to a quota of 150GB with a hard limit of 175GB. Large datasets should be stored on the data volumes.
+Each user's homespace is limited to a quota of 30GB. Large datasets should be stored on the data volumes. Note that VSCode and Python environments such as ``conda`` can quickly fill your homespace with temporary `hidden' files that often do not show up with the ``du`` command. It is recommended that you configure these environments to dump temporary files to the local scratch space or a data volume.
 
 Backups
 ------------
