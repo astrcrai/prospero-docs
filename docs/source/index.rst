@@ -13,12 +13,7 @@ Prospero is available for use by all research staff and postgraduate research st
 
 .. IMPORTANT::
 
-   07/01/2026 - An order has been placed for a new GPU-accelerated node, equipped with 4x nvidia H200 accelerators. It is anticipated this system will be installed in February 2026. 
-
-.. IMPORTANT::
-
-   21/11/2025 - The HPE ClusterStor parallel file system (/mnt/scratch) has now been expanded to 3.6PB capacity. 
-
+   06/02/2026 - Over the next few months, Prospero will be migrated from the RHEL v8 operating system to RHEL v9.7. This will provide long term support and improved performance. Under the new O/S, users will have a new, empty home space, accessed via a different gateway address. Users will be migrated to the new system in batches. Further information will follow as the new system is brought online. If you have concerns, please contact the hpc admin team.
 
 .. IMPORTANT::
 
