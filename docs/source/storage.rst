@@ -26,7 +26,9 @@ Each user's homespace is limited to a quota of 30GB. Large datasets should be st
 VSCode and Python environments such as ``conda`` can quickly fill your homespace with temporary hidden files (often caches) that may not show up with the ``du`` command. For example, check for directories such as ``.cache`` and ``.vscode-server``. It is recommended that you move these directories to your personal user space on the scratch space ``/mnt/scratch/users/[USERNAME]`` and create softlinks from your homespace to these from their original location. For example: 
 
 $ cd ~
+
 $ mv .vscode-server /mnt/scratch/users/[USERNAME]/
+
 $ ln -s /mnt/scratch/users/[USERNAME]/.vscode-server .vscode-server
 
 Backups
