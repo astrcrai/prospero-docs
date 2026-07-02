@@ -45,3 +45,4 @@ Users will need to create a new working environment on the home space at ``prosp
     module load intel-oneapi-compilers/2025.3.2
     module load openmpi/5.0.9/intel-oneapi-compilers-2025.3.2
 
+An important change that users should be aware of when using ``prospero2`` is that batch queue jobs submitted via ``SLURM`` should use invoke their executables with the ``srun`` command rather than ``mpirun``. We have found that using the latter can result in ``#SBATCH`` configuation values not being passed to the job. 
