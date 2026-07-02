@@ -70,5 +70,4 @@ Contents
   highlights
   history
   vnc
-  usage
   environmental
