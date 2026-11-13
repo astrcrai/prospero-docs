@@ -22,7 +22,7 @@ Prospero is subject the university's `standard IT policy <https://www.ljmu.ac.uk
 * Users may log into compute nodes, but only for the purposes of examining the local use of resources (e.g. via ``top``). As above, jobs may not be executed directly on compute nodes.
 * **Note that the system is actively monitored and directly-executed jobs will be terminated without warning**.
 * Personal data should not be stored on the system.
-* Anonymised survey data should not be stored on the system.
+* Survey data should not be stored on the system, even if anonymised.
 * Prospero's security features should not be attempted to be bypassed.
 * Users violating these rules will initially be warned by ITS. Repeat offenders will be banned from the system and their line manager and head of school informed. 
 
