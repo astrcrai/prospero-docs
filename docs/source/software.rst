@@ -33,14 +33,8 @@ Recommended modules
 
 .. code-block:: intel_oneapi_mpi
 
-    module load apps/oneapi/2021.2.0
-    module load compiler-rt
-    module load tbb
-    module load mpi/openmpi
-
-**Maya** 
-
-Lorem ipsum 
+	module load intel-oneapi-compilers/2025.3.2 # not 100% sure this is needed, but I had it loaded anyway
+	module load openmpi/5.0.9/intel-oneapi-compilers-2025.3.2
 
 **StarCCM+** 
 
