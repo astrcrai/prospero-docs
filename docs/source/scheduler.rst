@@ -196,7 +196,9 @@ Prospero uses Slurm's `multifactor priority algorithm <https://slurm.schedmd.com
 Slurm scripts in the Prospero-II era
 =======================
 
-As of July 2025, Prospero comprises two islands of nodes (Prospero-I and Prospero-II) that have significantly different `specifications <https://prospero-docs.readthedocs.io/en/latest/specifications.html>`_, most notably they have different numbers of cores and different memory footprints. To maximise the effective use of Prospero's resources, all nodes from both islands can be accessed from the ``compute`` and ``long`` partitions. This has implications for how Slurm scripts should be written. Specifically, the scripts should not assume a particular node specification (e.g. a particular number of cores, or memory footprint, per node), since (unless otherwise instructed) the scheduler can to allocate jobs to nodes from either (or both) island. Users are therefore discouraged from using the ``#SBATCH --nodes=`` option unless there is a specific reason to do so. 
+As of July 2025, Prospero's cpu-only nodes come in two different `specifications <https://prospero-docs.readthedocs.io/en/latest/specifications.html>`_. Most notably they used different processors, with different numbers of cores, and different memory footprints. The standard compute partitions on SLURM include nodes of both specification. Unless otherwise instructed, SLURM will assume that jobs can be submitted to either type of node, including a mix of both types for parallel or array jobs. 
+
+SLURM submission scripts therefore should *not* assume a particular node specification (e.g. a particular number of cores, or memory footprint, per node). Users are therefore discouraged from requesting resources with the ``#SBATCH --nodes=`` option unless there is a specific reason to do so. 
 
 To illustrate why: consider the following example:
 
@@ -208,7 +210,7 @@ To illustrate why: consider the following example:
     #SBATCH --ntasks-per-node=64
     #SBATCH --ncpus-per-task=1
 
-If allocated to the Prospero-I partition, the job will make efficient use of resources, as all compute cores on the nodes will be used, but if allocated to the Prospero-II partition only half of the cores will be utilised on each node. The job could actually be executed on a single Prospero-II node. Therefore, for this simple example it is recommended to instead specify:
+If allocated to the older Apollo-based nodes (64 cores per node) the job will make efficient use of resources, as all compute cores on the nodes will be used. But if allocated to the newer Cray-based nodes (128 cores per node), only half of the cores will be used on each node; the job could actually be executed on a single Cray node. Therefore, for this simple example it is recommended to instead specify:
 
 .. code-block:: bash
 
@@ -217,9 +219,11 @@ If allocated to the Prospero-I partition, the job will make efficient use of res
     #SBATCH --ntasks=128
     #SBATCH --ncpus-per-task=1
 
-which will enable Slurm to allocate the job the 128 cores it requests by allocating either two Prospero-I nodes, or a single Prospero-II node.
+which will enable Slurm to allocate the job the 128 cores it requests by allocating either two Apollo nodes, or a single Cray node.
 
-It is possible to submit jobs to the ``compute`` and ``long`` partitions, but restrict them to running on only one type of node, i.e. only Prospero-I nodes or only Prospero-II nodes. To do this, one includes the SLURM option ``--constraint=epyc7k`` to restrict to Prospero-I nodes and ``--constraint=epyc9k`` to restrict to Prospero-II nodes.  
+It is possible to submit jobs to the ``compute`` and ``long`` partitions, but restrict them to running on only one type of node, i.e. only Apollo nodes or only Cray nodes. To do this, one includes the SLURM option ``--constraint=epyc7k`` to restrict to Apollo nodes and ``--constraint=epyc9k`` to restrict to Cray nodes.  
+
+
 
 
 Example scripts
