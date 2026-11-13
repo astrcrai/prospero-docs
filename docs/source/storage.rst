@@ -37,4 +37,4 @@ At present no volumes are backed up, so users are advised to keep their source c
 
 Best practice
 ------------
-Please keep important code on the homespace and keep this backed up yourself. For most users, it is advised to keep data specific to personal projects in /mnt/scratch/users/[USERNAME]. Data for projects involving multiple users should be kept in /mnt/scratch/projects/[PROJECTNAME]. The volume /mnt/data1 is in principle available to all users but is a legacy system that predates the high-performance ClusterStor facility that hosts /mnt/archive. 
+Please keep important code on the homespace and keep this backed up yourself. For most users, it is advised to keep data specific to personal projects in /mnt/scratch/users/[USERNAME]. Data for projects involving multiple users should be kept in /mnt/scratch/projects/[PROJECTNAME]. The volume /mnt/data1 is in principle available to all users but is a legacy system that predates the high-performance ClusterStor facility that hosts /mnt/scratch. 
