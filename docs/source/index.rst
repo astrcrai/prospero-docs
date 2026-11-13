@@ -13,12 +13,7 @@ Prospero is available for use by all research staff and postgraduate research st
 
 .. IMPORTANT::
 
-   06/02/2026 - Over the next few months, Prospero will be migrated from the RHEL v8 operating system to RHEL v9.7. This will provide long term support and improved performance. Under the new O/S, users will have a new, empty home space, accessed via a different gateway address. Users will be migrated to the new system in batches. For further infomation please see `here <https://prospero-docs.readthedocs.io/en/latest/access.html#migrating-to-the-new-operating-system>`_.
-
-.. IMPORTANT::
-
-   28/07/2025 - Phase-2 of Prospero is underway. The first 13 nodes with the `Prospero-2 specification <https://prospero-docs.readthedocs.io/en/latest/specifications.html>`_ have been installed and are available in the compute and long SLURM partitions. The dissimilar specifications of Prospero-I and Prospero-II nodes has **important implications** for how job submission scripts should be written, please see `here <https://prospero-docs.readthedocs.io/en/latest/scheduler.html#slurm-scripts-in-the-prospero-ii-era>`_.
-
+   13/11/2026 - The migration of Prospero to the RHEL v9.7 operating system is now complete. Access to the system is now only possible through login3. It is important to recognise that Prospero is now a heterogeneous facility, with the SLURM cpu partitions including nodes with two different specifications: this has **important implications** for how job submission scripts should be written, please see `here <https://prospero-docs.readthedocs.io/en/latest/scheduler.html#slurm-scripts-in-the-prospero-ii-era>`_. For further infomation about the new O/S please see `here <https://prospero-docs.readthedocs.io/en/latest/access.html#migrating-to-the-new-operating-system>`_.
 
 .. NOTE::
 
