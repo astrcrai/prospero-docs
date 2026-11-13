@@ -33,7 +33,7 @@ $ ln -s /mnt/scratch/users/[USERNAME]/.vscode-server .vscode-server
 
 Backups
 ------------
-At present no volumes are backed up, so users are advised to keep their source code on a version control system and maintain their own backups. We hope to install a system to provide daily backups of the homespace during 2026. 
+The homespace is backed up daily by an automated system. If you need access to a backup, please log an ITS helpdesk ticket. Nevertheless, users are advised to keep their source code on a version control system and maintain their own backups of mission-critical source code and data. 
 
 Best practice
 ------------
