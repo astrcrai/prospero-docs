@@ -208,7 +208,7 @@ To illustrate why: consider the following example:
     #SBATCH --partition=compute
     #SBATCH --nodes=2
     #SBATCH --ntasks-per-node=64
-    #SBATCH --ncpus-per-task=1
+    #SBATCH --cpus-per-task=1
 
 If allocated to the older Apollo-based nodes (64 cores per node) the job will make efficient use of resources, as all compute cores on the nodes will be used. But if allocated to the newer Cray-based nodes (128 cores per node), only half of the cores will be used on each node; the job could actually be executed on a single Cray node. Therefore, for this simple example it is recommended to instead specify:
 
@@ -217,7 +217,7 @@ If allocated to the older Apollo-based nodes (64 cores per node) the job will ma
     #!/bin/bash
     #SBATCH --partition=compute
     #SBATCH --ntasks=128
-    #SBATCH --ncpus-per-task=1
+    #SBATCH --cpus-per-task=1
 
 which will enable Slurm to allocate the job the 128 cores it requests by allocating either two Apollo nodes, or a single Cray node.
 
