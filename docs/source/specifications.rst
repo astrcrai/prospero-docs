@@ -1,29 +1,32 @@
 Prospero specifications
 =====
 
-The Prospero facility is comprised of two "islands", Prospero-I and Prospero-II. Prospero-I, commissioned in 2020, is based primarily on HPE Apollo 2000 shared infrastructure chassis, each of which hosts up to four HPE XL225 compute nodes. Prospero-I includes a GPU-accelerated partition comprised of a single Apollo 6500 chassis, hosting a single server with four GPU engines. 
+The Prospero facility is currently comprised of two generations of nodes with differing specifications. The original nodes, commissioned between 2020 and 2025, are based primarily on HPE Apollo 2000 shared-infrastructure chassis, each of which hosts up to four HPE XL225 compute nodes equipped with ``epyc7k`` generation processors. The newer nodes, commissioned since 2025, are based on HPE Cray XD2000 shared infrastructure chassis, each of which hosts four HPE Cray XD225 compute nodes with ``epyc9k`` generation processors.
 
-Prospero-II, commissioned in 2025, is based on HPE Cray XD2000 shared infrastructure chassis, each of which hosts four HPE Cray XD225 compute nodes. 
+Prospero also includes includes two GPU-accelerated servers. The older server is an Apollo 6500 chassis, hosting a single server with four nvidia A100 GPU engines and epyc7k processors. The newer is  
+
 
 As of Q3/2025, Prospero comprises over 5000 compute cores and provides approximately 45 million core hours per year to the LJMU research community.
 
 
 =====
-Prospero-II
+Cray nodes
 =====
-
-**Standard compute node specification:**
 
 * HPE Cray XD225v server
 * 2x AMD EPYC 64-core processors (9534 2.45GHz) 
 * 768GB DDR4-3200 memory
 * 15TB NVMe SSD local storage
-* HDR200 Infiniband network interface
+* HDR200 or NDR200 Infiniband network interface
 
-Currently Prospero-II comprises 4 such chassis with 13 compute nodes.
+Prospero currently has 13 standard Cray compute nodes.
+
+**GPU accelerated node specification:**
+
+* To be filled in....
 
 =====
-Prospero-I
+Apollo nodes based on ``epyc7k`` processors.
 =====
 
 **Standard compute node specification:**
@@ -34,11 +37,7 @@ Prospero-I
 * 480GB SATA SSD local storage
 * HDR100 Infiniband network interface
 
-
- Combined performance of all 52 Prospero-I nodes is 84.7 Tflops.
-
-  * Single node performance of 1.9 Tflops for the EPYC2 nodes.
-  * Single node performance of 1.75 Tflops for the EPYC3 nodes.
+Prospero currently has 52 standard Apollo compute nodes.
 
 **Memory-rich compute nodes specification:**
 
