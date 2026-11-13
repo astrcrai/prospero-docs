@@ -18,7 +18,7 @@ Conditions of use
 
 Prospero is subject the university's `standard IT policy <https://www.ljmu.ac.uk/students/before-you-arrive/it-terms-and-conditions>`_. There are a number of additional conditions that apply specifically to Prospero:
 
-* Users must not execute jobs directly other than for very brief testing. All production calculations must be submitted via the `SLURM batch queue scheduler <https://github.com/astrcrai/prospero-docs/blob/main/docs/source/scheduler.rsts>`_. 
+* Users must not execute jobs directly other than for very brief testing. All production calculations must be submitted via the `SLURM batch queue scheduler <https://prospero-docs.readthedocs.io/en/latest/scheduler.html>`_. 
 * Users may log into compute nodes, but only for the purposes of examining the local use of resources (e.g. via ``top``). As above, jobs may not be executed directly on compute nodes.
 * **Note that the system is actively monitored and directly-executed jobs will be terminated without warning**.
 * Personal data should not be stored on the system.
