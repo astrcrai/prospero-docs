@@ -2,6 +2,8 @@
 Linux desktop access via VNC
 =====
 
+*Note that this page needs updating for the Prospero-II era*
+
 Here is a quick guide on how to access to the login02 via VNC
 
 1.	Log in to Prospero
