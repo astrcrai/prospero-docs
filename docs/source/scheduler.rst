@@ -174,17 +174,17 @@ Slurm partitions
 
 Prospero offers the following Slurm partitions:
 
-=========   ===========     ========     ==========           
-Name	    Time limit	    Priority     Resources             
-=========   ===========     ========     ==========           
-compute	    24 hours	    Standard     All standard compute nodes (Prospero-I and Prospero-II)                   
-long	    72 hours	    Low          All standard compute nodes (Prospero-I and Prospero-II)
-test	    1 hour          High         All standard compute nodes (Prospero-I)
-himem	    24 hours        Standard     Both memory-rich nodes
-gpu         24 hours        Standard     GPU-accelerated node
-ari    	    12 hours        Standard     A single node ringfenced to ARI users
-transients  12 hours        Standard     A single node (no Infiniband) ringfenced to daily analysis of Liverpool Telescope data 
-=========   ===========     ========     ==========
+==========   ==========   ========   ==========
+Name         Time limit   Priority   Resources
+==========   ==========   ========   ==========
+compute      24 hours     Standard   All standard compute nodes (Prospero-I and Prospero-II)
+long         72 hours     Low        All standard compute nodes (Prospero-I and Prospero-II)
+test         1 hour       High       All standard compute nodes (Prospero-I)
+himem        24 hours     Standard   Both memory-rich nodes
+gpu          24 hours     Standard   GPU-accelerated node
+ari          12 hours     Standard   A single node ringfenced to ARI users
+transients   12 hours     Standard   A single node (no Infiniband) ringfenced to daily analysis of Liverpool Telescope data
+==========   ==========   ========   ==========
 
 The ``compute`` and ``long`` partitions share the same resources. Users should consider ``compute`` as the standard partition. Jobs requiring a longer execution time may use ``long`` but this partition has a **lower priority factor** to encourage more frequent job cycling. Unless otherwise arranged with ITS, users of the ``gpu`` partition can use a maximum of 2 GPUs at once. The ``ari`` and ``transients`` partitions are ringfenced to members of the Astrophysics Research Institute.
 
