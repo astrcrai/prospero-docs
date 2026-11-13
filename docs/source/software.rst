@@ -68,38 +68,19 @@ There is currently 2 versions of StarCCM installed. version 16 and version 18
     Take note that ``-rr -rrthreads 63 -rgraphics mesa -graphics mesa`` is required to be included. This is due to there is a known issue with StarCCM and AMD EPYC CPU's
 
 
-**SWIFT** 
+**SWIFT / COLIBRE** 
 
 Code and documentation available `here <http://swift.dur.ac.uk/>`_.
-Note that the recommended modules for SWIFT are slightly more complicated, as we have found that it helps to use ``openmpi`` compiled against a specific version of the low-level ``ucx`` communication library.
 
 .. code-block:: swift
 
-    module load apps/oneapi/2021.2.0
-    module load compiler-rt
-    module load tbb
-    module load mpi/openmpi/4.0.5/intel-2021.2.0+ucx-1.8.0
-    export LD_LIBRARY_PATH=/opt/apps/alces/ucx/1.11.2+intel-2021.2.0+el8/lib:$LD_LIBRARY_PATH
-    export PATH=/opt/apps/alces/oneapi/2021.2.0/compiler/2021.2.0/linux/bin/intel64/:$PATH
-    module load libs/metis/5.1.0/intel-2021.2.0
-    module load libs/gsl/2.6/intel-2021.2.0
-    module load libs/fftw3_double/3.3.8/intel-2021.2.0+openmpi-4.0.5
-    module load apps/hdf5_mpi/1.12.0/intel-2021.2.0+openmpi-4.0.5
-    module load libs/sundials_sp/5.8.0/intel-2021.2.0
-
-Note that the ``sundials`` differential equation solver is only needed if you are using versions of ``SWIFT`` that use the ``CHIMES`` chemistry network (e.g. the ``COLIBRE`` branch). 
-
-Relatedly with SWIFT, it is recommended to export the following environment variables in ``slurm`` job submission scripts:
-
-.. code-block:: swift-slurm
-
-    export UCX_IB_RCACHE_MAX_REGIONS=32768
-    export UCX_IB_GID_INDEX=0
-    export OMPI_MCA_btl_openib_allow_ib=1
-    export OMPI_MCA_btl_openib_if_include="mlx5_0:1"
-    export OMPI_MCA_btl=^vader,tcp,openib,uct
-
-In the event of code lock-ups, we advise reducing the value of ``UCX_IB_RCACHE_MAX_REGIONS`` by factors of 2 until the issue resolves. We have seen some cases where values as low as 4096 are needed for stability, at the expense of performance.
+	module load intel-oneapi-compilers/2025.3.2
+	module load openmpi/5.0.9/intel-oneapi-compilers-2025.3.2
+	module load metis/5.1.0/intel-oneapi-compilers-2025.3.2
+	module load sundials/5.8.0/intel-oneapi-compilers-2025.3.2
+	module load gsl/2.8/intel-oneapi-compilers-2025.3.2
+	module load fftw/3.3.10/intel-oneapi-compilers-2025.3.2
+	module load hdf5/1.14.6/intel-oneapi-compilers-2025.3.2/openmpi-5.0.9/a-he5rnib
 
 
 **Anaconda**
