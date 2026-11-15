@@ -1,80 +1,228 @@
+.. _specifications:
+
 Prospero specifications
-=====
+=======================
 
-The Prospero facility is currently comprised of two generations of nodes with differing specifications. The original nodes, commissioned between 2020 and 2025, are based primarily on HPE Apollo 2000 shared-infrastructure chassis, each of which hosts up to four HPE XL225 compute nodes equipped with ``epyc7k`` generation processors. The newer nodes, commissioned since 2025, are based on HPE Cray XD2000 shared infrastructure chassis, each of which hosts four HPE Cray XD225 compute nodes with ``epyc9k`` generation processors.
+This page describes the hardware comprising the Prospero HPC facility,
+so you can choose the right resources for your jobs. To request resources
+for a job, see the :doc:`Slurm quickstart <scheduler>`; for where to keep
+your data, see :doc:`storage`. If you do not yet have an account, see
+:doc:`access`.
 
-Prospero also includes includes two GPU-accelerated servers. The older server is an Apollo 6500 chassis, hosting a single server with four nvidia A100 GPU engines and epyc7k processors. The newer is  
+.. .. TODO: update the "as of" date below whenever node counts change.
+
+As of Q3/2025, Prospero comprises over 5000 compute cores and provides
+approximately 45 million core hours per year to the LJMU research
+community.
+
+.. contents:: On this page
+   :local:
+   :depth: 2
 
 
-As of Q3/2025, Prospero comprises over 5000 compute cores and provides approximately 45 million core hours per year to the LJMU research community.
+Overview
+--------
+
+Prospero has two generations of compute nodes, which differ in processor
+generation and interconnect speed:
+
+* **First generation** nodes (commissioned 2020-2025) use AMD ``epyc7k`` processors and are mostly based on HPE Apollo 2000
+  shared-infrastructure chassis, each hosting up to four HPE XL225 compute nodes.
+* **Second generation** nodes (commissioned since 2025) use AMD ``epyc9k`` generation processors and are mostly are based on HPE Cray XD2000
+  shared-infrastructure chassis, each hosting four HPE Cray XD225 compute nodes.
+
+There are also two first generation nodes (with ``epyc7k`` processors) that have large memory footprints: one has 1.5TB and the other has 2.0TB.
+
+Prospero has two GPU-accelerated servers: a first generation Apollo 6500 server with
+four NVIDIA A100 GPUs and ``epyc7k`` processors, and a second generation DL380 server with four NVIDIA H200 GPUs and ``epyc9k`` processors.
 
 
-=====
-Cray nodes
-=====
 
-* HPE Cray XD225v server
-* 2x AMD EPYC 64-core processors (9534 2.45GHz) 
-* 768GB DDR4-3200 memory
-* 15TB NVMe SSD local storage
-* HDR200 or NDR200 Infiniband network interface
+.. list-table:: Compute nodes at a glance
+   :header-rows: 1
+   :widths: 24 14 10 12 20 10
 
-Prospero currently has 13 standard Cray compute nodes.
+   * - Node type
+     - Generation
+     - Nodes
+     - Cores per node
+     - Memory per node
+     - GPUs
+   * - Standard (Apollo)
+     - ``epyc7k``
+     - 52
+     - 64
+     - 512 GB
+     - --
+   * - Standard (Cray)
+     - ``epyc9k``
+     - 13
+     - 128
+     - 768 GB
+     - --
+   * - High-memory 1
+     - ``epyc7k``
+     - 1
+     - 64
+     - 1.5 TB
+     - --
+   * - High-memory 2
+     - ``epyc7k``
+     - 1
+     - 128
+     - 2.0 TB
+     - --
+   * - GPU (Apollo)
+     - ``epyc7k``
+     - 1
+     - 16
+     - 1.0 TB
+     - 4x A100 80 GB
+   * - GPU (Cray)
+     - ``epyc9k``
+     - 1
+     - 128
+     - 1.0TB
+     - 4x H200 140GB
 
-**GPU accelerated node specification:**
+.. TODO: add a "Slurm partition" column linking each node type to the
+   partition(s) that give access to it, and confirm the Cray GPU node count.
 
-* To be filled in....
 
-=====
-Apollo nodes based on ``epyc7k`` processors.
-=====
+Standard compute nodes
+----------------------
 
-**Standard compute node specification:**
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+   :widths: 22 39 39
 
-* HPE ProLiant XL225n Gen10+ server
-* 2x AMD EPYC 32-core processors (7502 2.5GHz in 36 nodes, 7513 2.6GHz in 16 nodes) 
-* 512GB DDR4-3200 memory
-* 480GB SATA SSD local storage
-* HDR100 Infiniband network interface
+   * -
+     - Apollo (``epyc7k``)
+     - Cray (``epyc9k``)
+   * - Number of nodes
+     - 52
+     - 13
+   * - Server
+     - HPE ProLiant XL225n Gen10+
+     - HPE Cray XD225v
+   * - Processors
+     - | 2x AMD EPYC 32-core:
+       | 7502 at 2.5 GHz (36 nodes)
+       | 7513 at 2.6 GHz (16 nodes)
+     - 2x AMD EPYC 9534 64-core at 2.45 GHz
+   * - Cores per node
+     - 64
+     - 128
+   * - Memory
+     - 512 GB DDR4-3200
+     - 768 GB
+   * - Local storage
+     - 480 GB SATA SSD
+     - 15 TB NVMe SSD
+   * - Interconnect
+     - HDR100 InfiniBand
+     - HDR200 or NDR200 InfiniBand
 
-Prospero currently has 52 standard Apollo compute nodes.
+.. TODO: the old page listed the Cray memory as DDR4-3200. EPYC 9004-series
+   processors normally use DDR5, so please confirm the memory type before
+   adding it to the Cray column above.
 
-**Memory-rich compute nodes specification:**
 
-High mem node1
+High-memory nodes
+-----------------
 
-* HPE ProLiant XL385 Gen10+ server
-* 2x AMD EPYC 7502 2.6GHz 32-core processors
-* 1.5TB DDR4-3200 memory
-* 480GB SATA SSD local storage
-* HDR100 Infiniband network interface
+Two nodes are available for jobs that need more memory than a standard node
+provides.
 
-High mem node2
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+   :widths: 22 39 39
 
-* HPE ProLiant XL385 Gen10+ server
-* 2x AMD EPYC 7763 2.45GHz 64-core processors
-* 2.0TB DDR4-3200 memory
-* 480GB SATA SSD local storage
-* HDR100 Infiniband network interface
+   * -
+     - High-memory 1
+     - High-memory 2
+   * - Server
+     - HPE ProLiant XL385 Gen10+
+     - HPE ProLiant XL385 Gen10+
+   * - Processors
+     - 2x AMD EPYC 7502 32-core at 2.6 GHz
+     - 2x AMD EPYC 7763 64-core at 2.45 GHz
+   * - Cores per node
+     - 64
+     - 128
+   * - Memory
+     - 1.5 TB DDR4-3200
+     - 2.0 TB DDR4-3200
+   * - Local storage
+     - 480 GB SATA SSD
+     - 480 GB SATA SSD
+   * - Interconnect
+     - HDR100 InfiniBand
+     - HDR100 InfiniBand
 
-**GPU accelerated node specification:**
 
-* HPE ProLiant XL675 Gen10+ server
-* 2x AMD EPYC 7262 8-core 3.2GHz processors
-* 1.0TB DDR4-3200 memory
-* 4x NVIDIA A100 80GB accelerator 
-* 1.9TB SATA SSD local storage
-* HDR100 Infiniband network interface
+GPU-accelerated nodes
+---------------------
 
-=====
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+   :widths: 22 39 39
+
+   * -
+     - Apollo (``epyc7k``)
+     - Cray (``epyc9k``)
+   * - Server
+     - HPE ProLiant XL675 Gen10+
+     - HPE ProLiant DL380 Gen 12 
+   * - Processors
+     - 2x AMD EPYC 7262 8-core at 3.2 GHz
+     - 2x Intel Xeon 6710E 64-core at 2.4GHz
+   * - Cores per node
+     - 16
+     - 128
+   * - Memory
+     - 1.0 TB DDR4-3200
+     - 1.0 TB DDR5-6400
+   * - Accelerators
+     - 4x NVIDIA A100 80 GB
+     - 4x NVIDIA H200 140GB
+   * - Local storage
+     - 1.9 TB SATA SSD
+     - 15 TB TB NVMe
+   * - Interconnect
+     - HDR100 InfiniBand
+     - NDR200 Infiniband
+
+
 Networked storage
-=====
+-----------------
 
-* General purpose:
+.. list-table::
+   :header-rows: 1
+   :widths: 18 22 14 46
 
-  * HPE ClusterStor parallel storage with 3.6PB (/mnt/scratch)
-  * HPE Apollo 4200 Gen10+ storage with 250TB (/mnt/data1)
+   * - Path
+     - Use
+     - Capacity
+     - Technology
+   * - ``/mnt/scratch``
+     - General purpose
+     - 3.6 PB
+     - HPE ClusterStor parallel storage
+   * - ``/mnt/data1``
+     - General purpose
+     - 250 TB
+     - HPE Apollo 4200 Gen10+ storage
+   * - ``/mnt/aridata1``
+     - ARI use
+     - 250 TB
+     - HPE Apollo 4200 Gen10+ storage server, RAID6
 
-* ARI use:
+For quotas, backup arrangements and guidance on which area to use for what,
+see :doc:`storage`.
 
-  * HPE Apollo 4200 Gen10+ storage server with 250TB in RAID6 (/mnt/aridata1)
+.. TODO: spell out "ARI" in full on first use, and say whether backups
+   apply to each area (or confirm that they are covered on the storage page).
