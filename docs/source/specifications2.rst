@@ -3,7 +3,7 @@
 Prospero specifications
 =======================
 
-This page describes the hardware that makes up the Prospero HPC facility,
+This page describes the hardware comprising the Prospero HPC facility,
 so you can choose the right resources for your jobs. To request resources
 for a job, see the :doc:`Slurm quickstart <scheduler>`; for where to keep
 your data, see :doc:`storage`. If you do not yet have an account, see
@@ -26,20 +26,17 @@ Overview
 Prospero has two generations of compute nodes, which differ in processor
 generation and interconnect speed:
 
-* **Original nodes** (commissioned 2020-2025) are based on HPE Apollo 2000
-  shared-infrastructure chassis, each hosting up to four HPE XL225 compute
-  nodes with ``epyc7k`` generation processors.
-* **Newer nodes** (commissioned since 2025) are based on HPE Cray XD2000
-  shared-infrastructure chassis, each hosting four HPE Cray XD225 compute
-  nodes with ``epyc9k`` generation processors.
+* **First generation** nodes (commissioned 2020-2025) use AMD ``epyc7k`` processors and are mostly based on HPE Apollo 2000
+  shared-infrastructure chassis, each hosting up to four HPE XL225 compute nodes.
+* **Second generation** nodes (commissioned since 2025) use AMD ``epyc9k`` generation processors and are mostly are based on HPE Cray XD2000
+  shared-infrastructure chassis, each hosting four HPE Cray XD225 compute nodes.
 
-There are also two GPU-accelerated servers: an older Apollo 6500 server with
-four NVIDIA A100 GPUs and ``epyc7k`` processors, and a newer server
-commissioned since 2025.
+There are also two first generation nodes (with ``epyc7k`` processors) that have large memory footprints: one has 1.5TB and the other has 2.0TB.
 
-.. TODO: the original sentence describing the newer GPU server was cut off
-   ("The newer is ..."). Complete it, and fill in the Cray GPU row in the
-   tables below.
+Prospero has two GPU-accelerated servers: a first generation Apollo 6500 server with
+four NVIDIA A100 GPUs and ``epyc7k`` processors, and a second generation DL380 server with four NVIDIA H200 GPUs and ``epyc9k`` processors.
+
+
 
 .. list-table:: Compute nodes at a glance
    :header-rows: 1
@@ -50,7 +47,7 @@ commissioned since 2025.
      - Nodes
      - Cores per node
      - Memory per node
-     - GPUs per node
+     - GPUs
    * - Standard (Apollo)
      - ``epyc7k``
      - 52
@@ -84,9 +81,9 @@ commissioned since 2025.
    * - GPU (Cray)
      - ``epyc9k``
      - 1
-     - TBC
-     - TBC
-     - TBC
+     - 128
+     - 1.0TB
+     - 4x H200 140GB
 
 .. TODO: add a "Slurm partition" column linking each node type to the
    partition(s) that give access to it, and confirm the Cray GPU node count.
@@ -110,8 +107,9 @@ Standard compute nodes
      - HPE ProLiant XL225n Gen10+
      - HPE Cray XD225v
    * - Processors
-     - 2x AMD EPYC 32-core: 7502 at 2.5 GHz (36 nodes) or 7513 at 2.6 GHz
-       (16 nodes)
+     - | 2x AMD EPYC 32-core:
+       | 7502 at 2.5 GHz (36 nodes)
+       | 7513 at 2.6 GHz (16 nodes)
      - 2x AMD EPYC 9534 64-core at 2.45 GHz
    * - Cores per node
      - 64
@@ -178,28 +176,25 @@ GPU-accelerated nodes
      - Cray (``epyc9k``)
    * - Server
      - HPE ProLiant XL675 Gen10+
-     - TBC
+     - HPE ProLiant DL380 Gen 12 
    * - Processors
      - 2x AMD EPYC 7262 8-core at 3.2 GHz
-     - TBC
+     - 2x Intel Xeon 6710E 64-core at 2.4GHz
    * - Cores per node
      - 16
-     - TBC
+     - 128
    * - Memory
      - 1.0 TB DDR4-3200
-     - TBC
+     - 1.0 TB DDR5-6400
    * - Accelerators
      - 4x NVIDIA A100 80 GB
-     - TBC
+     - 4x NVIDIA H200 140GB
    * - Local storage
      - 1.9 TB SATA SSD
-     - TBC
+     - 15 TB TB NVMe
    * - Interconnect
      - HDR100 InfiniBand
-     - TBC
-
-.. TODO: complete the Cray GPU column (this was "To be filled in" on the
-   old page) or remove it until the specification is confirmed.
+     - NDR200 Infiniband
 
 
 Networked storage
