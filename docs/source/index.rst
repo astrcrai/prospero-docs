@@ -15,7 +15,7 @@ Prospero is available for use by all research staff and postgraduate research st
 
 .. IMPORTANT::
 
-   13/11/2026 - The migration of Prospero to the RHEL v9.7 operating system is now complete. Access to the system is now only possible through login3. It is important to recognise that Prospero is now a heterogeneous facility, with the SLURM cpu partitions including nodes with two different specifications: this has **important implications** for how job submission scripts should be written, please see `here <https://prospero-docs.readthedocs.io/en/latest/scheduler.html#slurm-scripts-in-the-prospero-ii-era>`_. For further infomation about the new O/S please see `here <https://prospero-docs.readthedocs.io/en/latest/access.html#migrating-to-the-new-operating-system>`_.
+   13/11/2026 - The migration of Prospero to the RHEL v9.7 operating system is now complete. Access to the system is now only possible through login3. It is important to recognise that Prospero is now a heterogeneous facility, with the SLURM cpu partitions including nodes with two different specifications: this has **important implications** for how job submission scripts should be written, please see :ref:`here <scheduler#slurm-scripts-in-the-prospero-ii-era>`
 
 .. NOTE::
 
