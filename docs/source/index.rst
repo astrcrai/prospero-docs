@@ -39,6 +39,7 @@ Contents
   getting_access
   first_login
   first_job
+  ssh_key_pair
 
 .. toctree::
   :maxdepth: 3
