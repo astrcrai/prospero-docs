@@ -1,4 +1,4 @@
-.. _my-reference-label: Access
+.. _getting_access:
 
 Getting access
 ===============
