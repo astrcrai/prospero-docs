@@ -7,30 +7,3 @@ Eligible LJMU staff and students (see :ref:`Policies`) wishing to obtain an acco
 
 Per the usage policy, research collaborators at external institutions with a genuine need to use Prospero may also obtain an account. They must first register with LJMU as an honorary visiting academic or honorary visiting student, after which their LJMU sponsor may request the creation of a Prospero account for them via the helpdesk.
 
-Logging on
---------------
-
-Access to the terminal on the gateway node(s) is via SSH. New users should use the address
-
-.. code-block:: gateway-address
-
-    prospero2.ljmu.ac.uk
-
-Note that the old gateway, ``prospero.ljmu.ac.uk`` is now disabled. This take you to the gateway server ``login3``. Note that ``login1`` and ``login2`` were both part of the original Prospero cluster that is now retired.
-
-As a security measure, Prospero uses a non-standard SSH port (10022), therefore this port must be specified via the ``-p`` argument, e.g.
-
-.. code-block:: ssh
-
-    ssh ITSusername@prospero2.ljmu.ac.uk -p 10022
-
-A more elegant solution is to add a code snippet to your ``.ssh/config`` in which you can specify that this port should always be used when connecting to Prospero:
-
-.. code-block:: ssh-config
-
-    Host prospero2.ljmu.ac.uk
-        User ITSusername
-        HostName prospero2.ljmu.ac.uk
-        Port 10022
-
-SSH config files can be used to specify many useful settings, as explained in the manual ``man 5 ssh_config``.
