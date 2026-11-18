@@ -34,7 +34,7 @@ Contents
     
 .. toctree::
   :maxdepth: 1
-  :caption: GETTING STARTED
+  :caption: FOR NEW USERS
 
   access
 
