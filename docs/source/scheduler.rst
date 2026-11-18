@@ -1,3 +1,5 @@
+.. _slurm:
+
 =====
 Slurm quickstart
 =====
@@ -193,7 +195,8 @@ Slurm priorities
 
 Prospero uses Slurm's `multifactor priority algorithm <https://slurm.schedmd.com/priority_multifactor.html>`_. The scheduler prioritises larger jobs and primarily balances the usage of accounts (``ARI``, ``FET``, ``LJMU``) rather than individual users. Therefore, for example, two users with the same individual consumption level will have differing FairShare scores if their accounting groups have seen markedly different resource consumption in recent days. At present, the scheduler aims to apportion 5% of the resources to the ``LJMU`` group (which currently contains only a small number of users) and divides the remainder equally between ``ARI`` and ``FET``. 
 
-Slurm scripts in the Prospero-II era
+.. _slurm_for_mixed_nodes:
+Slurm scripts now that Prospero has mixed node types
 =======================
 
 As of July 2025, Prospero's cpu-only nodes come in two different `specifications <https://prospero-docs.readthedocs.io/en/latest/specifications.html>`_. Most notably they are equipped with different processors (with different numbers of cores), and different memory footprints. The standard compute partitions on SLURM include nodes of both specification. Unless otherwise instructed, SLURM will assume that jobs can be submitted to either type of node, including a mix of both types for parallel or array jobs. 
