@@ -23,4 +23,6 @@ Next, you can use the ``ssh-copy-id`` command to copy the public key to Prospero
 
     ssh-copy-id -i ~/.ssh/id_ed25519.pub prospero 
 
-Noet that this last step assumes that you have configured your ``.ssh/config`` file as instructed `here <https://prospero-docs.readthedocs.io/en/latest/first_login.html>`_. 
+Note that this last step assumes that you have configured your ``.ssh/config`` file as instructed `here <https://prospero-docs.readthedocs.io/en/latest/first_login.html>`_. 
+
+You should now be able to log onto Prospero without needing to enter your LJMU password. If you used a passphrase for your SSH key pair, you will need to enter this.
