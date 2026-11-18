@@ -41,8 +41,12 @@ Contents
   first_job
 
 .. toctree::
-  :maxdepth: 2
-  :caption: RUNNING JOBS
+  :maxdepth: 3
+  :caption: STANDARD OPERATIONS
+
+.. toctree::
+  :maxdepth: 3
+  :caption: ADVANCED OPERATIONS
 
   scheduler
 
