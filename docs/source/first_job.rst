@@ -176,15 +176,3 @@ Next steps
 * Load software using environment modules: :ref:`using-modules`
 * Run many similar jobs at once with job arrays: :ref:`job-arrays`
 * Run an interactive session: :ref:`interactive-jobs`
-
-If you get stuck, please contact the support team at <support-email>.
-
-A few things to adjust before publishing:
-
-Cross-references: the :ref: labels (getting-access, requesting-resources, etc.) are placeholders and will cause Sphinx warnings until matching labels exist, so rename or remove them.
-Account flag: if Prospero requires users to specify a project or account, add #SBATCH --account=<project> to the example script and the options table.
-Partition and limits: use a partition that’s quick to schedule, so a new user’s first job starts promptly.
-
-I can also write the follow-on pages, such as requesting resources, job arrays or interactive sessions, in the same style.
-
-Claude Code is built into this app
