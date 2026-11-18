@@ -1,3 +1,5 @@
+.. responsible_hpc:
+
 Responsible HPC
 =====
 
