@@ -7,7 +7,7 @@ Access to the terminal on the gateway node(s) is via SSH. New users should use t
 
     prospero2.ljmu.ac.uk
 
-This take you to the gateway server ``login3``.
+This will take you to the gateway server ``login3``.
 
 .. NOTE::
 
@@ -29,3 +29,5 @@ A more elegant solution is to add a code snippet to your ``.ssh/config`` in whic
         Port 10022
 
 SSH config files can be used to specify many useful settings, as explained in the manual ``man 5 ssh_config``.
+
+Once comfortable using ssh, you may wish to simplify logging onto Prospero by using an `ssh key pair <https://prospero-docs.readthedocs.io/en/latest/ssh_key_pair.html>`_. 
