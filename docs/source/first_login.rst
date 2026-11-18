@@ -23,7 +23,7 @@ A more elegant solution is to add a code snippet to your ``.ssh/config`` in whic
 
 .. code-block:: ssh-config
 
-    Host prospero2.ljmu.ac.uk
+    Host prospero
         User ITSusername
         HostName prospero2.ljmu.ac.uk
         Port 10022
