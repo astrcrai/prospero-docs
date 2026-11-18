@@ -11,7 +11,7 @@ FAQs
 
 Prospero is hosted and administered by LJMU ITS. Specialist support for the system is also provided by a third party company, Alces Flight. Users do not liaise directly with Alces, but with ITS staff via the `LJMU Helpdesk <https://helpme.ljmu.ac.uk/#dashboard>`_. 
 
-For academic/research questions rather than technical, please contact `Prof. Rob Crain <https://www.astro.ljmu.ac.uk/~astrcrai/>`_.
+For academic/research questions rather than technical, please contact `Prof. Rob Crain <https://hpc.ljmu.ac.uk/~astrcrai/>`_.
 
 **I would like new software installing, how do I request this?**
 
