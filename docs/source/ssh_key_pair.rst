@@ -16,3 +16,11 @@ The command to create an SSH key pair is:
 When asked where to save the key, press Enter to accept the default ``~/.ssh/id_ed25519`` or choose your own filename. If a key already exists there, answer ``n`` rather than overwriting it, and just reuse it.
 
 When asked for a passphrase, type one you will remember. This protects the key if your laptop is lost or stolen. Nothing appears as you type. You can also just not have a passphrase, which is less secure. By default, two files are created: ``id_ed25519`` (private key) and ``id_ed25519.pub`` (public key).
+
+Next, you can use the ``ssh-copy-id`` command to copy the public key to Prospero:
+
+.. code-block:: bash
+
+    ssh-copy-id -i ~/.ssh/id_ed25519.pub prospero 
+
+Noet that this last step assumes that you have configured your ``.ssh/config`` file as instructed `here <https://prospero-docs.readthedocs.io/en/latest/first_login.html>_. 
