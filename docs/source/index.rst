@@ -37,6 +37,8 @@ Contents
   :caption: FOR NEW USERS
 
   access
+  first_login
+  first_job
 
 .. toctree::
   :maxdepth: 2
