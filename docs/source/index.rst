@@ -36,7 +36,7 @@ Contents
   :maxdepth: 1
   :caption: FOR NEW USERS
 
-  access
+  getting_access
   first_login
   first_job
 
