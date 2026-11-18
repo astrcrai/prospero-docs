@@ -49,7 +49,7 @@ Contents
 
 .. toctree::
   :maxdepth: 3
-  :caption: ADVANCED OPERATIONS
+  :caption: COMMON SLURM JOB TYPES
 
   scheduler
 
