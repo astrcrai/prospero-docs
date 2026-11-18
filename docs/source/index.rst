@@ -31,8 +31,6 @@ Contents
 
   Home <self>
   specifications
-  storage
-
     
 .. toctree::
   :maxdepth: 1
@@ -58,6 +56,12 @@ Contents
   :caption: SOFTWARE
 
   software
+
+.. toctree::
+  :maxdepth: 3
+  :caption: DATA STORAGE
+
+  storage
 
 
 .. toctree::
