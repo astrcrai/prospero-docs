@@ -1,5 +1,7 @@
 .. include:: ../README.rst
 
+.. _index:
+
 Documentation for the PROSPERO HPC facility
 ===========================================================
 
@@ -72,4 +74,4 @@ Contents
   highlights
   history
   vnc
-  environmental
+  responsible_hpc
