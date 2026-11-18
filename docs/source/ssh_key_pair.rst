@@ -1,4 +1,4 @@
-Generating and using an SSH key pair
+Generating an SSH key pair
 ===========================================================
 
 An SSH key pair replaces your password with two files: a private key that stays on your personal computer, and a public key that you copy to Prospero. When you connect from your personal computer to Prospero, SSH proves you hold the private key without ever sending it. This can be particularly convenient when using ``VS Code`` or transferring data using ``rsync``.
