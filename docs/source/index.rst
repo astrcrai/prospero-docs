@@ -11,7 +11,7 @@ Prospero is the centralised high performance computing (HPC) facility for resear
   :width: 800
   :alt: Prospero
 
-Prospero is available for use by all research staff and postgraduate research students at LJMU, subject to usage `policies <https://prospero-docs.readthedocs.io/en/latest/policies.html>`_. To start using Prospero please see `Getting Access <https://prospero-docs.readthedocs.io/en/latest/access.html>`_.
+Prospero is available for use by all research staff and postgraduate research students at LJMU, subject to usage :ref:`policies <policies>`. To start using Prospero please see :ref:`Getting access <access>`.
 
 .. IMPORTANT::
 
