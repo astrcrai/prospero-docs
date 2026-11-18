@@ -169,7 +169,7 @@ Troubleshooting
    The job may not have started yet, or may have failed immediately. Check
    ``squeue`` and ``sacct -j <jobid>``.
 
-Next steps
+Next steps (RAC still needs to update this section)
 ----------
 
 * Learn how to request more cores, memory and GPUs: :ref:`requesting-resources`
