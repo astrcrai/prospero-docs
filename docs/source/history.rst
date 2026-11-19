@@ -1,7 +1,7 @@
 History
 =====
 
-Prospero is a collective response to the growth of a number of independent HPC facilities for research within LJMU (particularly those of the `Astrophysics Research Institute <https://www.ljmu.ac.uk/research/centres-and-institutes/astrophysics-research-institute>`_, the School of Engineering, and the School of Biological Sciences), each of which outgrew the capabilities of the local infrastructure for power and cooling. Migration to a consolidated, centralised solution hosted in the university's primary data centre has enabled the development of a facility with capacity and capability significantly beyond those of department-specific facilities.
+Prospero is a collective response to the growth of a number of independent HPC facilities for research within LJMU (particularly those of the `Astrophysics Research Institute <https://www.ljmu.ac.uk/research/centres-and-institutes/astrophysics-research-institute>`_, the `School of Engineering and Built Environment <https://www.ljmu.ac.uk/about-us/faculties/school-of-engineering-and-built-environment>`_, and the `School of Biological and Environmental Sciences <https://www.ljmu.ac.uk/about-us/faculties/school-of-biological-and-environmental-sciences>`_), each of which outgrew the capabilities of the local infrastructure for power and cooling. Migration to a consolidated, centralised solution hosted in the university's primary data centre has enabled the development of a facility with capacity and capability significantly beyond those of department-specific facilities.
 
 **Initial system:**
 
