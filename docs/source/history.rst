@@ -5,13 +5,15 @@ Prospero is a collective response to the growth of a number of independent HPC f
 
 **Initial system:**
 
-* Development of a new system was catalysed by the award of two major research grants to the ARI in 2018/19, from the European Research Council (PI: Prof. Ian McCarthy) and the Royal Society (PI: Prof. Rob Crain), and enabling an ambitious facility to be planned. 
+* Development of a new system was catalysed by the award of two major research grants to the ARI in 2018/19, from the European Research Council (PI: `Prof. Ian McCarthy <https://www.astro.ljmu.ac.uk/~igm/>`_) and the Royal Society (PI: `Prof. Robert Crain <https://hpc.ljmu.ac.uk/~astrcrai/>`_), and enabling an ambitious facility to be planned. 
 * HPE, in collaboration with UK vendors DTP, were approached to provide a design proposal meeting the broad requirements of the university's research base.
 * An initial system comprising 20 standard compute nodes and a memory-rich compute node (for a total of 1344 compute cores and 11.5TB memory) saw 'first light' in August 2020. 
-* The system was integrated with the ARI's existing Lenovo 1.5PB parallel data store.
+* The system was integrated with the ARI's existing Lenovo 1.5PB parallel data store, which has since been decommissioned.
 
 **Major updates:**
 
+* November 2026: a further 12 HPE Cray XD2000 nodes have been added.
+* Summer 2026: Prospero underwent a phased upgrade to its operating system.
 * November 2025: the HPE ClusterStor system has been expanded to 3.6PB capacity.
 * August 2025: a major update comprising the first 13 HPE Cray XD2000 nodes for Prospero-II and the initial 2PB HPE ClusterStor parallel file system.
 * June 2025: many 'back-end' updates, including infrastructure servers, new infrastructure storage, new infrastructure switches and a second IB switch as the backbone for Prospero phase-II.
