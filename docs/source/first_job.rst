@@ -168,11 +168,3 @@ Troubleshooting
 **There is no output file.**
    The job may not have started yet, or may have failed immediately. Check
    ``squeue`` and ``sacct -j <jobid>``.
-
-Next steps (RAC still needs to update this section)
-----------
-
-* Learn how to request more cores, memory and GPUs: :ref:`requesting-resources`
-* Load software using environment modules: :ref:`using-modules`
-* Run many similar jobs at once with job arrays: :ref:`job-arrays`
-* Run an interactive session: :ref:`interactive-jobs`
