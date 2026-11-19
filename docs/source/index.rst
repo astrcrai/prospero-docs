@@ -43,7 +43,7 @@ Contents
 
 .. toctree::
   :maxdepth: 2
-  :caption: COMMON SLURM JOB TYPES
+  :caption: SLURM
 
   scheduler
 
@@ -52,6 +52,7 @@ Contents
   :caption: SOFTWARE
 
   software
+  modules for frequently-used software packages
 
 .. toctree::
   :maxdepth: 2
@@ -62,14 +63,15 @@ Contents
 .. toctree::
   :maxdepth: 2
   :caption: GETTING HELP
-  
+
+  common issues
   help
-  policies
 
 .. toctree::
   :maxdepth: 2
   :caption: ADDITIONAL RESOURCES
 
+  policies
   highlights
   history
   vnc
