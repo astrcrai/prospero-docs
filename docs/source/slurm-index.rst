@@ -1,7 +1,7 @@
 Index · RST
 .. _slurm-index:
  
-Running jobs with SLURM
+Introduction to SLURM
 =======================
  
 Prospero uses the `SLURM <https://slurm.schedmd.com/>`_ workload manager to
