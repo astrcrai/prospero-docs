@@ -1,8 +1,10 @@
 .. _slurm:
 
 =====
-Slurm quickstart
+Slurm quickstart (old)
 =====
+
+**This info is left here for now for reference, but is in the process of being updated with newer content**
 
 The Prospero HPC cluster is made up of a number of compute nodes, which consist of one or more processors, memory and in the case of the GPU nodes, GPUs. 
 These computing resources are allocated to the user by the resource manager. This is achieved through the submission of jobs by the user. A job describes the computing resources required to run application(s) and how to run it. 
