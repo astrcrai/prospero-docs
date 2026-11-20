@@ -53,7 +53,7 @@ Contents
   slurm-job-examples
   slurm-job-arrays
   slurm-interactive-jobs
-  slurm-monitoring
+  slurm-job-monitoring
   slurm-best-practice
 
 .. toctree::
