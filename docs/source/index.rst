@@ -45,7 +45,16 @@ Contents
   :maxdepth: 2
   :caption: SLURM
 
-  scheduler
+  old-scheduler
+  slurm-index
+  slurm-concepts
+  slurm-requesting-resources
+  slurm-using-modules
+  slurm-job-examples
+  slurm-job-arrays
+  slurm-interactive-jobs
+  slurm-monitoring
+  slurm-best-practice
 
 .. toctree::
   :maxdepth: 2
