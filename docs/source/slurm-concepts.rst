@@ -1,6 +1,6 @@
 .. _slurm-concepts:
  
-How SLURM works
+SLURM concepts
 ===============
  
 Prospero is made up of many separate computers, called **nodes** (for more details, see :ref:`specifications`). Rather than
