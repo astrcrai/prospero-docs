@@ -83,4 +83,4 @@ into a gap without delaying a higher-priority job. This is a good reason to
 request an accurate (not excessive) time limit and only the resources you
 need, because smaller requests are easier to fit in.
 
-A list of the partitions available on Prospero can be found on the :ref:`slurm-prospero-partitions` page, but users are advised to first learn how to request :ref:`resources<slurm-requesting-resources>`.
+A list of the partitions available on Prospero can be found on the :ref:`partitions <slurm-prospero-partitions>` page, but users are advised to first learn how to request :ref:`resources <slurm-requesting-resources>`.
