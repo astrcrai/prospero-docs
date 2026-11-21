@@ -5,7 +5,7 @@ Efficient use of nodes in a heterogeneous system
 
 As of July 2025, Prospero's cpu-only nodes come in two different :ref:`specifications <specifications>`.
 
-Most notably they are equipped with processors **that have differing numbers of cores**, and different memory footprints. The standard compute partitions (``nodes`` and ``long``, see the :ref: `partitions <slurm-prospero-partitions>` page) on SLURM include nodes of both specification. Unless otherwise instructed, SLURM will assume that jobs can be submitted to either type of node, including a mix of both types for parallel or array jobs. 
+Most notably they are equipped with processors **that have differing numbers of cores**, and different memory footprints. The standard compute partitions (``nodes`` and ``long``, see the :ref:`partitions <slurm-prospero-partitions>` page) on SLURM include nodes of both specification. Unless otherwise instructed, SLURM will assume that jobs can be submitted to either type of node, including a mix of both types for parallel or array jobs. 
 
 .. IMPORTANT::
 
