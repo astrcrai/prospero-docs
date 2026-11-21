@@ -34,8 +34,8 @@ Common options
        ``2-00:00:00`` for two days.
    * - ``--nodes=<n>``
      - | Number of nodes.
-       | **Please only request nodes (rather than CPUs) if absolutely necessary**.
-       | For details of why this is important, see :ref:`slurm-heterogeneous-nodes`.
+       | **Please only request nodes if necessary**.
+       | For why this is important, see :ref:`this page <slurm-heterogeneous-nodes>`.
    * - ``--ntasks=<n>``
      - Total number of tasks (processes).
    * - ``--ntasks-per-node=<n>``
