@@ -48,6 +48,7 @@ Contents
   slurm-index
   slurm-concepts
   slurm-requesting-resources
+  slurm-prospero-partitions
   slurm-using-modules
   slurm-job-examples
   slurm-job-arrays
