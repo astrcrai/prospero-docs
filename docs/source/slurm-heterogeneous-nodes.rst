@@ -5,9 +5,9 @@ Efficient use of nodes in a heterogeneous system
 
 As of July 2025, Prospero's cpu-only nodes come in two different :ref:`specifications <specifications>`.
 
-`specifications <https://prospero-docs.readthedocs.io/en/latest/specifications.html>`_. Most notably they are equipped with different processors (with different numbers of cores), and different memory footprints. The standard compute partitions on SLURM include nodes of both specification. Unless otherwise instructed, SLURM will assume that jobs can be submitted to either type of node, including a mix of both types for parallel or array jobs. 
+`specifications <https://prospero-docs.readthedocs.io/en/latest/specifications.html>`_. Most notably they are equipped with processors **that have differing numbers of cores**, and different memory footprints. The standard compute partitions on SLURM include nodes of both specification. Unless otherwise instructed, SLURM will assume that jobs can be submitted to either type of node, including a mix of both types for parallel or array jobs. 
 
-SLURM submission scripts therefore should *not* assume a particular node specification (e.g. a particular number of cores, or memory footprint, per node). Users are therefore discouraged from requesting resources with the ``#SBATCH --nodes=`` option unless there is a specific reason to do so. 
+SLURM submission scripts therefore should **not** assume a particular node specification (e.g. a particular number of cores, or memory footprint, per node). Users are therefore discouraged from requesting resources with the ``#SBATCH --nodes=`` option unless there is a specific reason to do so. 
 
 To illustrate why: consider the following example:
 
