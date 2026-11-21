@@ -35,7 +35,7 @@ Common options
    * - ``--nodes=<n>``
      - | Number of nodes.
        | **Please only request nodes (rather than CPUs) if absolutely necessary**.
-       | For details of why this is important, see:ref:`slurm-heterogeneous-nodes`.
+       | For details of why this is important, see :ref:`slurm-heterogeneous-nodes`.
    * - ``--ntasks=<n>``
      - Total number of tasks (processes).
    * - ``--ntasks-per-node=<n>``
