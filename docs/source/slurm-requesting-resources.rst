@@ -159,4 +159,6 @@ SLURM sets a number of variables inside your job that you can use in scripts:
      - The array index (array jobs only).
  
 By default a job starts in the directory it was submitted from.
+
+Next, you can see what :ref:`partitions <slurm-prospero-partitions>` you can request on Prospero. 
  
