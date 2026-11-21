@@ -45,7 +45,6 @@ Contents
   :maxdepth: 2
   :caption: SLURM
 
-  old-scheduler
   slurm-index
   slurm-concepts
   slurm-requesting-resources
