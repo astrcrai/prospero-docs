@@ -1,4 +1,4 @@
-.. _requesting-resources:
+.. _slurm-requesting-resources:
  
 Requesting resources
 ====================
