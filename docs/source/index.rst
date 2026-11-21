@@ -55,6 +55,7 @@ Contents
   slurm-interactive-jobs
   slurm-job-monitoring
   slurm-best-practice
+  slurm-heterogeneous-nodes
 
 .. toctree::
   :maxdepth: 2
