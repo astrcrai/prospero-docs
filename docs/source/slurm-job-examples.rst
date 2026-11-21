@@ -323,3 +323,18 @@ To be emailed when a job starts, ends or fails, add:
 Avoid ``--mail-type=ALL`` on job arrays, as it can send a very large number of
 messages.
  
+Example scripts
+-------------------
+
+The Alces Flight environment includes a number of helpful example SLURM scripts for users to adapt. The types of script can be viewed using
+
+.. code-block:: bash
+
+    flight job list-templates
+
+and then copied to your working directory using the copy-template command, i.e to copy the "simple serial" example, use:
+
+.. code-block:: bash
+
+    flight job copy-template 3
+
