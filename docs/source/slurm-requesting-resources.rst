@@ -33,7 +33,10 @@ Common options
      - Maximum run time. Also accepts ``D-HH:MM:SS``, for example
        ``2-00:00:00`` for two days.
    * - ``--nodes=<n>``
-     - Number of nodes. Please only request nodes (rather than cpus) if absolutely necessary. For details of why this is important, see the :ref:`slurm-heterogeneous-nodes` page.
+     - | Number of nodes.
+       | **Please only request nodes (rather than CPUs) if absolutely necessary**.
+         For details of why this is important, see the
+         :ref:`slurm-heterogeneous-nodes` page.
    * - ``--ntasks=<n>``
      - Total number of tasks (processes).
    * - ``--ntasks-per-node=<n>``
