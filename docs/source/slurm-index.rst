@@ -1,4 +1,3 @@
-Index · RST
 .. _slurm-index:
  
 Introduction to SLURM
