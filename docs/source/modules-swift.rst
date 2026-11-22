@@ -3,8 +3,6 @@
 Recommended modules for SWIFT
 =======================
 
-**SWIFT / COLIBRE** 
-
 Code and documentation available `here <http://swift.dur.ac.uk/>`_.
 
 .. code-block:: swift
