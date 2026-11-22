@@ -28,7 +28,11 @@ To then load, for example, the latest available version of ``python3``, one can 
 
 For more information on modules, see `this link <https://modules.readthedocs.io/en/latest/>`_. Below we provide recommended module lists for use with popular software packages on Prospero. 
 
-Recommended modules
+Modules for different Prospero processor types
+-------
+
+
+Recommended base modules
 -------
 
 **Intel OneAPI compiler suite with OpenMpi** 
@@ -37,53 +41,6 @@ Recommended modules
 
 	module load intel-oneapi-compilers/2025.3.2 # not 100% sure this is needed, but I had it loaded anyway
 	module load openmpi/5.0.9/intel-oneapi-compilers-2025.3.2
-
-**StarCCM+** 
-
-There is currently 2 versions of StarCCM installed. version 16 and version 18
-
-.. code-block:: slurm
-
-    flight env activate gridware
-    module load apps/starccm/16.02.008-R8
-
-    # Simulation Case File:
-    INPUT="input.sim"
-
-    # Machinefile:
-    MACHINEFILE=hosts.star
-
-    # Write Node List to Machinefile:
-    scontrol show hostname ${SLURM_JOB_NODELIST} > ${MACHINEFILE}
-
-    # Simcenter Licence Server Address:
-    export CDLMD_LICENSE_FILE=1999@flex.cd-adapco.com
-
-    # POD Licence Key:
-    export LM_PROJECT=XXXXXXXXXXXXXXXXXXXXX
-
-    # Start Parallel STAR-CCM+ Job:
-    starccm+ -power -np ${SLURM_NTASKS} -machinefile ${MACHINEFILE} -batch ${INPUT} -collab -rr -rrthreads 63 -rgraphics mesa -graphics mesa
-
-.. note::
-
-    Take note that ``-rr -rrthreads 63 -rgraphics mesa -graphics mesa`` is required to be included. This is due to there is a known issue with StarCCM and AMD EPYC CPU's
-
-
-**SWIFT / COLIBRE** 
-
-Code and documentation available `here <http://swift.dur.ac.uk/>`_.
-
-.. code-block:: swift
-
-	module load intel-oneapi-compilers/2025.3.2
-	module load openmpi/5.0.9/intel-oneapi-compilers-2025.3.2
-	module load metis/5.1.0/intel-oneapi-compilers-2025.3.2
-	module load sundials/5.8.0/intel-oneapi-compilers-2025.3.2
-	module load gsl/2.8/intel-oneapi-compilers-2025.3.2
-	module load fftw/3.3.10/intel-oneapi-compilers-2025.3.2
-	module load hdf5/1.14.6/intel-oneapi-compilers-2025.3.2/openmpi-5.0.9/a-he5rnib
-
 
 **Anaconda**
 
