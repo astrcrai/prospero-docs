@@ -1,6 +1,8 @@
 Software
 =====
 
+Users may install software themselves in their home space or data space, so long as it does not require ``root`` (also known as ``superuser``) access. Users can also request that software is installed centrally by our HPC partners, Alces Flight.
+
 Centralised software on Prospero is installed by Alces Flight within their ``gridware`` environment. We recommend starting the gridware within your startup script (e.g. ``.bash_profile``) with
 
 .. code-block:: flight-start
