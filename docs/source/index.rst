@@ -72,6 +72,7 @@ Contents
 
   data-storage
   data-for-proposals
+  data-transfers
   data-lifecycle
 
 .. toctree::
