@@ -68,9 +68,11 @@ Contents
 
 .. toctree::
   :maxdepth: 2
-  :caption: DATA STORAGE
+  :caption: YOUR DATA 
 
-  storage
+  data-storage
+  data-lifecycle
+  data-for-proposals
 
 .. toctree::
   :maxdepth: 2
