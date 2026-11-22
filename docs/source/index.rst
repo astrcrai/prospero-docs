@@ -62,7 +62,9 @@ Contents
   :caption: SOFTWARE
 
   software
-  modules for frequently-used software packages
+  modules-arepo
+  modules-starccmplus
+  modules-swift
 
 .. toctree::
   :maxdepth: 2
