@@ -12,8 +12,8 @@ LJMU's own research data policies and the guidance of your funder.
 .. note::
 
    Prospero is a *working* environment for computation. It is not an archive,
-   and **at present none of its storage volumes are backed up** (see
-   :doc:`storage`). Plan for your important data to live somewhere else as well.
+   and **its storage volumes are not backed up** (see
+   :ref:`storage`). Plan for your important data to live somewhere else as well.
 
 Before you start: plan your data
 --------------------------------
@@ -56,65 +56,6 @@ also LJMU's Data Protection Policy and Information Security Policy, and the
 Research Ethics and Governance guidance, which apply to research data in the
 same way as to any other university information.
 
-Where to keep your data on Prospero
------------------------------------
-
-Prospero has several storage areas with different purposes; the full list,
-capacities and quotas are given on the :doc:`storage` page. In outline:
-
-* Your **home directory** has a small quota. Use it for scripts, source code,
-  configuration files and small results, not for datasets.
-* **Scratch** (``/mnt/scratch``) is the main area for working data. Keep personal
-  project data in ``/mnt/scratch/users/[USERNAME]`` and data shared between
-  several users in ``/mnt/scratch/projects/[PROJECTNAME]``.
-* ``/mnt/data1`` is a legacy volume, and ``/mnt/aridata1`` is reserved for
-  members of the Astrophysics Research Institute.
-
-Treat everything on Prospero as *working copies*. Keep the authoritative
-version of irreplaceable data (raw observations, original input files, final
-published results) in a location that is backed up and under your control, for
-one of the storage options described in the Library's *Research data storage*
-guidance, or a suitable repository.
-
-Protecting your data
---------------------
-
-Because Prospero volumes are not backed up, you are responsible for protecting
-anything you cannot afford to lose. A commonly recommended approach is the
-"3-2-1 rule": keep **three** copies of important data, on **two** different
-types of storage, with **one** copy held off-site or in a different system.
-
-* Keep **source code, job scripts and analysis scripts** under version control
-  (for example ``git``) and push them to a remote repository.
-* Keep **raw and input data** in at least one other location, and record where.
-* Copy **final results** off Prospero as soon as they are produced.
-* Do not rely on scratch space as the only home for anything important.
-
-Moving data to and from Prospero
---------------------------------
-
-See :ref:data_transfers.
-
-Organising and documenting your data
-------------------------------------
-
-Data that cannot be understood is of little use to anyone, including you in
-six months' time.
-
-* **Use a consistent directory structure** that separates raw inputs, processed
-  data, code and results, for example ``raw/``, ``processed/``, ``scripts/`` and
-  ``results/``.
-* **Never modify raw data in place.** Treat input files as read-only and
-  write derived data to a different location.
-* **Use clear, consistent file names** without spaces, and include dates in
-  ``YYYY-MM-DD`` form or version numbers where relevant.
-* **Add a README** to each project directory describing what the data are, how
-  they were produced, the meaning of columns or variables and units, who to
-  contact, and any licence or access restrictions.
-* **Prefer open, well-documented file formats** (for example CSV, HDF5, NetCDF,
-  FITS, plain text) over proprietary ones where possible, so the data remain
-  usable in the long term.
-
 Making your results reproducible
 --------------------------------
 
@@ -133,7 +74,7 @@ A simple approach is to store the job script, an environment listing and a short
 text log in the same directory as the output files, and to commit scripts and
 documentation to version control.
 
-Sharing data with collaborators
+Sharing data with LJMU collaborators
 -------------------------------
 
 For data shared between several Prospero users, use a project directory
@@ -143,10 +84,6 @@ how the directory is organised, and who tidies it up at the end of the
 project. Keep file permissions no more open than needed; for example
 ``chmod -R g+rX directory`` gives group members read access without making
 files writable.
-
-Collaborators at other institutions can be granted access to Prospero if they
-meet the criteria in the :doc:`policies`; for larger datasets, consider whether
-sharing via a repository would be more appropriate.
 
 Publishing and preserving data
 ------------------------------
