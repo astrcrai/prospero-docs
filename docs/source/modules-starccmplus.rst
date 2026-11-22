@@ -1,7 +1,9 @@
+.. _modules-starccmplus:
 
-**StarCCM+** 
+Recommended modules for StarCCM+
+=======================
 
-There is currently 2 versions of StarCCM installed. version 16 and version 18
+There are currently 2 versions of StarCCM installed. version 16 and version 18
 
 .. code-block:: slurm
 
