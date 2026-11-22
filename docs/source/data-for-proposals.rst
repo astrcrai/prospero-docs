@@ -7,7 +7,7 @@ Good research data management (RDM) makes your work reproducible, protects it
 against loss, and helps you meet the requirements of your funder, your
 publisher and the university. This page explains how to apply good RDM
 practice when working on Prospero. It complements, and does not replace,
-LJMU's own `research data policies <https://www.ljmu.ac.uk/library/researchers/research-data-management>` and the guidance of funding councils.
+LJMU's own research data policies and the guidance of your funder.
 
 .. note::
 
@@ -18,7 +18,8 @@ LJMU's own `research data policies <https://www.ljmu.ac.uk/library/researchers/r
 Before you start: plan your data
 --------------------------------
 
-Most funders expect a data management plan (DMP) with research funding proposals. A DMP describes what data you will
+Most funders expect a data management plan (DMP), and it is much easier to
+write one before a project begins than after. A DMP describes what data you will
 create, how it will be stored, documented and shared, and who is responsible
 for it. When planning a project that will use Prospero, consider:
 
@@ -205,14 +206,85 @@ To make data publicly available and citable:
 * Include enough **documentation and metadata** for others to understand and
   reuse the data, and cite the dataset in related publications. LJMU asks for a
   README file to accompany every deposit, and the Library provides a template.
-* Where possible, follow the `FAIR principles <https://www.go-fair.org/fair-principles/>`_:
-  data should be Findable, Accessible, Interoperable and Reusable.
+* Where possible, follow the FAIR principles, described in the next section.
 
 Not all data can or should be shared openly. Restrictions arising from
 confidentiality, third-party agreements or commercial interests should be
 recorded in your data management plan. For questions about intellectual property
 or commercially exploitable data, contact LJMU's Knowledge Exchange and
 Commercialisation team.
+
+The FAIR principles
+-------------------
+
+The FAIR Guiding Principles (Wilkinson *et al.*, `Scientific Data 3, 160018
+<https://doi.org/10.1038/sdata.2016.18>`_, 2016) describe how data should be
+managed so that both people and computers can find and reuse them. They are
+widely referenced by funders and publishers, and LJMU encourages researchers to
+follow them; the `GO FAIR <https://www.go-fair.org/fair-principles/>`_ and
+`OpenAIRE <https://www.openaire.eu/how-to-make-your-data-fair>`_ websites
+explain them in more detail. FAIR stands for Findable, Accessible,
+Interoperable and Reusable.
+
+.. note::
+
+   **FAIR does not mean open.** FAIR data can have access restrictions, for
+   example because of confidentiality or commercial agreements. What matters is
+   that the data are well described, that it is clear how they can be accessed
+   and under what conditions, and that the description itself is findable.
+
+The table below summarises each principle and what it means in practice for
+data produced on Prospero.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 18 38 44
+
+   * - Principle
+     - What it asks for
+     - In practice
+   * - **Findable**
+     - Data and metadata have a globally unique, persistent identifier; data are
+       described with rich metadata; metadata include the identifier of the
+       data; and both are registered or indexed in a searchable resource.
+     - Deposit the data in a repository that issues a DOI, such as the LJMU
+       Research Data Repository, and complete the metadata fields fully
+       (title, description, keywords, dates, funder). Cite the DOI in your
+       papers. A directory on Prospero is not a findable dataset.
+   * - **Accessible**
+     - Data can be retrieved by their identifier using a standard, open and free
+       protocol, with authentication and authorisation where necessary; metadata
+       remain available even when the data are no longer available.
+     - Use a repository so that the data can be retrieved through a persistent
+       link. If the data are restricted, say so in the metadata and explain how
+       to request access. Do not make Prospero the only place the data can be
+       obtained: access to it is limited to approved users and it is not an
+       archive.
+   * - **Interoperable**
+     - Data and metadata use a formal, shared and broadly applicable language
+       and vocabularies, and include qualified references to other data.
+     - Use open, standard file formats (for example CSV, HDF5, NetCDF, FITS),
+       follow the conventions and metadata standards of your field, define
+       variable names and units, and use community vocabularies where they
+       exist. Link to related datasets, code and publications by DOI.
+   * - **Reusable**
+     - Data have plenty of accurate and relevant attributes, a clear data
+       usage licence, detailed provenance, and meet domain-relevant community
+       standards.
+     - Include a README, state a licence (for example a Creative Commons
+       licence), and record provenance: the code version, software environment,
+       parameters and input data used to produce the results (see
+       `Making your results reproducible`_).
+
+FAIR also applies to **research software**. Code used to produce published results
+should be kept under version control, given a licence and, where appropriate,
+archived with a DOI (for example by linking a ``git`` repository to Zenodo) so
+that it can be cited alongside the data.
+
+You do not need to make every dataset perfectly FAIR. Aim to apply the
+principles as far as is reasonable for the data you are depositing, and record
+any limitations, and the reasons for them, in your README and data management
+plan.
 
 Finishing a project or leaving LJMU
 -----------------------------------
@@ -246,6 +318,8 @@ Checklist
 * My project directory has a README and a clear structure.
 * I have recorded the code version, environment and parameters for key results.
 * I know where my data will be published or preserved, and for how long.
+* Where data are being shared, they have a persistent identifier, a licence,
+  open-format files and a README (the FAIR principles).
 
 Getting help
 ------------
