@@ -1,4 +1,6 @@
-Storage and data management
+.. _data-storage:
+
+Data storage and management
 =====
 
 Datastores
