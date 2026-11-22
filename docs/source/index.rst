@@ -71,8 +71,8 @@ Contents
   :caption: YOUR DATA 
 
   data-storage
-  data-lifecycle
   data-for-proposals
+  data-lifecycle
 
 .. toctree::
   :maxdepth: 2
