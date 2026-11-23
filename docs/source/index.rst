@@ -9,7 +9,7 @@ Prospero is the centralised high performance computing (HPC) facility for resear
   :width: 800
   :alt: Prospero
 
-Prospero is available for use by all research staff and postgraduate research students at LJMU, subject to usage :ref:`policies <policies>`. To start using Prospero please see :ref:`Getting access <getting_access>`.
+Prospero is available for use by all research staff and postgraduate research students at LJMU, subject to usage :ref:`policies <policies>`. To start using Prospero please see :ref:`Getting access <getting-access>`.
 
 .. IMPORTANT::
 
@@ -34,10 +34,10 @@ Contents
   :maxdepth: 2
   :caption: FOR NEW USERS
 
-  getting_access
-  first_login
-  ssh_key_pair
-  first_job
+  getting-access
+  first-login
+  ssh-key-pair
+  first-job
 
 .. toctree::
   :maxdepth: 2
