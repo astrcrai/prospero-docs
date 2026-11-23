@@ -34,7 +34,7 @@ programs with ``srun``. This is useful for MPI testing:
  
 .. code-block:: bash
  
-   salloc --partition=<partition-name> --nodes=1 --ntasks=4 --time=00:30:00
+   salloc --partition=nodes --nodes=1 --ntasks=4 --time=00:30:00
    srun ./my_mpi_program
    exit
  
@@ -43,7 +43,7 @@ Interactive GPU session
  
 .. code-block:: bash
  
-   srun --partition=<gpu-partition> --gres=gpu:1 --cpus-per-task=4 \
+   srun --partition=gpu-a100 --gres=gpu:1 --cpus-per-task=4 \
         --mem=16G --time=01:00:00 --pty bash
  
 Once on the node, you can check the GPU with ``nvidia-smi``.
