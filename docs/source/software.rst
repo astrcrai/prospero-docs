@@ -14,6 +14,9 @@ Centralised software on Prospero is installed by Alces Flight within their ``gri
 
    It is possible to create customised environments within ``flight``, e.g. for research groups needing a common set of packages. If you require this, please submit a :ref:`support ticket<Getting help & support>`. 
 
+Modules
+-------
+
 Starting ``gridware`` makes the ``module`` command available, which provides access to common packages and libraries. To see a list of available modules, issue the command:
 
 .. code-block:: modules
