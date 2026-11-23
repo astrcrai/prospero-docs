@@ -104,7 +104,7 @@ To see your jobs in the queue, use ``squeue``::
 You will see output similar to::
 
    JOBID   PARTITION  NAME   USER      ST  TIME  NODES  NODELIST(REASON)
-   123456  <partition> hello <username> R   0:03  1      <node-name>
+   123456  test hello astrcrai R   0:03  1     node001
 
 The ``ST`` column shows the state of the job. The most common states are:
 
