@@ -7,7 +7,7 @@ Software on Prospero is managed with **environment modules**, which let you
 choose which programs and versions are available in your shell. Modules must
 be loaded **inside your job script**, as the job runs in a fresh environment.
 
-Remember that (per :doc:`software <software>`) it is recommended to start ``gridware`` within your startup script (e.g. ``.bash_profile``), e.g.
+Remember that (per the :doc:`software <software>` page) it is recommended to start ``gridware`` within your startup script (e.g. ``.bash_profile``), e.g.
 
 .. code-block:: flight-start
 
