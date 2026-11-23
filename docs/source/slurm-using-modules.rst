@@ -37,7 +37,7 @@ program:
  
 .. code-block:: bash
  
-   #!/bin/bash
+   #!/bin/bash -l
    #SBATCH --job-name=py-test
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --time=00:10:00
