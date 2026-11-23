@@ -32,4 +32,4 @@ A more elegant solution is to add a code snippet to your ``.ssh/config`` in whic
 
 SSH config files can be used to specify many useful settings, as explained in the manual ``man 5 ssh_config``.
 
-Once comfortable using ssh, you may wish to simplify logging onto Prospero by using an :ref:`ssh key pair <ssh_key_pair>`. 
+Once comfortable using ssh, you may wish to simplify logging onto Prospero by using an :ref:`ssh key pair <ssh-key-pair>`. 
