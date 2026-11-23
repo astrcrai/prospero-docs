@@ -33,8 +33,6 @@ There are also two first generation nodes (with ``epyc7k`` processors) that have
 Prospero has two GPU-accelerated servers: a first generation Apollo 6500 server with
 four NVIDIA A100 GPUs and ``epyc7k`` processors, and a second generation DL380 server with four NVIDIA H200 GPUs and ``epyc9k`` processors.
 
-
-
 .. list-table:: Compute nodes at a glance
    :header-rows: 1
    :widths: 24 14 10 12 20 10
@@ -76,14 +74,11 @@ four NVIDIA A100 GPUs and ``epyc7k`` processors, and a second generation DL380 s
      - 1.0 TB
      - 4x A100 80 GB
    * - GPU (Cray)
-     - ``epyc9k``
+     - Intel Xeon 6710E
      - 1
      - 128
      - 1.0TB
      - 4x H200 140GB
-
-.. TODO: add a "Slurm partition" column linking each node type to the
-   partition(s) that give access to it, and confirm the Cray GPU node count.
 
 
 Standard compute nodes
@@ -112,18 +107,14 @@ Standard compute nodes
      - 64
      - 128
    * - Memory
-     - 512 GB DDR4-3200
-     - 768 GB
+     - 512 GB DDR4
+     - 768 GB DDR5
    * - Local storage
      - 480 GB SATA SSD
      - 15 TB NVMe SSD
    * - Interconnect
      - HDR100 InfiniBand
      - HDR200 or NDR200 InfiniBand
-
-.. TODO: the old page listed the Cray memory as DDR4-3200. EPYC 9004-series
-   processors normally use DDR5, so please confirm the memory type before
-   adding it to the Cray column above.
 
 
 High-memory nodes
