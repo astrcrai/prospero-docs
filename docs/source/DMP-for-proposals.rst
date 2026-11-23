@@ -141,43 +141,37 @@ data produced on Prospero.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 38 44
+   :widths: 30 70
 
    * - Principle
-     - What it asks for
-     - In practice
+     - In practice on Prospero
    * - **Findable**
-     - Data and metadata have a globally unique, persistent identifier; data are
-       described with rich metadata; metadata include the identifier of the
-       data; and both are registered or indexed in a searchable resource.
+
+       A persistent identifier and rich, searchable metadata.
      - Deposit the data in a repository that issues a DOI, such as the LJMU
-       Research Data Repository, and complete the metadata fields fully
-       (title, description, keywords, dates, funder). Cite the DOI in your
-       papers. A directory on Prospero is not a findable dataset.
+       Research Data Repository. Complete the metadata fully (title,
+       description, keywords, dates, funder) and cite the DOI in your papers.
+       A directory on Prospero is not a findable dataset.
    * - **Accessible**
-     - Data can be retrieved by their identifier using a standard, open and free
-       protocol, with authentication and authorisation where necessary; metadata
-       remain available even when the data are no longer available.
-     - Use a repository so that the data can be retrieved through a persistent
+
+       Retrievable by identifier using standard, open protocols; metadata stay
+       available even if the data do not.
+     - Use a repository so the data can be retrieved through a persistent
        link. If the data are restricted, say so in the metadata and explain how
-       to request access. Do not make Prospero the only place the data can be
-       obtained: access to it is limited to approved users and it is not an
-       archive.
+       to request access. Prospero is not an archive, so don't make it the
+       only place the data can be obtained.
    * - **Interoperable**
-     - Data and metadata use a formal, shared and broadly applicable language
-       and vocabularies, and include qualified references to other data.
+
+       Shared formats, vocabularies and links to related data.
      - Use open, standard file formats (for example CSV, HDF5, NetCDF, FITS),
-       follow the conventions and metadata standards of your field, define
-       variable names and units, and use community vocabularies where they
-       exist. Link to related datasets, code and publications by DOI.
+       follow your field's metadata standards, define variable names and
+       units, and link related datasets, code and publications by DOI.
    * - **Reusable**
-     - Data have plenty of accurate and relevant attributes, a clear data
-       usage licence, detailed provenance, and meet domain-relevant community
-       standards.
-     - Include a README, state a licence (for example a Creative Commons
-       licence), and record provenance: the code version, software environment,
-       parameters and input data used to produce the results (see
-       `Making your results reproducible`_).
+
+       Well described, clearly licensed and with detailed provenance.
+     - Include a README, state a licence (for example Creative Commons) and
+       record provenance: the code version, software environment, parameters
+       and input data (see `Making your results reproducible`_).
 
 FAIR also applies to **research software**. Code used to produce published results
 should be kept under version control, given a licence and, where appropriate,
