@@ -38,7 +38,7 @@ Some modules will activate software/libraries that are **compiled**, as opposed 
 
 .. NOTE::
 
-   In a compiled language, the target machine directly translates the program. In an interpreted language, the source code is not directly translated by the target machine. Instead, a different program, aka the interpreter, reads and executes the code.
+   In a compiled language, the target machine directly translates the program. In an interpreted language, the source code is not directly translated by the target machine. Instead, a different program, the **interpreter**, reads and executes the code.
 
 Unless otherwise specified, the compilers (the program that converts source code into an executable file) generate native code, i.e. code that uses the instruction set of the processor the source code was compiled by. Hence, if one compiles code on the ``login3`` gateway node, the executable file will assume it can use all the instructions available to the ``epyc9k`` processors used by Prospero's HPE Cray XD225 nodes (``login3`` shares the same specification as an HPE Cray XD225 node). It is then possible that the executable file will **not** run on the ``epyc7k`` processors used by Prospero's HPE Apollo XL225 nodes. As such, when loading modules that activate compiled code, one needs to be aware of which node types the code will be executed on. Because of this, the ``gridware`` module environment has two separate module sets.
 
