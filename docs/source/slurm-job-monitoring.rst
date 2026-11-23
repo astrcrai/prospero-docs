@@ -19,8 +19,8 @@ Viewing the queue with ``squeue``
 Typical output::
  
    JOBID   PARTITION  NAME   USER      ST  TIME   NODES  NODELIST(REASON)
-   123456  <partition> hello <username> PD  0:00   1      (Priority)
-   123457  <partition> sim   <username> R   12:41  2      <node[01-02]>
+   123456  nodes hello itsuser PD  0:00   1      (Priority)
+   123457  nodes sim   itsuser R   12:41  2      node[001-002]
  
 Job states
 ^^^^^^^^^^
