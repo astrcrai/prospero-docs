@@ -222,5 +222,5 @@ Networked storage
      - HPE Apollo 4200 Gen10+ storage server, RAID6
 
 For quotas, backup arrangements and guidance on which area to use for what,
-see :doc:`data-storage`.
+see :doc:`Data storage <data-storage>`.
 
