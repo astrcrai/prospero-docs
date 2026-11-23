@@ -6,7 +6,17 @@ Loading software with modules
 Software on Prospero is managed with **environment modules**, which let you
 choose which programs and versions are available in your shell. Modules must
 be loaded **inside your job script**, as the job runs in a fresh environment.
- 
+
+Remember that (per :doc:`software <software>`) it is recommended to start ``gridware`` within your startup script (e.g. ``.bash_profile``), e.g.
+
+.. code-block:: flight-start
+
+    flight start
+    flight env activate gridware
+
+This enables you to use ``modules``.
+
+
 Useful commands
 ---------------
  
@@ -31,7 +41,12 @@ program:
    #SBATCH --job-name=py-test
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --time=00:10:00
- 
+
+   # It is assumed that the commands below are included in your .bash_profile
+   # in order to allow the use of modules
+   # flight start
+   # flight env activate gridware
+
    module purge
    module load <python-module>
  
