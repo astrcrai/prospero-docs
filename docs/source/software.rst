@@ -37,7 +37,7 @@ Some modules will activate software/libraries that are **compiled**, as opposed 
 
    In a compiled language, the target machine directly translates the program. In an interpreted language, the source code is not directly translated by the target machine. Instead, a different program, aka the interpreter, reads and executes the code.
 
-If software is compiled...
+Unless otherwise specified, the compilers (the program that converts source code into an executable file) generate ``native`` code, i.e. code that uses the instruction set of the processor the source code was compiled by. Hence, if one compiles code on the ``login3`` gateway node, the executable file may assume it can use all the instructions available to the ``epyc9k`` processors used by the HPE Cray XD225 nodes.  
 
 Recommended base modules
 -------
