@@ -54,7 +54,10 @@ Load a Python module, then run your script.
    #SBATCH --mem=4G
    #SBATCH --time=01:00:00
    #SBATCH --output=%x_%j.out
- 
+
+   flight start
+   flight env activate gridware
+
    module purge
    module load python3
  
@@ -80,7 +83,10 @@ R script
    #SBATCH --mem=4G
    #SBATCH --time=01:00:00
    #SBATCH --output=%x_%j.out
- 
+
+   flight start
+   flight env activate gridware
+
    module purge
    module load <r-module>
  
@@ -137,7 +143,10 @@ Use ``srun`` to launch them so that SLURM places the processes correctly.
    #SBATCH --mem=450GB
    #SBATCH --time=04:00:00
    #SBATCH --output=%x_%j.out
- 
+
+   flight start
+   flight env activate gridware
+
    module purge
    module load <compiler-module> <mpi-module>
  
@@ -169,7 +178,10 @@ Some codes combine MPI between nodes with threads within each process:
    #SBATCH --cpus-per-task=8
    #SBATCH --time=04:00:00
    #SBATCH --output=%x_%j.out
- 
+
+   flight start
+   flight env activate gridware
+
    module purge
    module load <compiler-module> <mpi-module>
  
@@ -197,7 +209,10 @@ Request GPUs from a GPU partition with ``--gres``:
    #SBATCH --mem=32G
    #SBATCH --time=02:00:00
    #SBATCH --output=%x_%j.out
- 
+
+   flight start
+   flight env activate gridware
+
    module purge
    module load <cuda-module>
  
