@@ -117,7 +117,7 @@ library) and make sure ``--ntasks`` or ``--ntasks-per-node`` is set. See
 Getting help
 ------------
  
-If you are still stuck, contact <support-email> and include:
+If you are still stuck, please file an HPC support ticket (see :doc: `getting help <help>` and include:
  
 * the job ID,
 * the job script (or its location),
