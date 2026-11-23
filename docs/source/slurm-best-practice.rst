@@ -9,35 +9,35 @@ Best practice
 Be a good neighbour
 ^^^^^^^^^^^^^^^^^^^
  
-* **Never run heavy computation on the login nodes.** Use ``sbatch`` or an
+* Never run heavy computation on the login nodes. Use ``sbatch`` or an
   interactive job.
-* **Request what you need, and no more.** Over-requesting wastes resources
+* Request what you need, and no more. Over-requesting wastes resources
   and makes your jobs wait longer. Check past jobs with ``sacct`` or ``seff``.
-* **Set a realistic time limit.** Slightly generous is fine; ten times too
+* Set a realistic time limit. Slightly generous is fine; ten times too
   long is not.
-* **Use job arrays** instead of submitting thousands of individual jobs, and
+* Use job arrays instead of submitting thousands of individual jobs, and
   make sure each task does a worthwhile amount of work.
  
 Make your work reliable
 ^^^^^^^^^^^^^^^^^^^^^^^
  
-* **Test small first.** Run a short version of your job, or use an interactive
+* Test small first. Run a short version of your job, or use an interactive
   session, before submitting a large one.
-* **Load modules inside the script** and begin with ``module purge``.
-* **Use full paths or ``cd`` explicitly**, rather than assuming the working
+* Load modules inside the script and begin with ``module purge``.
+* Use full paths or ``cd`` explicitly, rather than assuming the working
   directory.
-* **Write checkpoints** if your program supports them, so a job that hits its
+* Write checkpoints if your program supports them, so a job that hits its
   time limit can be restarted rather than rerun from scratch.
-* **Keep job scripts under version control** (for example, with Git) so you
+* Keep job scripts under version control (for example, with Git) so you
   can reproduce past results.
-* **Name output files with ``%x_%j``** (job name and ID) so they are never
+* Name output files with ``%x_%j``(job name and ID) so they are never
   overwritten.
  
 Be careful with files
 ^^^^^^^^^^^^^^^^^^^^^
  
 * Write large or numerous temporary files to the scratch area, not your home
-  directory. <Describe Prospero's storage areas and quotas here.>
+  directory.
 * Avoid creating very large numbers of small files, which is slow on parallel
   file systems. Combine them into archives where possible.
  
