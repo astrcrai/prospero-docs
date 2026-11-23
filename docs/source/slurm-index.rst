@@ -15,15 +15,15 @@ what you want to run, go straight to the :ref:`slurm-job-examples`.
    :maxdepth: 2
    :caption: Contents
  
-   concepts
-   first-job
-   requesting-resources
-   modules
-   job-examples
-   job-arrays
-   interactive-jobs
-   monitoring
-   best-practice
+   slurm-concepts
+   slurm-first-job
+   slurm-requesting-resources
+   slurm-using-modules
+   slurm-job-examples
+   slurm-job-arrays
+   slurm-interactive-jobs
+   slurm-monitoring
+   slurm-best-practice
  
 Quick reference
 ---------------
