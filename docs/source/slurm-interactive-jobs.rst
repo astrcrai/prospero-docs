@@ -59,6 +59,4 @@ Tips
 * If your connection drops, the session ends. For longer-running work use a
   batch job instead, or start the session inside ``tmux`` or ``screen`` on the
   login node.
-* <Add any Prospero-specific instructions for graphical applications, Jupyter
-  or similar here.>
  
