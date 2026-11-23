@@ -3,7 +3,7 @@
 Recommended modules for SWIFT
 =======================
 
-SWIFT is a hydrodynamics and gravity code for astrophysics and cosmologym used widely within the ARI. Its code and documentation are available `here <http://swift.dur.ac.uk/>`_.
+SWIFT is a hydrodynamics and gravity code for astrophysics and cosmology, used widely within the ARI. Its code and documentation are available `here <http://swift.dur.ac.uk/>`_.
 
 To run SWIFT on either the ``epyc7k`` or ``epyc9k`` nodes (i.e. processor agnostic), it is recommended to load the following modules
 
