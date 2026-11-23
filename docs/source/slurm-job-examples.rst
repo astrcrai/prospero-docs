@@ -174,7 +174,7 @@ Some codes combine MPI between nodes with threads within each process:
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --constraint=epyc9k
    #SBATCH --nodes=2
-   #SBATCH --ntasks-per-node=4
+   #SBATCH --ntasks-per-node=8
    #SBATCH --cpus-per-task=16
    #SBATCH --mem=0
    #SBATCH --time=04:00:00
@@ -190,7 +190,7 @@ Some codes combine MPI between nodes with threads within each process:
  
    srun ./my_hybrid_program
  
-Each node runs 4 MPI processes with 16 threads each, using 64 cores per node.
+Each node runs 8 MPI processes with 16 threads each, using 128 cores per node.
  
 .. _slurm-example-gpu:
  
