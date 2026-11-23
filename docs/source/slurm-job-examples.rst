@@ -28,7 +28,7 @@ is the right choice for most small scripts and analyses.
  
    #!/bin/bash
    #SBATCH --job-name=serial
-   #SBATCH --partition=<partition-name>
+   #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=1
    #SBATCH --cpus-per-task=1
    #SBATCH --mem=2G
@@ -58,7 +58,7 @@ Then activate it in your job script:
  
    #!/bin/bash
    #SBATCH --job-name=python-analysis
-   #SBATCH --partition=<partition-name>
+   #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=1
    #SBATCH --cpus-per-task=1
    #SBATCH --mem=4G
@@ -85,7 +85,7 @@ R script
  
    #!/bin/bash
    #SBATCH --job-name=r-analysis
-   #SBATCH --partition=<partition-name>
+   #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=1
    #SBATCH --cpus-per-task=1
    #SBATCH --mem=4G
@@ -109,7 +109,7 @@ several CPU cores**. All the cores must be on the same node.
  
    #!/bin/bash
    #SBATCH --job-name=openmp
-   #SBATCH --partition=<partition-name>
+   #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --nodes=1
    #SBATCH --ntasks=1
    #SBATCH --cpus-per-task=8
@@ -141,7 +141,7 @@ Use ``srun`` to launch them so that SLURM places the processes correctly.
  
    #!/bin/bash
    #SBATCH --job-name=mpi
-   #SBATCH --partition=<partition-name>
+   #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --nodes=2
    #SBATCH --ntasks-per-node=32
    #SBATCH --mem=0
@@ -173,7 +173,7 @@ Some codes combine MPI between nodes with threads within each process:
  
    #!/bin/bash
    #SBATCH --job-name=hybrid
-   #SBATCH --partition=<partition-name>
+   #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --nodes=2
    #SBATCH --ntasks-per-node=4
    #SBATCH --cpus-per-task=8
@@ -200,7 +200,7 @@ Request GPUs from a GPU partition with ``--gres``:
  
    #!/bin/bash
    #SBATCH --job-name=gpu-test
-   #SBATCH --partition=<gpu-partition>
+   #SBATCH --partition=gpu-a100 nodes # or your preferred gpu partition
    #SBATCH --gres=gpu:1
    #SBATCH --ntasks=1
    #SBATCH --cpus-per-task=4
@@ -233,7 +233,7 @@ large-memory partition and request the memory explicitly:
  
    #!/bin/bash
    #SBATCH --job-name=bigmem
-   #SBATCH --partition=<highmem-partition>
+   #SBATCH --partition=himem
    #SBATCH --ntasks=1
    #SBATCH --cpus-per-task=4
    #SBATCH --mem=500G
@@ -258,7 +258,7 @@ background and then ``wait`` for them all to finish:
  
    #!/bin/bash
    #SBATCH --job-name=multi
-   #SBATCH --partition=<partition-name>
+   #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=4
    #SBATCH --cpus-per-task=1
    #SBATCH --mem-per-cpu=2G
