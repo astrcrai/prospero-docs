@@ -55,15 +55,6 @@ The second is:
 
 Modules in this set were compiled on ``epyc9k`` processors, optimising them for execution on the newer HPE Cray XD225 nodes. It is likely that this software, or software linking these libraries, will **not** run on the older HPE Apollo XL225 nodes, but it may run faster on the newer nodes.
 
-Recommended base modules
--------
-
-**Intel OneAPI compiler suite with OpenMpi** 
-
-.. code-block:: intel_oneapi_mpi
-
-	module load intel-oneapi-compilers/2025.3.2 # not 100% sure this is needed, but I had it loaded anyway
-	module load openmpi/5.0.9/intel-oneapi-compilers-2025.3.2
 
 **Anaconda**
 
