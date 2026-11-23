@@ -86,5 +86,4 @@ Contents
   policies
   highlights
   history
-  vnc
   responsible_hpc
