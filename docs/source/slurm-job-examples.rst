@@ -140,7 +140,7 @@ Use ``srun`` to launch them so that SLURM places the processes correctly.
    #SBATCH --constraint=epyc9k
    #SBATCH --nodes=2
    #SBATCH --ntasks-per-node=64
-   #SBATCH --mem=700GB
+   #SBATCH --mem=0
    #SBATCH --time=04:00:00
    #SBATCH --output=%x_%j.out
 
@@ -176,6 +176,7 @@ Some codes combine MPI between nodes with threads within each process:
    #SBATCH --nodes=2
    #SBATCH --ntasks-per-node=4
    #SBATCH --cpus-per-task=16
+   #SBATCH --mem=0
    #SBATCH --time=04:00:00
    #SBATCH --output=%x_%j.out
 
