@@ -202,11 +202,11 @@ Networked storage
      - HPE ClusterStor parallel storage
    * - ``/mnt/data1``
      - General purpose
-     - 250 TB
+     - 220 TB
      - HPE Apollo 4200 Gen10+ storage
    * - ``/mnt/aridata1``
      - ARI use
-     - 250 TB
+     - 230 TB
      - HPE Apollo 4200 Gen10+ storage server, RAID6
 
 For quotas, backup arrangements and guidance on which area to use for what,
