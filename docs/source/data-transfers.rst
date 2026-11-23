@@ -4,7 +4,7 @@ Trasferring data to and from Prospero
 =====
 
 We recommend ``rsync``, which can resume interrupted transfers and only copies
-what has changed. Prospero uses a non-standard SSH port (see :doc:`access`), so
+what has changed. Prospero uses a non-standard SSH port (see :doc:`getting access <getting-access>`), so
 the port must be specified. To copy a directory *to* Prospero:
 
 .. code-block:: bash
