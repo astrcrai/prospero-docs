@@ -131,9 +131,10 @@ Use ``srun`` to launch them so that SLURM places the processes correctly.
    #!/bin/bash
    #SBATCH --job-name=mpi
    #SBATCH --partition=nodes # or your preferred partition
+   #SBATCH --constraint=epyc7k
    #SBATCH --nodes=2
    #SBATCH --ntasks-per-node=32
-   #SBATCH --mem=0
+   #SBATCH --mem=450GB
    #SBATCH --time=04:00:00
    #SBATCH --output=%x_%j.out
  
@@ -162,6 +163,7 @@ Some codes combine MPI between nodes with threads within each process:
    #!/bin/bash
    #SBATCH --job-name=hybrid
    #SBATCH --partition=nodes # or your preferred partition
+   #SBATCH --constraint=epyc7k
    #SBATCH --nodes=2
    #SBATCH --ntasks-per-node=4
    #SBATCH --cpus-per-task=8
