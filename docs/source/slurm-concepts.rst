@@ -73,8 +73,6 @@ calculates a **priority** for each pending job, based mainly on:
 * **Fair-share**: users and groups who have recently used a lot of the
   system get a lower priority than those who have used little.
 * **Age**: the longer a job has been waiting, the higher its priority.
-* **Job size**: this depends on local configuration. <describe any
-  site-specific weighting here>
  
 Specfically, Prospero adopts SLURM's `multifactor priority algorithm <https://slurm.schedmd.com/priority_multifactor.html>`_. The scheduler prioritises larger jobs and balances the usage across accounts.
 
