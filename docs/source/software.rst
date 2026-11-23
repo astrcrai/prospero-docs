@@ -53,7 +53,7 @@ The second is:
     
     /opt/gridware/subscribed/etc/modulefiles/linux-rocky9-zen4
 
-Modules in this set were compiled on ``epyc9k`` processors, optimising them for execution on the newer HPE Cray XD225 nodes. It is likely that this software, or software linking these libraries, will not run on the older HPE Apollo XL225 nodes.
+Modules in this set were compiled on ``epyc9k`` processors, optimising them for execution on the newer HPE Cray XD225 nodes. It is likely that this software, or software linking these libraries, will **not** run on the older HPE Apollo XL225 nodes, but it may run faster on the newer nodes.
 
 Recommended base modules
 -------
