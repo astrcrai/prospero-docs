@@ -16,13 +16,12 @@ what you want to run, go straight to the :ref:`slurm-job-examples`.
    :caption: Contents
  
    slurm-concepts
-   slurm-first-job
    slurm-requesting-resources
    slurm-using-modules
    slurm-job-examples
    slurm-job-arrays
    slurm-interactive-jobs
-   slurm-monitoring
+   slurm-job-monitoring
    slurm-best-practice
  
 Quick reference
