@@ -146,16 +146,14 @@ Useful columns:
    ``MaxRSS`` is reported on the job's *steps* (for example ``123456.batch``),
    not on the top-level line. Look at the ``.batch`` row.
  
-Job efficiency with ``seff``
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. Job efficiency with ``seff``
+.. ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
-If it is installed on Prospero, ``seff`` gives a quick summary of how
-efficiently a completed job used the CPUs and memory it was given::
+.. ``seff`` gives a quick summary of how efficiently a completed job used the CPUs and memory it was given::
  
-   seff 123456
+.. seff 123456
  
-Use it to right-size future requests. If CPU efficiency is low, you probably
-requested more cores than your program used.
+.. Use it to right-size future requests. If CPU efficiency is low, you probably requested more cores than your program used.
  
 Viewing the cluster with ``sinfo``
 ----------------------------------
