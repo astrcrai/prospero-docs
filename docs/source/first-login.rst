@@ -1,4 +1,4 @@
-.. _first_login:
+.. _first-login:
 
 Logging on for the first time
 ===============
