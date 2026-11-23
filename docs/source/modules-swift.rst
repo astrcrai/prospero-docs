@@ -26,6 +26,8 @@ and to compile the code on an ``epyc7k`` node, for example by starting an :doc:`
 
 If you intend to restrict your job to the ``epyc9k`` nodes, you can compile directly on ``login3``. In this case the recommended modules are:
 
+.. code-block:: epyc9k
+
 	module load intel-oneapi-compilers/2025.3.2
 	module load openmpi/5.0.9/intel-oneapi-compilers-2025.3.2
 	module load metis/5.1.0/intel-oneapi-compilers-2025.3.2
