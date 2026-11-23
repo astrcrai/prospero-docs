@@ -1,4 +1,6 @@
-.. _data-lifeycle:
+.. _data-lifecycle:
 
 Data lifecycle
 =====
+
+Details to follow...
