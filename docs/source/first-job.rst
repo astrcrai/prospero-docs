@@ -1,4 +1,4 @@
-.. _first_job:
+.. _first-job:
 
 Running your first job with SLURM
 =================================
