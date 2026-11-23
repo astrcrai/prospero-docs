@@ -50,7 +50,7 @@ My job is stuck in the pending (PD) state
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 Run ``squeue -j <jobid>`` and read the ``REASON`` column (see
-:ref:`slurm-monitoring`). ``Priority`` and ``Resources`` just mean it is
+:doc:`slurm-job-monitoring`). ``Priority`` and ``Resources`` just mean it is
 waiting. A smaller request, or a shorter ``--time``, may start sooner. To see
 SLURM's estimate, use ``squeue -j <jobid> --start``.
  
