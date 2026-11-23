@@ -1,4 +1,4 @@
-.. _ssh_key_pair:
+.. _ssh-key-pair:
 
 Generating an SSH key pair
 ===========================================================
