@@ -26,7 +26,7 @@ is the right choice for most small scripts and analyses.
  
 .. code-block:: bash
  
-   #!/bin/bash
+   #!/bin/bash -l
    #SBATCH --job-name=serial
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=1
@@ -46,7 +46,7 @@ Load a Python module, then run your script.
  
 .. code-block:: bash
  
-   #!/bin/bash
+   #!/bin/bash -l
    #SBATCH --job-name=python-analysis
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=1
@@ -77,7 +77,7 @@ R script
  
 .. code-block:: bash
  
-   #!/bin/bash
+   #!/bin/bash -l
    #SBATCH --job-name=r-analysis
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=1
@@ -106,7 +106,7 @@ several CPU cores**. All the cores must be on the same node.
  
 .. code-block:: bash
  
-   #!/bin/bash
+   #!/bin/bash -l
    #SBATCH --job-name=openmp
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --nodes=1
@@ -138,7 +138,7 @@ Use ``srun`` to launch them so that SLURM places the processes correctly.
  
 .. code-block:: bash
  
-   #!/bin/bash
+   #!/bin/bash -l
    #SBATCH --job-name=mpi
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --constraint=epyc9k
@@ -175,7 +175,7 @@ Some codes combine MPI between nodes with threads within each process:
  
 .. code-block:: bash
  
-   #!/bin/bash
+   #!/bin/bash -l
    #SBATCH --job-name=hybrid
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --constraint=epyc9k
@@ -209,7 +209,7 @@ Request GPUs from a GPU partition with ``--gres``:
  
 .. code-block:: bash
  
-   #!/bin/bash
+   #!/bin/bash -l
    #SBATCH --job-name=gpu-test
    #SBATCH --partition=gpu-a100 # or your preferred gpu partition
    #SBATCH --gres=gpu:1
@@ -247,7 +247,7 @@ large-memory partition and request the memory explicitly:
  
 .. code-block:: bash
  
-   #!/bin/bash
+   #!/bin/bash -l
    #SBATCH --job-name=bigmem
    #SBATCH --partition=himem
    #SBATCH --ntasks=1
@@ -272,7 +272,7 @@ background and then ``wait`` for them all to finish:
  
 .. code-block:: bash
  
-   #!/bin/bash
+   #!/bin/bash -l
    #SBATCH --job-name=multi
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=4
