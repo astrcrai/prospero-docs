@@ -55,8 +55,10 @@ Load a Python module, then run your script.
    #SBATCH --time=01:00:00
    #SBATCH --output=%x_%j.out
 
-   flight start
-   flight env activate gridware
+   # It is assumed that the commands below are included in your .bash_profile
+   # in order to allow the use of modules
+   # flight start
+   # flight env activate gridware
 
    module purge
    module load python3
@@ -84,8 +86,10 @@ R script
    #SBATCH --time=01:00:00
    #SBATCH --output=%x_%j.out
 
-   flight start
-   flight env activate gridware
+   # It is assumed that the commands below are included in your .bash_profile
+   # in order to allow the use of modules
+   # flight start
+   # flight env activate gridware
 
    module purge
    module load <r-module>
@@ -144,8 +148,10 @@ Use ``srun`` to launch them so that SLURM places the processes correctly.
    #SBATCH --time=04:00:00
    #SBATCH --output=%x_%j.out
 
-   flight start
-   flight env activate gridware
+   # It is assumed that the commands below are included in your .bash_profile
+   # in order to allow the use of modules
+   # flight start
+   # flight env activate gridware
 
    module purge
    module load <compiler-module> <mpi-module>
@@ -180,8 +186,10 @@ Some codes combine MPI between nodes with threads within each process:
    #SBATCH --time=04:00:00
    #SBATCH --output=%x_%j.out
 
-   flight start
-   flight env activate gridware
+   # It is assumed that the commands below are included in your .bash_profile
+   # in order to allow the use of modules
+   # flight start
+   # flight env activate gridware
 
    module purge
    module load <compiler-module> <mpi-module>
@@ -211,8 +219,10 @@ Request GPUs from a GPU partition with ``--gres``:
    #SBATCH --time=02:00:00
    #SBATCH --output=%x_%j.out
 
-   flight start
-   flight env activate gridware
+   # It is assumed that the commands below are included in your .bash_profile
+   # in order to allow the use of modules
+   # flight start
+   # flight env activate gridware
 
    module purge
    module load <cuda-module>
