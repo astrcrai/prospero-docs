@@ -17,7 +17,7 @@ A first array job
  
 .. code-block:: bash
  
-   #!/bin/bash
+   #!/bin/bash -l
    #SBATCH --job-name=array-test
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=1
@@ -67,7 +67,7 @@ line. Each array task can pick out its own line:
  
 .. code-block:: bash
  
-   #!/bin/bash
+   #!/bin/bash -l
    #SBATCH --job-name=process-files
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=1
@@ -95,7 +95,7 @@ Pass the index straight to your program as a parameter or random seed:
  
 .. code-block:: bash
  
-   #!/bin/bash
+   #!/bin/bash -l
    #SBATCH --job-name=sweep
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=1
