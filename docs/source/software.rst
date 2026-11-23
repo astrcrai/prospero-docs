@@ -37,17 +37,23 @@ Some modules will activate software/libraries that are **compiled**, as opposed 
 
    In a compiled language, the target machine directly translates the program. In an interpreted language, the source code is not directly translated by the target machine. Instead, a different program, aka the interpreter, reads and executes the code.
 
-Unless otherwise specified, the compilers (the program that converts source code into an executable file) generate native code, i.e. code that uses the instruction set of the processor the source code was compiled by. Hence, if one compiles code on the ``login3`` gateway node, the executable file will assume it can use all the instructions available to the ``epyc9k`` processors used by Prospero's HPE Cray XD225 nodes (``login3`` shares the same specification as an HPE Cray XD225 node). It is then possible that the executable file will **not** run on the ``epyc7k`` processors used by Prospero's HPE Apollo XL225 nodes. As such, when loading modules that activate compiled code, one needs to be aware of which node types the code will be executed on. Because of this, the ``gridware`` module environment has two separate module sets:
+Unless otherwise specified, the compilers (the program that converts source code into an executable file) generate native code, i.e. code that uses the instruction set of the processor the source code was compiled by. Hence, if one compiles code on the ``login3`` gateway node, the executable file will assume it can use all the instructions available to the ``epyc9k`` processors used by Prospero's HPE Cray XD225 nodes (``login3`` shares the same specification as an HPE Cray XD225 node). It is then possible that the executable file will **not** run on the ``epyc7k`` processors used by Prospero's HPE Apollo XL225 nodes. As such, when loading modules that activate compiled code, one needs to be aware of which node types the code will be executed on. Because of this, the ``gridware`` module environment has two separate module sets.
 
-.. code-block:: zen4
-    
-    /opt/gridware/subscribed/etc/modulefiles/linux-rocky9-zen4
+The first is:
 
 .. code-block:: agnostic
     
     /opt/gridware/subscribed/etc/modulefiles/linux-rocky9-x86_64_v3
 
+Modules in this set were compiled on ``epyc7k`` processors, making the software/libraries agnostic to which nodes the code is run on, as the newer ``epyc9k`` processors can run code compiled on older epyc processors.
 
+The second is:
+
+.. code-block:: zen4
+    
+    /opt/gridware/subscribed/etc/modulefiles/linux-rocky9-zen4
+
+Modules in this set were compiled on ``epyc9k`` processors, optimising them for execution on the newer HPE Cray XD225 nodes. It is likely that this software, or software linking these libraries, will not run on the older HPE Apollo XL225 nodes.
 
 Recommended base modules
 -------
