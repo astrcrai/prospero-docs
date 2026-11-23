@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'Prospero documentation'
-copyright = '2023, Liverpool John Moores University'
-author = 'R.A. Crain, K.P. Andersson'
+copyright = 'Liverpool John Moores University'
+author = 'R.A. Crain'
 
 release = '0.1'
 version = '0.1.0'
