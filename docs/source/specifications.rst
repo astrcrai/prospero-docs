@@ -4,10 +4,7 @@ Prospero specifications
 =======================
 
 This page describes the hardware comprising the Prospero HPC facility,
-so you can choose the right resources for your jobs. To request resources
-for a job, see the :doc:`Slurm quickstart <scheduler>`; for where to keep
-your data, see :doc:`storage`. If you do not yet have an account, see
-:doc:`access`.
+so you can choose the right resources for your jobs. 
 
 .. .. TODO: update the "as of" date below whenever node counts change.
 
