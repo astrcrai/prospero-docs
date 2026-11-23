@@ -222,7 +222,5 @@ Networked storage
      - HPE Apollo 4200 Gen10+ storage server, RAID6
 
 For quotas, backup arrangements and guidance on which area to use for what,
-see :doc:`storage`.
+see :doc:`data-storage`.
 
-.. TODO: spell out "ARI" in full on first use, and say whether backups
-   apply to each area (or confirm that they are covered on the storage page).
