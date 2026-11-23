@@ -13,7 +13,7 @@ LJMU's own research data policies and the guidance of your funder.
 
    Prospero is a *working* environment for computation. It is not an archive,
    and **its storage volumes are not backed up** (see
-   :ref:`storage`). Plan for your important data to live somewhere else as well.
+   :doc:`data storage <data-storage>`). Plan for your important data to live somewhere else as well.
 
 Before you start: plan your data
 --------------------------------
