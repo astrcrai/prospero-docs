@@ -3,13 +3,7 @@
 Logging on for the first time
 ===============
 
-Access to the terminal on the gateway node(s) is via SSH. New users should use the address
-
-.. code-block:: gateway-address
-
-    prospero2.ljmu.ac.uk
-
-This is the address for the gateway node for the entire Prospero facility, which is called ``login3``.
+Access to the terminal on the gateway node(s) is via SSH. Prospero has a single login node, login3. You reach it through the gateway address ``prospero2.ljmu.ac.uk``, which serves the whole Prospero facility.
 
 .. NOTE::
 
