@@ -129,7 +129,7 @@ GPUs
  
 Request GPUs with ``--gres=gpu:<n>`` and use a GPU partition, for example::
  
-   #SBATCH --partition=<gpu-partition>
+   #SBATCH --partition=gpu-a100
    #SBATCH --gres=gpu:1
  
 Only request as many GPUs as your software can use.
