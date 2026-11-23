@@ -31,6 +31,13 @@ For more information on modules, see `this link <https://modules.readthedocs.io/
 Modules for different Prospero processor types
 -------
 
+Some modules will activate software/libraries that are **compiled**, as opposed to interpreted. 
+
+.. NOTE::
+
+   In a compiled language, the target machine directly translates the program. In an interpreted language, the source code is not directly translated by the target machine. Instead, a different program, aka the interpreter, reads and executes the code.
+
+If software is compiled...
 
 Recommended base modules
 -------
