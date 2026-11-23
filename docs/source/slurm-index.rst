@@ -8,7 +8,7 @@ share its compute resources fairly between users. These pages explain how to
 describe your work to SLURM, submit it, monitor it and fix problems.
  
 If you have never used a job scheduler before, start with
-:ref:`slurm-concepts` and then :ref:`first-slurm-job`. If you already know
+:doc:`slurm-concepts` and then :doc:`first-slurm-job`. If you already know
 what you want to run, go straight to the :ref:`slurm-job-examples`.
  
 .. toctree::
