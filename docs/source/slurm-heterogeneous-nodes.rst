@@ -9,7 +9,7 @@ Most notably they are equipped with processors **that have differing numbers of 
 
 .. IMPORTANT::
 
-   SLURM submission scripts therefore should **not** assume a particular node specification (e.g. a particular number of cores, or memory footprint, per node). Users are therefore discouraged from requesting resources with the ``#SBATCH --nodes=`` option unless there is a specific reason to do so. 
+   SLURM submission scripts therefore should **not** assume a particular node specification (e.g. a particular number of cores, or memory footprint, per node). Users are therefore discouraged from requesting resources with the ``#SBATCH --nodes=`` option unless i) there is a specific reason to do so, or ii) they have restricted SLURM to running on a particular node type (see below). 
 
 To illustrate why: consider the following example:
 
