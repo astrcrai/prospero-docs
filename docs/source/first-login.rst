@@ -9,11 +9,11 @@ Access to the terminal on the gateway node(s) is via SSH. New users should use t
 
     prospero2.ljmu.ac.uk
 
-This will take you to the gateway server ``login3``.
+This is the address for the gateway node for the entire Prospero facility, which is called ``login3``.
 
 .. NOTE::
 
-   The original gateway, ``prospero.ljmu.ac.uk`` is now disabled.  Note that ``login1`` and ``login2`` were both part of the original Prospero cluster that is now retired.
+   The original gateway address, ``prospero.ljmu.ac.uk`` is now disabled.  Note that ``login1`` and ``login2`` were both part of the original Prospero cluster that is now retired.
 
 As a security measure, Prospero uses a non-standard SSH port (10022), therefore this port must be specified via the ``-p`` argument, e.g.
 
