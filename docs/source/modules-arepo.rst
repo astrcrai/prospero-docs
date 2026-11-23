@@ -3,7 +3,7 @@
 Recommended modules for AREPO
 =======================
 
-Code and documentation available `here <https://arepo-code.org/wp-content/userguide/index.html`_.
+Code and documentation available `here <https://arepo-code.org/wp-content/userguide/index.html>`_.
 
 .. code-block:: arepo
 
