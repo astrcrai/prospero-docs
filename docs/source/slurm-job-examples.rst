@@ -146,10 +146,9 @@ This requests 2 nodes with 32 MPI processes on each, 64 in total. ``--mem=0``
 means "all the memory on each node", which is a common choice when using whole
 nodes. Without ``srun``, the program may start only one process.
  
-.. note::
+.. important::
  
-   Depending on how your MPI library was built, ``mpirun`` may be preferred
-   to ``srun``. <Replace with Prospero-specific advice.>
+   Ensure that jobs are started using ``srun`` rather than ``mpirun``, as the latter may not guarantee that resources are allocated correctly.
  
 .. _slurm-example-hybrid:
  
