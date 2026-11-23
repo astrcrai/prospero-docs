@@ -104,7 +104,7 @@ To see your jobs in the queue, use ``squeue``::
 You will see output similar to::
 
    JOBID   PARTITION  NAME   USER      ST  TIME  NODES  NODELIST(REASON)
-   123456  test hello astrcrai R   0:03  1     node001
+   123456  test hello itsuser R   0:03  1     node001
 
 The ``ST`` column shows the state of the job. The most common states are:
 
@@ -130,7 +130,7 @@ View it with ``cat``::
 
 You should see something like::
 
-   Hello from <node-name>
+   Hello from node001
    This job started at Wed 18 Nov 10:15:02 GMT 2026
    This job finished at Wed 18 Nov 10:15:12 GMT 2026
 
