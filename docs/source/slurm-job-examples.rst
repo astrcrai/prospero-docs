@@ -242,7 +242,7 @@ large-memory partition and request the memory explicitly:
  
    ./my_memory_hungry_program
  
-Use ``sacct`` (see :ref:`slurm-monitoring`) to check how much memory a trial
+Use ``sacct`` (see :ref:`slurm-job-monitoring`) to check how much memory a trial
 run actually used before requesting a large amount.
  
 .. _slurm-example-multiple-serial:
