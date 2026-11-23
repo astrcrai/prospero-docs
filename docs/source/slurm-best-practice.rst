@@ -30,7 +30,7 @@ Make your work reliable
   time limit can be restarted rather than rerun from scratch.
 * Keep job scripts under version control (for example, with Git) so you
   can reproduce past results.
-* Name output files with ``%x_%j``(job name and ID) so they are never
+* Name output files with ``%x_%j`` (job name and ID) so they are never
   overwritten.
  
 Be careful with files
@@ -117,7 +117,7 @@ library) and make sure ``--ntasks`` or ``--ntasks-per-node`` is set. See
 Getting help
 ------------
  
-If you are still stuck, please file an HPC support ticket (see :doc: `getting help <help>` and include:
+If you are still stuck, please file an HPC support ticket (see :doc:`getting help <help>`) and include:
  
 * the job ID,
 * the job script (or its location),
