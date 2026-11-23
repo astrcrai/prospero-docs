@@ -19,7 +19,7 @@ A first array job
  
    #!/bin/bash
    #SBATCH --job-name=array-test
-   #SBATCH --partition=<partition-name>
+   #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=1
    #SBATCH --mem=1G
    #SBATCH --time=00:10:00
@@ -69,7 +69,7 @@ line. Each array task can pick out its own line:
  
    #!/bin/bash
    #SBATCH --job-name=process-files
-   #SBATCH --partition=<partition-name>
+   #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=1
    #SBATCH --mem=4G
    #SBATCH --time=01:00:00
@@ -97,7 +97,7 @@ Pass the index straight to your program as a parameter or random seed:
  
    #!/bin/bash
    #SBATCH --job-name=sweep
-   #SBATCH --partition=<partition-name>
+   #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --ntasks=1
    #SBATCH --time=00:20:00
    #SBATCH --array=0-99
