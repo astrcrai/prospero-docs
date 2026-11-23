@@ -42,7 +42,7 @@ guidance, or a suitable repository.
 Protecting your data
 --------------------
 
-Because Prospero volumes are not backed up, you are responsible for protecting
+Because Prospero data storage volumes are **not** backed up (only the homespace is backed up), you are responsible for protecting
 anything you cannot afford to lose. A commonly recommended approach is the
 "3-2-1 rule": keep **three** copies of important data, on **two** different
 types of storage, with **one** copy held off-site or in a different system.
