@@ -42,17 +42,7 @@ is the right choice for most small scripts and analyses.
 Python script
 -------------
  
-Load a Python module, then run your script. For anything beyond the standard
-library, create a **virtual environment** once on the login node:
- 
-.. code-block:: bash
- 
-   module load <python-module>
-   python3 -m venv ~/venvs/myenv
-   source ~/venvs/myenv/bin/activate
-   pip install numpy pandas
- 
-Then activate it in your job script:
+Load a Python module, then run your script. 
  
 .. code-block:: bash
  
@@ -66,8 +56,7 @@ Then activate it in your job script:
    #SBATCH --output=%x_%j.out
  
    module purge
-   module load <python-module>
-   source ~/venvs/myenv/bin/activate
+   module load python3
  
    python3 analysis.py
  
