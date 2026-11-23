@@ -242,7 +242,7 @@ large-memory partition and request the memory explicitly:
    #SBATCH --partition=himem
    #SBATCH --ntasks=1
    #SBATCH --cpus-per-task=4
-   #SBATCH --mem=750G
+   #SBATCH --mem=900G
    #SBATCH --time=12:00:00
    #SBATCH --output=%x_%j.out
  
