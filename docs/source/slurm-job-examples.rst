@@ -139,7 +139,7 @@ Use ``srun`` to launch them so that SLURM places the processes correctly.
    #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --constraint=epyc9k
    #SBATCH --nodes=2
-   #SBATCH --ntasks-per-node=64
+   #SBATCH --ntasks-per-node=128
    #SBATCH --mem=0
    #SBATCH --time=04:00:00
    #SBATCH --output=%x_%j.out
@@ -152,7 +152,7 @@ Use ``srun`` to launch them so that SLURM places the processes correctly.
  
    srun ./my_mpi_program
  
-This requests 2 nodes with 64 MPI processes on each, 128 in total. ``--mem=0``
+This requests 2 nodes with 128 MPI processes on each, 256 in total. ``--mem=0``
 means "all the memory on each node", which is a common choice when using whole
 nodes. Without ``srun``, the program may start only one process.
  
