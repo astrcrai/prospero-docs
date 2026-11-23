@@ -60,6 +60,7 @@ Contents
   :caption: SOFTWARE
 
   software
+  modules-anaconda
   modules-arepo
   modules-starccmplus
   modules-swift
