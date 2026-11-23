@@ -92,7 +92,7 @@ Memory
  
 If your job uses more memory than you requested it is killed (see
 :ref:`slurm-troubleshooting`). After a job finishes you can check how much it
-really used with ``sacct`` or ``seff`` (see :ref:`slurm-monitoring`) and adjust
+really used with ``sacct`` or ``seff`` (see :doc:`slurm-job-monitoring`) and adjust
 future requests.
  
 CPUs, tasks and nodes
