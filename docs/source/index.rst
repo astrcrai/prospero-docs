@@ -77,7 +77,6 @@ Contents
   :maxdepth: 2
   :caption: GETTING HELP
 
-  common issues
   help
 
 .. toctree::
