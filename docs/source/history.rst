@@ -12,7 +12,7 @@ Prospero is a collective response to the growth of a number of independent HPC f
 
 **Major updates:**
 
-.. * December 2026: a further 12 HPE Cray XD2000 nodes have been added.
+.. * December 2026: a further 12 HPE Cray XD2000 nodes have been added, jointly funded by LJMU's RCIF allocation and ITS capital funding.
 * Summer 2026: Prospero underwent a phased upgrade to its operating system.
 * November 2025: the HPE ClusterStor system has been expanded to 3.6PB capacity.
 * August 2025: a major update comprising the first 13 HPE Cray XD2000 nodes for Prospero-II and the initial 2PB HPE ClusterStor parallel file system.
