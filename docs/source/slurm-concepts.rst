@@ -11,7 +11,7 @@ used.
  
 The typical workflow is:
  
-#. Log in to the **login** or **gateway** node (``login3.prospero.ljmu.ac.uk``).
+#. Log in to the **login** or **gateway** node (``prospero2.ljmu.ac.uk``).
 #. Write a **job script** describing the resources you need and the commands
    to run.
 #. Submit it with ``sbatch``. SLURM places it in a **queue**.
