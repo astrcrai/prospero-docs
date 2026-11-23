@@ -1,5 +1,3 @@
-.. include:: ../README.rst
-
 .. _index:
 
 Documentation for the PROSPERO HPC facility
