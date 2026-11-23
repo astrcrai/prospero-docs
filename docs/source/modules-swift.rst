@@ -5,7 +5,7 @@ Recommended modules for SWIFT
 
 SWIFT is a hydrodynamics and gravity code for astrophysics and cosmology, used widely within the ARI. Its code and documentation are available `here <http://swift.dur.ac.uk/>`_.
 
-To run SWIFT on either the ``epyc7k`` or ``epyc9k`` nodes (i.e. processor agnostic), it is recommended to load the following modules
+To run SWIFT on either the ``epyc7k`` or ``epyc9k`` nodes (i.e. processor agnostic), it is recommended to load the following modules:
 
 .. code-block:: node-agnostic
 
@@ -17,7 +17,7 @@ To run SWIFT on either the ``epyc7k`` or ``epyc9k`` nodes (i.e. processor agnost
    module load hdf5/1.14.6/intel-oneapi-compilers-2025.3.2/openmpi-5.0.9/a-yagvvhx
    module load sundials/5.8.0/intel-oneapi-compilers-2025.3.2/openmpi-5.0.9/a-evskisp
 
-and to compile the code on an ``epyc7k`` node, for example by starting an :doc:`interactive session <slurm-interaction-jobs>` 
+and to compile the code on an ``epyc7k`` node, for example by starting an :doc:`interactive session <slurm-interaction-jobs>`: 
 
 .. code-block:: bash
  
