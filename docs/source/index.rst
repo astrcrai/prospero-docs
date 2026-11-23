@@ -69,7 +69,7 @@ Contents
   :caption: YOUR DATA 
 
   data-storage
-  data-for-proposals
+  DMP-for-proposals
   data-transfers
   data-lifecycle
 
