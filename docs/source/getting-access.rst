@@ -1,4 +1,4 @@
-.. _getting_access:
+.. _getting-access:
 
 Getting access
 ===============
