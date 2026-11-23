@@ -23,7 +23,7 @@ Before you start
 You will need:
 
 * An account on Prospero (see :ref:`getting-access`).
-* To be logged in to the login node (see :ref:`first_login`).
+* To be logged in to the login node (see :ref:`first-login`).
 
 
 Step 1: Create a job script
