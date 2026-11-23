@@ -137,10 +137,10 @@ Use ``srun`` to launch them so that SLURM places the processes correctly.
    #!/bin/bash
    #SBATCH --job-name=mpi
    #SBATCH --partition=nodes # or your preferred partition
-   #SBATCH --constraint=epyc7k
+   #SBATCH --constraint=epyc9k
    #SBATCH --nodes=2
-   #SBATCH --ntasks-per-node=32
-   #SBATCH --mem=450GB
+   #SBATCH --ntasks-per-node=64
+   #SBATCH --mem=700GB
    #SBATCH --time=04:00:00
    #SBATCH --output=%x_%j.out
 
@@ -152,7 +152,7 @@ Use ``srun`` to launch them so that SLURM places the processes correctly.
  
    srun ./my_mpi_program
  
-This requests 2 nodes with 32 MPI processes on each, 64 in total. ``--mem=0``
+This requests 2 nodes with 64 MPI processes on each, 128 in total. ``--mem=0``
 means "all the memory on each node", which is a common choice when using whole
 nodes. Without ``srun``, the program may start only one process.
  
@@ -172,10 +172,10 @@ Some codes combine MPI between nodes with threads within each process:
    #!/bin/bash
    #SBATCH --job-name=hybrid
    #SBATCH --partition=nodes # or your preferred partition
-   #SBATCH --constraint=epyc7k
+   #SBATCH --constraint=epyc9k
    #SBATCH --nodes=2
    #SBATCH --ntasks-per-node=4
-   #SBATCH --cpus-per-task=8
+   #SBATCH --cpus-per-task=16
    #SBATCH --time=04:00:00
    #SBATCH --output=%x_%j.out
 
@@ -189,7 +189,7 @@ Some codes combine MPI between nodes with threads within each process:
  
    srun ./my_hybrid_program
  
-Each node runs 4 MPI processes with 8 threads each, using 32 cores per node.
+Each node runs 4 MPI processes with 16 threads each, using 64 cores per node.
  
 .. _slurm-example-gpu:
  
