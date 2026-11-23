@@ -27,9 +27,6 @@ Common options
      - A short name for the job, shown in ``squeue``.
    * - ``--partition=<name>``
      - The partition to run in.
-   * - ``--account=<project>``
-     - The project to charge the job to (if required on Prospero).
-   * - ``--time=<HH:MM:SS>``
      - Maximum run time. Also accepts ``D-HH:MM:SS``, for example
        ``2-00:00:00`` for two days.
    * - ``--nodes=<n>``
