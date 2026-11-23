@@ -202,7 +202,7 @@ Request GPUs from a GPU partition with ``--gres``:
  
    #!/bin/bash
    #SBATCH --job-name=gpu-test
-   #SBATCH --partition=gpu-a100 nodes # or your preferred gpu partition
+   #SBATCH --partition=gpu-a100 # or your preferred gpu partition
    #SBATCH --gres=gpu:1
    #SBATCH --ntasks=1
    #SBATCH --cpus-per-task=4
