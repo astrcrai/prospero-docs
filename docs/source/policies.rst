@@ -6,7 +6,7 @@ Policies
 Who can use Prospero? 
 ------------
 
-Prospero is available for use by all academic staff and postgraduate research students at LJMU. Collaborating researchers at external institutions are also eligible if they have a genuine need to use the facility, with cases reviewed on their individual merits. LJMU staff wishing for collaborators to have access should raise an enquiry with a Helpdesk ticket.
+Prospero is available for use by LJMU's research community (academic staff and postgraduate research students). Collaborating researchers at external institutions are also eligible if they have a genuine need to use the facility, with cases reviewed on their individual merits. LJMU staff wishing for collaborators to have access should raise an enquiry with a Helpdesk ticket.
 
 Cost of use
 ------------
