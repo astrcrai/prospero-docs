@@ -102,7 +102,12 @@ Pass the index straight to your program as a parameter or random seed:
    #SBATCH --time=00:20:00
    #SBATCH --array=0-99
    #SBATCH --output=logs/%x_%A_%a.out
- 
+
+   # It is assumed that the commands below are included in your .bash_profile
+   # in order to allow the use of modules
+   # flight start
+   # flight env activate gridware
+
    module load <python-module>
  
    python3 simulate.py --seed $SLURM_ARRAY_TASK_ID
