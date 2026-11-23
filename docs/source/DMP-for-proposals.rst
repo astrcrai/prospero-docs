@@ -1,12 +1,12 @@
-.. _data-for-proposals:
+.. _DMP-for-proposals:
 
-Data management planning
+Data management planning for research proposals
 =====
 
 Good research data management (RDM) makes your work reproducible, protects it
 against loss, and helps you meet the requirements of your funder, your
 publisher and the university. This page explains how to apply good RDM
-practice when working on Prospero. It complements, and does not replace,
+practice when working on Prospero, and how to write a strong data management plan (DMP) for inclusion in research funding proposals. It complements, and does not replace,
 LJMU's own research data policies and the guidance of your funder.
 
 .. note::
