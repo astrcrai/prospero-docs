@@ -29,7 +29,7 @@ program:
  
    #!/bin/bash
    #SBATCH --job-name=py-test
-   #SBATCH --partition=<partition-name>
+   #SBATCH --partition=nodes # or your preferred partition
    #SBATCH --time=00:10:00
  
    module purge
