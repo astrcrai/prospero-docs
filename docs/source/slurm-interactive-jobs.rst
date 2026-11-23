@@ -19,7 +19,7 @@ The simplest way is ``srun --pty``:
  
 .. code-block:: bash
  
-   srun --partition=<partition-name> --ntasks=1 --cpus-per-task=2 \
+   srun --partition=nodes --ntasks=1 --cpus-per-task=2 \
         --mem=4G --time=01:00:00 --pty bash
  
 If resources are available your prompt will change to show a compute node name.
