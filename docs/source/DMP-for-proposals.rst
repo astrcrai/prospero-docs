@@ -28,6 +28,8 @@ for it. When planning a project that will use Prospero, consider:
 * Does any of it have restrictions (see `Data that must not be stored on Prospero`_)?
 * Who else needs access, inside and outside LJMU?
 * Where will the master copy of any input data and any final results be kept?
+* Who is responsible for managing the data? 
+* Will your data eventually be shared with the community? If so, how? 
 
 LJMU's Research and Knowledge Exchange Data Management Policy expects the
 arrangements for access to, and retention or destruction of, research data to
