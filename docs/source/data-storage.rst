@@ -52,6 +52,7 @@ types of storage, with **one** copy held off-site or in a different system.
 * Copy **final results** off Prospero as soon as they are produced.
 * Do not rely on scratch space as the only home for anything important.
 
+LJMU has options for backing up datasets (OneDrive and Ctera), see LJMU's `Research data storage options <https://www.ljmu.ac.uk/library/researchers/research-data-management/research-data-storage>`_, but note that these are generally for small datasets (<< 1TB).
 
 Organising and documenting your data
 ------------------------------------
